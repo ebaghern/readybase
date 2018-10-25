@@ -1,0 +1,44 @@
+@import '../util/rem';
+
+$font-family: 'Open Sans', sans-serif !default;
+$font-family-mono: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace !default;
+$font-weight-light: 200;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$base-font-size: 16px;
+$base-letter-spacing: 1.4;
+
+/// For breakpoints mixin
+$breakpoints: (
+  small: 0,
+  medium: 640,
+  large: 1000,
+  xlarge: 1300,
+  xxlarge: 1600,
+) !default;
+
+/// Colors
+$white: #fff;
+$black: #303231;
+$grey-100: lighten($black, 80%);
+$grey-200: lighten($black, 70%);
+$grey-300: lighten($black, 60%);
+$grey-400: lighten($black, 50%);
+$grey-500: lighten($black, 40%);
+$grey-600: lighten($black, 30%);
+$grey-700: lighten($black, 20%);
+$grey-800: lighten($black, 10%);
+$grey-900: darken($black, 10%);
+
+/// Theme colors
+/* $theme-colors: (
+  primary: $blue,
+  secondary: $yellow,
+  success: $green,
+  danger: $red,
+  warning: $orange,
+  info: $yellow,
+  light: $grey-200,
+  dark: $black,
+  white: $white
+) !default; */
