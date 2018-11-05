@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_move_work</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.99999976,0 L41.9950612,0 L58,17.1713947 L58,70.0000002 C58,72.2091391 56.2091391,74 54.0000002,74 L3.99999976,74 C1.79086089,74 3.82325516e-15,72.2091391 3.55271368e-15,70.0000002 L0,3.99999976 C-2.70541484e-16,1.79086089 1.79086089,4.05812226e-16 3.99999976,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01---Landing-Page" transform="translate(-640.000000, -1720.000000)">
+            <g id="section---" transform="translate(173.000000, 1720.000000)">
+                <g id="Group-3-Copy-2" transform="translate(380.000000, 0.000000)">
+                    <g id="Group-4">
+                        <g id="Illustration/img_move_work" transform="translate(87.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-15" transform="translate(45.000000, 31.000000)">
+                                <path d="M3.99999976,22 L41.9950612,22 L58,39.1713947 L58,92.0000002 C58,94.2091391 56.2091391,96 54.0000002,96 L3.99999976,96 C1.79086089,96 3.82325516e-15,94.2091391 3.55271368e-15,92.0000002 L0,25.9999998 C-2.70541484e-16,23.7908609 1.79086089,22 3.99999976,22 Z" id="Rectangle" fill="#5818BE" opacity="0.3"></path>
+                                <g id="Group-19" transform="translate(11.000000, 12.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Rectangle-Copy" fill="#6327EA" xlink:href="#path-1"></use>
+                                </g>
+                                <circle id="Oval-2-Copy" fill="#FFFFFF" cx="24" cy="45" r="3"></circle>
+                                <circle id="Oval-2-Copy-2" fill="#FFFFFF" cx="24" cy="58" r="3"></circle>
+                                <circle id="Oval-2-Copy-3" fill="#FFFFFF" cx="24" cy="70" r="3"></circle>
+                                <path d="M32.36005,45.0215054 L55.7318243,45.0215054" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="3.99999976" stroke-linecap="round"></path>
+                                <path d="M32.36005,57.7526882 L55.7318243,57.7526882" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="3.99999976" stroke-linecap="round"></path>
+                                <path d="M32.36005,70.483871 L55.7318243,70.483871" id="Line-2-Copy-3" stroke="#FFFFFF" stroke-width="3.99999976" stroke-linecap="round"></path>
+                                <g id="Group-17" transform="translate(44.000000, 0.000000)">
+                                    <circle id="Oval-2" fill="#BEA7F6" cx="17.5" cy="17.5" r="17.5"></circle>
+                                    <g id="Group-16" transform="translate(7.000000, 14.333333)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.80000007">
+                                        <path d="M1.83797966,3.43416485 L19.7083333,3.43416485" id="Path-3"></path>
+                                        <polyline id="Path-4" points="18.5665574 0.357404934 21.232368 3.3395192 18.5665574 6.48926152"></polyline>
+                                        <polyline id="Path-4-Copy" transform="translate(1.566129, 3.423333) scale(-1, 1) translate(-1.566129, -3.423333) " points="0.233224077 0.357404934 2.89903467 3.3395192 0.233224077 6.48926152"></polyline>
+                                    </g>
+                                    <g id="Group-16-Copy" transform="translate(18.166667, 18.000000) rotate(450.000000) translate(-18.166667, -18.000000) translate(7.166667, 14.500000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.80000007">
+                                        <path d="M1.83797966,3.43416485 L19.7083333,3.43416485" id="Path-3"></path>
+                                        <polyline id="Path-4" points="18.5665574 0.357404934 21.232368 3.3395192 18.5665574 6.48926152"></polyline>
+                                        <polyline id="Path-4-Copy" transform="translate(1.566129, 3.423333) scale(-1, 1) translate(-1.566129, -3.423333) " points="0.233224077 0.357404934 2.89903467 3.3395192 0.233224077 6.48926152"></polyline>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

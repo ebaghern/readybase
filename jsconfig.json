@@ -5,20 +5,14 @@
     "baseUrl": "./",
     "paths": {
       "src/*": ["./src/*"],
-      "services/*": ["./services/*"],
       "components/*": ["./src/components/*"],
       "data/*": ["./src/data/*"],
       "pages/*": ["./src/pages/*"],
       "styles/*": ["./src/styles/*"],
       "static/*": ["./src/static/*"],
       "images/*": ["./src/static/images/*"],
-      "util/*": ["./src/util/*"],
       "lib/*": ["./src/lib/*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "public",
-    "dist"
-  ]
+  "exclude": ["node_modules", "public"]
 }

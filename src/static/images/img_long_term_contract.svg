@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_long_term_contract</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.99999976,0 L41.9950612,0 L54,-6.66133815e-15 C56.209139,-7.0671504e-15 58,1.790861 58,4 L58,17.1713947 L58,70.0000002 C58,72.2091391 56.2091391,74 54.0000002,74 L3.99999976,74 C1.79086089,74 2.70541484e-16,72.2091391 0,70.0000002 L0,3.99999976 C-2.70541484e-16,1.79086089 1.79086089,4.05812226e-16 3.99999976,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06a---For-Company" transform="translate(-260.000000, -654.000000)">
+            <g id="section---" transform="translate(173.000000, 654.000000)">
+                <g id="Group-3">
+                    <g id="Group-4">
+                        <g id="Illustration/img_long_term_contract" transform="translate(87.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-15" transform="translate(41.000000, 44.000000)">
+                                <path d="M3.99999976,10 L41.9950612,10 L58,27.1713947 L58,80.0000002 C58,82.2091391 56.2091391,84 54.0000002,84 L3.99999976,84 C1.79086089,84 3.82325516e-15,82.2091391 3.55271368e-15,80.0000002 L0,13.9999998 C-2.70541484e-16,11.7908609 1.79086089,10 3.99999976,10 Z" id="Rectangle" fill="#5818BE" opacity="0.3"></path>
+                                <g id="Group-19" transform="translate(11.000000, 0.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Rectangle-Copy" fill="#6327EA" xlink:href="#path-1"></use>
+                                </g>
+                                <circle id="Oval-2-Copy-2" fill="#FFFFFF" cx="24" cy="26" r="3"></circle>
+                                <circle id="Oval-2-Copy-3" fill="#FFFFFF" cx="24" cy="38" r="3"></circle>
+                                <path d="M32.36005,25.7526882 L55.7318243,25.7526882" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="3.99999976" stroke-linecap="round"></path>
+                                <path d="M32.36005,38.483871 L55.7318243,38.483871" id="Line-2-Copy-3" stroke="#FFFFFF" stroke-width="3.99999976" stroke-linecap="round"></path>
+                                <g id="Group-18" transform="translate(46.898872, 36.991172) rotate(29.000000) translate(-46.898872, -36.991172) translate(30.898872, 3.991172)">
+                                    <path d="M1.13980051,58.7446722 C4.13980051,48.0780055 7.30646718,45.0780055 10.6398005,49.7446722 C12.6335689,54.2974581 14.1335689,56.7974581 15.1398005,57.2446722 C16.649148,57.9154933 18.1398005,57.2446722 19.6398005,53.7446722 C20.6398005,51.4113389 22.1398005,51.2229331 24.1398005,53.1794548 C26.1398005,55.5562664 28.4731338,54.4113389 31.1398005,49.7446722" id="Path-106" stroke="#FFFFFF" stroke-width="2" transform="translate(16.139801, 53.179455) rotate(-30.000000) translate(-16.139801, -53.179455) "></path>
+                                    <rect id="Rectangle-28" fill="#FFFFFF" x="24.5151904" y="0.125380293" width="6" height="41"></rect>
+                                    <polygon id="Triangle-2" fill="#C4AFE9" transform="translate(27.515190, 43.125380) scale(1, -1) translate(-27.515190, -43.125380) " points="27.5151904 41.1253803 30.5151904 45.1253803 24.5151904 45.1253803"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

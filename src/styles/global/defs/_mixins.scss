@@ -7,6 +7,21 @@
   }
 }
 
+/// Visually hide text.
+@mixin srt {
+  // sass-lint:disable-block no-important
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  word-wrap: normal !important;
+}
+
 /// Clearfix.
 @mixin clearfix {
   &:before,
@@ -37,45 +52,42 @@
   }
 }
 
-@mixin text-xxl {
-  font-size: rem(28);
+@mixin text-xxxl {
+  font-size: rem(26);
   @include breakpoint(medium) {
-    font-size: rem(52);
-  }
-}
-
-@mixin text-xl {
-  font-size: rem(24);
-  @include breakpoint(medium) {
-    font-size: rem(40);
-  }
-  @include breakpoint(large) {
-    font-size: rem(44);
-  }
-  @include breakpoint(xlarge) {
-    font-size: rem(48);
-  }
-}
-
-@mixin text-larger {
-  font-size: rem(22);
-  @include breakpoint(medium) {
-    font-size: rem(38);
-  }
-  @include breakpoint(large) {
     font-size: rem(42);
   }
 }
 
+@mixin text-xxl {
+  font-size: rem(24);
+  @include breakpoint(medium) {
+    font-size: rem(30);
+  }
+  @include breakpoint(large) {
+    font-size: rem(36);
+  }
+}
+
+@mixin text-xl {
+  font-size: rem(20);
+  @include breakpoint(medium) {
+    font-size: rem(30);
+  }
+}
+
 @mixin text-lg {
-  font-size: rem(19);
+  font-size: rem(17);
   @include breakpoint(medium) {
     font-size: rem(24);
   }
 }
 
 @mixin text-std {
-  font-size: rem(16);
+  font-size: rem(14);
+  @include breakpoint(medium) {
+    font-size: rem(16);
+  }
 }
 
 @mixin text-sm {
@@ -83,9 +95,8 @@
 }
 
 @mixin text-xs {
-  font-size: rem(11);
+  font-size: rem(12);
 }
-
 
 // Buttons styling
 @mixin button-reset {
@@ -330,4 +341,9 @@
   &[disabled] {
     @include button-disabled;
   }
+}
+
+@mixin block-center {
+  margin-right: auto;
+  margin-left: auto;
 }

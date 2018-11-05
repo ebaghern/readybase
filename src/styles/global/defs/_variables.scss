@@ -1,12 +1,16 @@
 @import '../util/rem';
 
-$font-family: 'Open Sans', sans-serif !default;
+$font-family: 'Comfortaa', 'Open Sans', sans-serif !default;
 $font-family-mono: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace !default;
 $font-weight-light: 200;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $base-font-size: 16px;
+$base-line-height: 1.6;
 $base-letter-spacing: 1.4;
+
+$margin-small: rem(15);
+$margin-large: rem(30);
 
 /// For breakpoints mixin
 $breakpoints: (
@@ -19,7 +23,9 @@ $breakpoints: (
 
 /// Colors
 $white: #fff;
-$black: #303231;
+$black: #333;
+$purple: #7f2aea;
+$aqua: #00a7ce;
 $grey-100: lighten($black, 80%);
 $grey-200: lighten($black, 70%);
 $grey-300: lighten($black, 60%);
@@ -31,14 +37,36 @@ $grey-800: lighten($black, 10%);
 $grey-900: darken($black, 10%);
 
 /// Theme colors
-/* $theme-colors: (
-  primary: $blue,
-  secondary: $yellow,
-  success: $green,
-  danger: $red,
-  warning: $orange,
-  info: $yellow,
+$theme-colors: (
+  primary: $purple,
+  secondary: $aqua,
+  success: #71e510,
+  danger: #ff1914,
+  warning: #ffb006,
+  info: #ffcf07,
   light: $grey-200,
   dark: $black,
   white: $white
-) !default; */
+) !default;
+
+$color-primary: map-get($theme-colors, primary);
+$color-secondary: map-get($theme-colors, secondary);
+$color-success: map-get($theme-colors, success);
+$color-danger: map-get($theme-colors, danger);
+$color-warning: map-get($theme-colors, warning);
+$color-info: map-get($theme-colors, info);
+$color-light: map-get($theme-colors, light);
+
+
+/// Button colors
+$button-color-primary: $color-secondary;
+$button-color-secondary: $color-primary;
+$button-color-danger: $color-danger;
+$button-color-disabled: $grey-400;
+$button-color-ghost: $white;
+$button-line-height: 1.5;
+$button-padding-base: 16;
+$button-font-size: 16;
+$button-border-radius: 3;
+$button-border-width: 1;
+$button-font-weight: 700;

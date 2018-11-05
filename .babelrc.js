@@ -31,7 +31,7 @@ module.exports = {
           styles: './src/styles',
           static: './src/static',
           images: './src/static/images',
-          lib: './src/lib',
+          lib: './src/lib'
         }
       }
     ]

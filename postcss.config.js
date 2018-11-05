@@ -6,7 +6,9 @@ module.exports = {
       svgo: process.env.NODE_ENV === 'production',
       dirs: [path.resolve(process.cwd(), 'src/static/images')]
     },
-    'postcss-preset-env': {},
+    'postcss-preset-env': {
+      autoprefixer: { grid: true }
+    },
     'postcss-font-smoothing': {}
   }
 };

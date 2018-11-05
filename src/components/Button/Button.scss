@@ -1,0 +1,69 @@
+@import 'mixins';
+$button-prefix-cls: Button;
+
+/// Button styles
+.#{$button-prefix-cls} {
+  @include button;
+  @include button-default;
+  $self: &;
+  line-height: $button-line-height;
+
+  > i,
+  > span {
+    display: inline-block;
+    pointer-events: none;
+  }
+
+  &--primary {
+    @include button-primary;
+  }
+
+  &--ghost {
+    @include button-ghost;
+  }
+
+  &--dashed {
+    @include button-dashed;
+  }
+
+  &--danger {
+    @include button-danger;
+  }
+
+  // http://stackoverflow.com/a/21281554/3040605
+  &:focus > span,
+  &:active > span {
+    position: relative;
+  }
+
+  &--background-ghost {
+    border-color: $button-color-ghost;
+    background: transparent !important; // sass-lint:disable-line no-important
+    color: $button-color-ghost;
+  }
+
+  &--background-ghost {
+    &#{$self}--primary {
+      @include button-variant-ghost($button-color-primary);
+    }
+    &#{$self}--secondary {
+      @include button-variant-ghost($button-color-secondary);
+    }
+    &#{$self}--danger {
+      @include button-variant-ghost($button-color-danger);
+    }
+  }
+
+  &--block {
+    width: 100%;
+  }
+
+  // https://github.com/ant-design/ant-design/issues/12681
+  &:empty {
+    vertical-align: top;
+  }
+}
+
+a.#{$button-prefix-cls} {
+  line-height: $button-line-height;
+}

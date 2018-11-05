@@ -52,3 +52,31 @@
     margin-left: rem(-16);
   }
 }
+
+@keyframes unstack {
+  0% {
+    margin-top: -100%;
+  }
+
+  1% {
+    margin-top: -10%;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes stack {
+  0% {
+    margin-top: 0;
+  }
+
+  99% {
+    margin-top: -80%;
+  }
+
+  100% {
+    margin-top: -100%;
+  }
+}

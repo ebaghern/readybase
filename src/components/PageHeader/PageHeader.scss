@@ -1,0 +1,43 @@
+.PageHeader {
+  $self: &;
+  padding: rem(80) 0 rem(40);
+  text-align: center;
+  @include breakpoint(medium) {
+    padding: rem(120) 0;
+  }
+  @include breakpoint(large) {
+    padding: rem(180) 0;
+  }
+
+  &__contentWrapper {
+    @include block-center;
+    padding: 0 $margin-small;
+
+    @include breakpoint(medium) {
+      padding: 0 $margin-large;
+    }
+  }
+
+  &__heading {
+    @include text-xxl;
+    @include block-center;
+    max-width: rem(680);
+  }
+
+  &__subHeading {
+    @include text-xl;
+    @include block-center;
+  }
+
+  &__content {
+    @include block-center;
+    max-width: rem(440);
+    line-height: 1.8;
+    opacity: 0.7;
+  }
+
+  &--dark {
+    background: $color-primary;
+    color: $white;
+  }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_gain_team</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M35.9760828,18.7842828 C35.9760828,8.47444151 27.9917305,0.116663792 18.1425327,0.116663792 C8.29333494,0.116663792 0.308982595,8.47444151 0.308982595,18.7842828 C0.308982595,29.0941241 35.9760828,29.0941241 35.9760828,18.7842828 Z" id="path-1"></path>
+        <path d="M35.9760828,18.7842828 C35.9760828,8.47444151 27.9917305,0.116663792 18.1425327,0.116663792 C8.29333494,0.116663792 0.308982595,8.47444151 0.308982595,18.7842828 C0.308982595,29.0941241 35.9760828,29.0941241 35.9760828,18.7842828 Z" id="path-3"></path>
+        <path d="M49.5144329,25.7623412 C49.5144329,12.1417063 38.9040902,1.1 25.8155692,1.1 C12.7270482,1.1 2.11670558,12.1417063 2.11670558,25.7623412 C2.11670558,39.3829762 49.5144329,39.3829762 49.5144329,25.7623412 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01---Landing-Page" transform="translate(-1019.000000, -1720.000000)">
+            <g id="section---" transform="translate(173.000000, 1720.000000)">
+                <g id="Group-3-Copy" transform="translate(759.000000, 0.000000)">
+                    <g id="Group-4">
+                        <g id="Illustration/img_gain_team" transform="translate(87.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-24" transform="translate(32.000000, 47.000000)">
+                                <g id="Group-23-Copy-2" opacity="0.3">
+                                    <g id="Group-22" transform="translate(0.000000, 21.610857)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Oval-9" fill="#6327EA" xlink:href="#path-1"></use>
+                                    </g>
+                                    <ellipse id="Oval-5" fill="#6327EA" cx="17.6172204" cy="9.936" rx="9.9013113" ry="9.936"></ellipse>
+                                </g>
+                                <g id="Group-23-Copy-3" opacity="0.3" transform="translate(60.625000, 0.000000)">
+                                    <g id="Group-22" transform="translate(0.000000, 21.610857)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <use id="Oval-9" fill="#6327EA" xlink:href="#path-3"></use>
+                                    </g>
+                                    <ellipse id="Oval-5" fill="#6327EA" cx="17.6172204" cy="9.936" rx="9.9013113" ry="9.936"></ellipse>
+                                </g>
+                                <g id="Group-23" transform="translate(22.045455, 2.200000)">
+                                    <g id="Group-22" transform="translate(0.000000, 24.200000)">
+                                        <g id="Group-37">
+                                            <mask id="mask-6" fill="white">
+                                                <use xlink:href="#path-5"></use>
+                                            </mask>
+                                            <use id="Oval-9" fill="#6327EA" xlink:href="#path-5"></use>
+                                            <path d="M41.0373157,2.2 L30.1118042,23.9776729 C29.0221261,26.1497133 26.377981,27.0271413 24.2059407,25.9374632 C23.3586166,25.5123743 22.6712394,24.824997 22.2461504,23.9776729 L11.3206388,2.2 C17.9149401,0.779620087 22.8677196,0.06943013 26.1789773,0.06943013 C29.490235,0.06943013 34.4430144,0.779620087 41.0373157,2.2 Z" id="Mask" fill="#000000" opacity="0.08" mask="url(#mask-6)"></path>
+                                            <path d="M23.6610356,4.46694189 C22.1449752,3.60641606 21.1158718,1.92871288 21.1158718,0 L30.84615,0 C30.84615,1.80172911 29.9480951,3.38441271 28.5939448,4.28650928 L32.3315562,20.989765 C32.5020121,21.7515262 32.2560476,22.546571 31.6852069,23.078996 L27.0601659,27.3927865 C26.6376144,27.7869017 25.9821592,27.7869017 25.5596076,27.3927865 L20.9159961,23.0616751 C20.3551756,22.5385961 20.1072174,21.7612214 20.2615824,21.0100206 L23.6610356,4.46694189 Z" id="Mask" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                                        </g>
+                                    </g>
+                                    <ellipse id="Oval-5" fill="#6327EA" cx="25.3522727" cy="12.1" rx="12.125" ry="12.1"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

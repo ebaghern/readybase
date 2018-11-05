@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_find_freelance_gigs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M49.5275215,25.885606 C49.5275215,12.1998006 38.9143741,1.10526316 25.8223933,1.10526316 C12.7304125,1.10526316 2.11726511,12.1998006 2.11726511,25.885606 C2.11726511,39.5714115 49.5275215,39.5714115 49.5275215,25.885606 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05a---For-Freelancer" transform="translate(-987.000000, -1364.000000)">
+            <g id="section----copy" transform="translate(174.000000, 1191.000000)">
+                <g id="Group-3-Copy-4" transform="translate(727.000000, 173.000000)">
+                    <g id="Group-4">
+                        <g id="Illustration/img_find_freelance_gigs" transform="translate(86.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-23" transform="translate(36.000000, 31.000000)">
+                                <g id="Group-22" transform="translate(17.641026, 48.419139)">
+                                    <g id="Group-37">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Oval-9" fill="#6327EA" xlink:href="#path-1"></use>
+                                        <path d="M41.0481635,2.21052632 L30.1222788,24.0873631 C29.0365227,26.2613665 26.3939654,27.1435652 24.219962,26.057809 C23.3670115,25.6318224 22.6755026,24.9403136 22.249516,24.0873631 L11.3236313,2.21052632 C17.9196757,0.783350326 22.8737644,0.0697623316 26.1858974,0.0697623316 C29.4980304,0.0697623316 34.4521191,0.783350326 41.0481635,2.21052632 Z" id="Mask" fill="#000000" opacity="0.08" mask="url(#mask-2)"></path>
+                                    </g>
+                                </g>
+                                <ellipse id="Oval-5" fill="#6327EA" cx="43.231789" cy="35.6899522" rx="11.9443688" ry="11.9267943"></ellipse>
+                                <path d="M43,0 L43,13.2631579" id="Path-104" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M81.1446017,16.7373032 L71.0092445,25.2626968" id="Path-104-Copy" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M17.1958838,16.7373032 L7.0605265,25.2626968" id="Path-104-Copy-2" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858" transform="translate(12.128205, 21.000000) scale(-1, 1) translate(-12.128205, -21.000000) "></path>
+                                <path d="M0,49.7368421 L13.2307692,49.7368421" id="Path-104-Copy-3" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M72.7692308,49.7368421 L86,49.7368421" id="Path-104-Copy-4" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <g id="Group-32" transform="translate(59.595395, 79.459591) scale(-1, 1) rotate(45.000000) translate(-59.595395, -79.459591) translate(47.595395, 58.959591)" stroke="#FFFFFF" stroke-width="5.50000012">
+                                    <ellipse id="Oval-7" cx="12.2781968" cy="12.1791088" rx="11.5769231" ry="11.6052632"></ellipse>
+                                    <path d="M12.8294789,23.7843719 L12.8294789,39.3049413" id="Path-13" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

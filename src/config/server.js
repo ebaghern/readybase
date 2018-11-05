@@ -3,7 +3,7 @@ const next = require('next');
 const chalk = require('chalk');
 const ip = require('ip');
 const argv = require('minimist')(process.argv.slice(2));
-const Router = require('./src/controllers/routes').Router;
+const Router = require('./routes').Router;
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dir: './src', dev });
 const handle = app.getRequestHandler();

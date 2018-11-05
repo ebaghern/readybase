@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_get_team</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M49.5275215,25.7623412 C49.5275215,12.1417063 38.9143741,1.1 25.8223933,1.1 C12.7304125,1.1 2.11726511,12.1417063 2.11726511,25.7623412 C2.11726511,39.3829762 49.5275215,39.3829762 49.5275215,25.7623412 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06a---For-Company" transform="translate(-640.000000, -654.000000)">
+            <g id="section---" transform="translate(173.000000, 654.000000)">
+                <g id="Group-3-Copy-2" transform="translate(380.000000, 0.000000)">
+                    <g id="Group-4">
+                        <g id="Illustration/img_get_team" transform="translate(87.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-23" transform="translate(37.000000, 29.000000)">
+                                <g id="Group-22" transform="translate(17.641026, 48.188571)">
+                                    <g id="Group-37">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Oval-9" fill="#6327EA" xlink:href="#path-1"></use>
+                                        <path d="M41.0481635,2.2 L30.1185153,23.9801612 C29.0286072,26.1520861 26.3843691,27.0292339 24.2124442,25.9393258 C23.3654502,25.5142901 22.6783153,24.8271552 22.2532796,23.9801612 L11.3236313,2.2 C17.9196757,0.779620087 22.8737644,0.06943013 26.1858974,0.06943013 C29.4980304,0.06943013 34.4521191,0.779620087 41.0481635,2.2 Z" id="Mask" fill="#000000" opacity="0.08" mask="url(#mask-2)"></path>
+                                        <path d="M23.6672902,4.46694189 C22.1508291,3.60641606 21.1214535,1.92871288 21.1214535,0 L30.8543038,0 C30.8543038,1.80172911 29.9560116,3.38441271 28.6015034,4.28650928 L32.3400462,20.9895122 C32.5105772,21.7514081 32.2645307,22.5466115 31.6935118,23.0790619 L27.0670147,27.3930703 C26.6444928,27.7870537 25.9891903,27.7870537 25.5666685,27.3930703 L20.921592,23.0617375 C20.3605972,22.5386341 20.1125561,21.7611068 20.2669893,21.0097729 L23.6672902,4.46694189 Z" id="Mask" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                                    </g>
+                                </g>
+                                <ellipse id="Oval-5" fill="#6327EA" cx="43.231789" cy="35.52" rx="11.9443688" ry="11.87"></ellipse>
+                                <path d="M43,0 L43,13.2" id="Path-104" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M81.1446017,16.6576018 L71.0092445,25.1423982" id="Path-104-Copy" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M17.1958838,16.6576018 L7.0605265,25.1423982" id="Path-104-Copy-2" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858" transform="translate(12.128205, 20.900000) scale(-1, 1) translate(-12.128205, -20.900000) "></path>
+                                <path d="M0,49.5 L13.2307692,49.5" id="Path-104-Copy-3" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                                <path d="M72.7692308,49.5 L86,49.5" id="Path-104-Copy-4" stroke="#6327EA" stroke-width="5.50000012" opacity="0.300000012" stroke-linecap="round" stroke-dasharray="1.100000023841858"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

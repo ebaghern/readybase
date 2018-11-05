@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="680px" viewBox="0 0 1440 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_bg_hero_subpage copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="680"></rect>
+        <path d="M3,369 C360.333333,445 610.680336,386.788147 754.041007,194.364441 C897.401679,1.9407354 1131.05468,-47.2386873 1455,46.826173 L1455,726 L3,726 L3,369 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02---Mission">
+            <g id="Background/img_bg_hero_subpage">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(719.500000, 178.500000) scale(1, -1) translate(-719.500000, -178.500000) translate(-8.000000, -339.000000)">
+                        <path d="M1.17259519,590.391989 L5.16585353,1034.5 L1444.17793,1034.5 L1454.48362,361.611899 C1248.38477,529.263034 1016.04387,563.671165 757.532772,464.831469 C499.075119,366.012209 246.974792,407.857928 1.17259519,590.391989 Z" id="Rectangle-8" stroke="#5E40E3" stroke-width="1" fill="none" transform="translate(727.835165, 697.773238) scale(-1, 1) translate(-727.835165, -697.773238) "></path>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Rectangle-8-Copy" stroke="none" fill="#F6F4FE" fill-rule="nonzero" xlink:href="#path-3"></use>
+                        <path d="M488.134579,482.01512 C521.325793,489.969939 554.581855,500.634896 587.902765,512.152115 C745.695586,566.692479 1166.13166,936.349023 1446.40639,540.917606 C1446.40639,510.960173 1446.40639,488.492098 1446.40639,473.513382 L448.841489,464.169322 L488.134579,482.01512 Z" id="Path-2" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" transform="translate(947.623942, 592.775408) scale(1, -1) translate(-947.623942, -592.775408) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

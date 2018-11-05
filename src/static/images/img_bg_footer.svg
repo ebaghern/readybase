@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1452px" height="586px" viewBox="0 0 1452 586" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_bg_footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.68656405%" y1="106.394653%" x2="102.686564%" y2="-6.3946525%" id="linearGradient-1">
+            <stop stop-color="#F2EDFD" offset="0%"></stop>
+            <stop stop-color="#F4EEFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.0931315%" y1="-45.0934801%" x2="47.3752514%" y2="110.77454%" id="linearGradient-2">
+            <stop stop-color="#B364E2" offset="0%"></stop>
+            <stop stop-color="#4D35E2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,323 C214.680965,181.949382 465.027967,123.737529 751.041007,148.364441 C1037.05405,172.991353 1270.70704,123.81193 1452,0.826173009 L1452,586 L0,586 L0,323 Z" id="path-3"></path>
+        <linearGradient x1="23.835374%" y1="-14.2304633%" x2="14.9640864%" y2="125.004893%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01---Landing-Page" transform="translate(0.000000, -5572.000000)">
+            <g id="section---footer" transform="translate(0.000000, 5572.000000)">
+                <g id="Group-6" transform="translate(726.000000, 293.000000) scale(-1, 1) translate(-726.000000, -293.000000) ">
+                    <path d="M5.67032914,224.14222 C187.481071,120.142525 437.161407,81.5499322 754.711336,108.364441 C1072.26127,135.17895 1304.69082,100.572962 1452,4.54647522 L1441.67033,559 L6.67032914,559 L5.67032914,224.14222 Z" id="Rectangle-8" fill="url(#linearGradient-1)"></path>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Rectangle-8-Copy" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    <path d="M860.224336,146.264989 C855.084756,193.308295 838.485584,239.265105 810.426822,284.135418 C707.374171,448.932587 6,417.409468 6,586 L1452,586 L1452,321.535389 C1365.77261,264.041132 1301.7976,227.238686 1260.07495,211.128052 C1093.43552,146.78249 960.151981,125.161469 860.224336,146.264989 Z" id="Path-297" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(729.000000, 362.223513) scale(-1, 1) translate(-729.000000, -362.223513) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

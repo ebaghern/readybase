@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_get_project_done</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01---Landing-Page" transform="translate(-260.000000, -1720.000000)">
+            <g id="section---" transform="translate(173.000000, 1720.000000)">
+                <g id="Group-3">
+                    <g id="Group-4">
+                        <g id="Illustration/img_get_project_done" transform="translate(87.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="2" transform="translate(35.000000, 43.000000)">
+                                <path d="M17,13 L39.8994634,13 L47.4870567,23.2721722 L75.9546362,22.9493021 C78.1636331,22.9242483 79.974689,24.6946841 79.9997428,26.903681 C79.9999143,26.9188017 80,26.9339232 80,26.9490448 L80,52.9655215 L72.0382264,71.5734944 C71.408445,73.0453969 69.9616868,74 68.3607115,74 L17,74 C14.790861,74 13,72.209139 13,70 L13,17 C13,14.790861 14.790861,13 17,13 Z" id="Rectangle-10" fill="#5818BE"></path>
+                                <path d="M31.2154408,33 L86.2154408,33 C88.4245798,33 89.5874075,34.790861 88.8126892,37 L77.2399889,70 C76.4652706,72.209139 74.0463764,74 71.8372374,74 L16.8372374,74 C14.6280984,74 13.4652706,72.209139 14.2399889,70 L25.8126892,37 C26.5874075,34.790861 29.0063018,33 31.2154408,33 Z" id="Rectangle-11" fill="#6327EA"></path>
+                                <path d="M68.1139011,37.0371703 L82.7702735,37.0371703 C83.3589637,37.0371703 83.6688335,37.514398 83.4623869,38.1030883 L80.3784996,46.8969117 C80.172053,47.485602 79.5274673,47.9628297 78.9387771,47.9628297 L64.2824047,47.9628297 C63.6937144,47.9628297 63.3838447,47.485602 63.5902912,46.8969117 L66.6741786,38.1030883 C66.8806251,37.514398 67.5252108,37.0371703 68.1139011,37.0371703 Z" id="Rectangle-11-Copy" fill="#000000" opacity="0.12"></path>
+                                <g id="Group-21">
+                                    <circle id="Oval-2-Copy-5" fill="#BEA7F6" cx="17.5" cy="17.5" r="17.5"></circle>
+                                    <polyline id="Path-7-Copy" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="11.0937442 17.8377859 17.0388691 23.8143096 24.7370033 12.4151334"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="680px" viewBox="0 0 1440 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_bg_hero_subpage2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="680"></rect>
+        <path d="M3,369 C360.333333,445 610.680336,386.788147 754.041007,194.364441 C897.401679,1.9407354 1131.05468,-47.2386873 1455,46.826173 L1455,726 L3,726 L3,369 Z" id="path-3"></path>
+        <rect id="path-5" x="0" y="0" width="1440" height="680"></rect>
+        <path d="M3,323 C217.680965,181.949382 468.027967,123.737529 754.041007,148.364441 C1040.05405,172.991353 1273.70704,123.81193 1455,0.826173009 L1455,680 L3,680 L3,323 Z" id="path-7"></path>
+        <linearGradient x1="23.835374%" y1="-14.2304633%" x2="14.9640864%" y2="125.004893%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02---Mission">
+            <g id="Background/img_bg_hero_subpage2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Background/img_bg_hero_subpage" mask="url(#mask-2)">
+                    <g transform="translate(719.500000, 178.500000) scale(1, -1) translate(-719.500000, -178.500000) translate(-8.000000, -339.000000)">
+                        <path d="M1.17259519,590.391989 L5.16585353,1034.5 L1444.17793,1034.5 L1454.48362,361.611899 C1248.38477,529.263034 1016.04387,563.671165 757.532772,464.831469 C499.075119,366.012209 246.974792,407.857928 1.17259519,590.391989 Z" id="Rectangle-8" stroke="#5E40E3" stroke-width="1" fill="none" transform="translate(727.835165, 697.773238) scale(-1, 1) translate(-727.835165, -697.773238) "></path>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Rectangle-8-Copy" stroke="none" fill="#F6F4FE" fill-rule="nonzero" xlink:href="#path-3"></use>
+                        <path d="M488.134579,482.01512 C521.325793,489.969939 554.581855,500.634896 587.902765,512.152115 C745.695586,566.692479 1166.13166,936.349023 1446.40639,540.917606 C1446.40639,510.960173 1446.40639,488.492098 1446.40639,473.513382 L448.841489,464.169322 L488.134579,482.01512 Z" id="Path-2" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" transform="translate(947.623942, 592.775408) scale(1, -1) translate(-947.623942, -592.775408) "></path>
+                    </g>
+                </g>
+                <g id="Background/img_bg_hero_subpage" mask="url(#mask-2)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Mask" fill-rule="nonzero"></g>
+                    <g mask="url(#mask-6)">
+                        <g transform="translate(719.500000, 320.000000) scale(1, -1) translate(-719.500000, -320.000000) translate(-8.000000, -20.000000)">
+                            <path d="M1.17290073,234.42597 L5.16585353,678.5 L1444.17793,678.5 L1454.48568,5.47751229 C1307.02531,101.187249 1074.75486,135.637968 757.669265,108.862668 C440.355104,82.0680678 188.191986,123.928296 1.17290073,234.42597 Z" id="Rectangle-8" stroke="#E6DFFC" stroke-width="1" fill="none"></path>
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <path stroke="#E6DFFC" stroke-width="1" d="M3.5,323.269791 L3.5,679.5 L1454.5,679.5 L1454.5,1.76888841 C1273.21441,124.436389 1039.70812,173.463418 753.998114,148.862598 C468.193844,124.253662 218.033994,182.390108 3.5,323.269791 Z"></path>
+                            <path d="M6,614.806366 C197.718891,444.294612 391.68648,392.949364 587.902765,460.770622 C745.695586,515.310985 1166.13166,884.967529 1446.40639,489.536113 L1446.40639,258.169322 L6,262.65216 L6,614.806366 Z" id="Path-2" stroke="none" fill="url(#linearGradient-9)" fill-rule="evenodd" mask="url(#mask-8)" transform="translate(726.203197, 464.084661) scale(-1, -1) translate(-726.203197, -464.084661) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

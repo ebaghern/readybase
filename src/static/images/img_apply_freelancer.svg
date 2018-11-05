@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>img_apply_freelancer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.99999976,0 L41.9950612,0 L58,17.1713947 L58,70.0000002 C58,72.2091391 56.2091391,74 54.0000002,74 L3.99999976,74 C1.79086089,74 3.82325516e-15,72.2091391 3.55271368e-15,70.0000002 L0,3.99999976 C-2.70541484e-16,1.79086089 1.79086089,4.05812226e-16 3.99999976,0 Z" id="path-1"></path>
+        <path d="M17.8025977,9.28968168 C17.8025977,4.19099653 13.851578,0.0576955481 8.97774814,0.0576955481 C4.10391832,0.0576955481 0.152898604,4.19099653 0.152898604,9.28968168 C0.152898604,14.3883668 17.8025977,14.3883668 17.8025977,9.28968168 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05a---For-Freelancer" transform="translate(-292.000000, -1364.000000)">
+            <g id="section----copy" transform="translate(174.000000, 1191.000000)">
+                <g id="Group-3" transform="translate(32.000000, 173.000000)">
+                    <g id="Group-4">
+                        <g id="Illustration/img_apply_freelancer" transform="translate(86.000000, 0.000000)">
+                            <circle id="Oval-4" fill="#E6DFFC" cx="80" cy="80" r="80"></circle>
+                            <g id="Group-15" transform="translate(45.000000, 38.000000)">
+                                <path d="M3.99999976,10 L41.9950612,10 L58,27.1713947 L58,80.0000002 C58,82.2091391 56.2091391,84 54.0000002,84 L3.99999976,84 C1.79086089,84 3.82325516e-15,82.2091391 3.55271368e-15,80.0000002 L0,13.9999998 C-2.70541484e-16,11.7908609 1.79086089,10 3.99999976,10 Z" id="Rectangle" fill="#5818BE" opacity="0.3"></path>
+                                <g id="Group-19" transform="translate(11.000000, 0.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Rectangle-Copy" fill="#6327EA" xlink:href="#path-1"></use>
+                                </g>
+                                <circle id="Oval-2-Copy-2" fill="#FFFFFF" opacity="0.700000048" cx="24" cy="46" r="3"></circle>
+                                <circle id="Oval-2-Copy-3" fill="#FFFFFF" opacity="0.700000048" cx="24" cy="58" r="3"></circle>
+                                <path d="M32.5262923,45.7526882 L45.3649228,45.7526882" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="3.99999976" opacity="0.700000048" stroke-linecap="round"></path>
+                                <path d="M32.36005,58.483871 L39.5000182,58.483871" id="Line-2-Copy-3" stroke="#FFFFFF" stroke-width="3.99999976" opacity="0.700000048" stroke-linecap="round"></path>
+                                <g id="Group-32" transform="translate(59.344931, 60.152543) scale(-1, 1) rotate(45.000000) translate(-59.344931, -60.152543) translate(48.344931, 41.652543)" stroke="#FFFFFF" stroke-width="5">
+                                    <circle id="Oval-7" cx="11.136039" cy="10.863961" r="10.5"></circle>
+                                    <path d="M11.636039,21.363961 L11.636039,35.4063809" id="Path-13" stroke-linecap="round" stroke-dasharray="1"></path>
+                                </g>
+                                <g id="Group-23-Copy-2" opacity="0.699999988" transform="translate(31.000000, 13.000000)">
+                                    <g id="Group-22" transform="translate(0.000000, 10.400000)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <use id="Oval-9" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                    </g>
+                                    <ellipse id="Oval-5" fill="#FFFFFF" cx="9" cy="4.8" rx="4.90909091" ry="4.8"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
