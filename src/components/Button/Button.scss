@@ -1,8 +1,7 @@
 @import 'mixins';
-$button-prefix-cls: Button;
 
 /// Button styles
-.#{$button-prefix-cls} {
+.Button {
   @include button;
   @include button-default;
   $self: &;
@@ -20,6 +19,15 @@ $button-prefix-cls: Button;
 
   &--ghost {
     @include button-ghost;
+    &#{$self}--primary {
+      @include button-variant-ghost($button-color-primary);
+    }
+    &#{$self}--secondary {
+      @include button-variant-ghost($button-color-secondary);
+    }
+    &#{$self}--danger {
+      @include button-variant-ghost($button-color-danger);
+    }
   }
 
   &--dashed {
@@ -36,24 +44,6 @@ $button-prefix-cls: Button;
     position: relative;
   }
 
-  &--background-ghost {
-    border-color: $button-color-ghost;
-    background: transparent !important; // sass-lint:disable-line no-important
-    color: $button-color-ghost;
-  }
-
-  &--background-ghost {
-    &#{$self}--primary {
-      @include button-variant-ghost($button-color-primary);
-    }
-    &#{$self}--secondary {
-      @include button-variant-ghost($button-color-secondary);
-    }
-    &#{$self}--danger {
-      @include button-variant-ghost($button-color-danger);
-    }
-  }
-
   &--block {
     width: 100%;
   }
@@ -62,8 +52,8 @@ $button-prefix-cls: Button;
   &:empty {
     vertical-align: top;
   }
-}
 
-a.#{$button-prefix-cls} {
-  line-height: $button-line-height;
+  a#{$self} {
+    line-height: $button-line-height;
+  }
 }

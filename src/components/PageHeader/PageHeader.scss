@@ -36,8 +36,26 @@
     opacity: 0.7;
   }
 
+  &__form form {
+    @include block-center;
+    display: grid;
+    max-width: rem(890);
+    margin-top: rem(30);
+    gap: $margin-small;
+    grid-template-columns: 1fr;
+
+    @include breakpoint(medium) {
+      margin-top: rem(60);
+      gap: $margin-large;
+      grid-template-columns: 1fr auto;
+    }
+  }
+
   &--dark {
     background: $color-primary;
-    color: $white;
+
+    * {
+      color: $white;
+    }
   }
 }

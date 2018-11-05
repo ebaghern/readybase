@@ -58,7 +58,7 @@ $color-info: map-get($theme-colors, info);
 $color-light: map-get($theme-colors, light);
 
 
-/// Button colors
+/// Button options
 $button-color-primary: $color-secondary;
 $button-color-secondary: $color-primary;
 $button-color-danger: $color-danger;
@@ -67,6 +67,13 @@ $button-color-ghost: $white;
 $button-line-height: 1.5;
 $button-padding-base: 16;
 $button-font-size: 16;
-$button-border-radius: 3;
+$button-border-radius: 4;
 $button-border-width: 1;
 $button-font-weight: 700;
+
+/// Form options
+$form-field-line-height: 1.5;
+$form-field-padding-base: 16;
+$form-field-font-size: 16;
+$form-field-border-radius: 4;
+$form-field-border-width: 1;

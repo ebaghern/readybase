@@ -25,7 +25,7 @@ const PageHeader = ({
         ) : (
           <p className="PageHeader__content">{smart(content)}</p>
         ))}
-      {children}
+      {children && children('PageHeader')}
     </div>
   </section>
 );
@@ -35,6 +35,7 @@ PageHeader.propTypes = {
   theme: PropTypes.oneOf(themeOptions),
   heading: PropTypes.string,
   subHeading: PropTypes.string,
+  children: PropTypes.func,
   content: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
 };
 
