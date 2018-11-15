@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
+import Link from 'components/Link';
 import './Button.scss';
 
 class Button extends Component {
   static defaultProps = {
-    loading: false,
     disabled: false,
+    element: 'button',
     expanded: false,
-    htmlType: 'button'
+    htmlType: 'button',
+    loading: false
   };
 
   static propTypes = {
-    type: PropTypes.string,
-    size: PropTypes.oneOf(['large', 'small']),
-    htmlType: PropTypes.oneOf(['submit', 'button', 'reset']),
-    onClick: PropTypes.func,
-    loading: PropTypes.bool,
     disabled: PropTypes.bool,
     className: PropTypes.string,
     color: PropTypes.string,
-    expanded: PropTypes.bool
+    element: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+    expanded: PropTypes.bool,
+    href: PropTypes.string,
+    htmlType: PropTypes.oneOf(['submit', 'button', 'reset']),
+    loading: PropTypes.bool,
+    onClick: PropTypes.func,
+    size: PropTypes.oneOf(['large', 'small']),
+    type: PropTypes.string
   };
 
   handleClick = (e) => {
@@ -35,15 +39,17 @@ class Button extends Component {
 
   render() {
     const {
-      type,
-      htmlType,
-      size,
-      className,
       children,
+      className,
       disabled,
+      element,
       expanded,
-      color,
+      href,
+      htmlType,
       loading,
+      size,
+      type,
+      color,
       ...rest
     } = this.props;
 
@@ -55,20 +61,23 @@ class Button extends Component {
       [`Button--disabled`]: disabled,
       [`Button--expanded`]: expanded
     });
+    const Element = element;
 
-    return 'href' in rest ? (
-      <a {...rest} className={classes} onClick={this.handleClick}>
-        {children}
-      </a>
+    return href ? (
+      <Link href={href}>
+        <a {...rest} className={classes} onClick={this.handleClick}>
+          {children}
+        </a>
+      </Link>
     ) : (
-      <button
+      <Element
         {...rest}
         type={htmlType}
         className={classes}
         onClick={this.handleClick}
       >
         {children}
-      </button>
+      </Element>
     );
   }
 }

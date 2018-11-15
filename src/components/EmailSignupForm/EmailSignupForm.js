@@ -21,7 +21,7 @@ const EmailSignupForm = ({ className, buttonText }) => (
             type="email"
             name="email"
             placeholder="Your Email Address"
-            autocomplete="off"
+            autoComplete="off"
           />
           <Button htmlType="submit" className="EmailSignupForm__button">
             {buttonText}

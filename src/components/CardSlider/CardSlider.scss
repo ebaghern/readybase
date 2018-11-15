@@ -1,0 +1,29 @@
+.CardSlider {
+  padding-bottom: rem(24);
+
+  &__cardInner {
+    @include block-center;
+    max-width: calc(100% - #{rem($margin-large)});
+    padding: rem(20);
+    border: 1px solid $grey-300;
+    border-radius: rem(4);
+    background-color: #fff;
+
+    @include breakpoint(medium) {
+      padding: rem(30);
+    }
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+
+  .slick-dots {
+    bottom: rem(-10);
+  }
+
+  .IconCard {
+    padding: 0;
+  }
+}

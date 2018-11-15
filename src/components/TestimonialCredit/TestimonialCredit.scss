@@ -1,0 +1,45 @@
+.TestimonialCredit {
+  display: flex;
+  align-items: center;
+
+  &__imgWrapper {
+    flex-shrink: 0;
+    width: rem(50);
+    height: rem(50);
+    margin-right: rem(16);
+    border-radius: rem(25);
+    overflow: hidden;
+  }
+
+  &__img {
+    min-width: 100%;
+    max-width: none;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  &__caption {
+    display: flex;
+    align-items: center;
+  }
+
+  &__citation {
+    font-style: normal;
+  }
+
+  &__citationName {
+    display: block;
+  }
+
+  &__citationTitle {
+    display: block;
+    color: $grey-400;
+    font-size: rem(12);
+  }
+
+  &__location {
+    display: block;
+    color: $grey-400;
+    font-size: rem(12);
+  }
+}

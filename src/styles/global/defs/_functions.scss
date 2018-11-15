@@ -83,3 +83,8 @@
 @function is-percentage($value) {
   @return is-number($value) and unit($value) == '%';
 }
+
+/// Generate  arrow SVG
+@function make-chevron($direction: down, $color: #fff) {
+  @return url('icons/icon-chevron-#{$direction}' param(--color $color));
+}

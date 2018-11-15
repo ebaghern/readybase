@@ -4,24 +4,30 @@ import smart from 'lib/utils/smartContent';
 import './TeamCard.scss';
 
 const TeamCard = ({ name, title, img, location, bio }) => (
-  <article>
+  <article className="TeamCard" aria-labelledby="">
     {img &&
       img.src && (
-        <div>
-          <img src={img.src} alt={img.alt} />
+        <div className="TeamCard__imgWrapper">
+          <img className="TeamCard__img" src={img.src} alt={img.alt} />
         </div>
       )}
-    <section>
-      <header>
-        {name && <h3>{name}</h3>}
-        {title && <span>{title}</span>}
+    <div className="TeamCard__contentWrapper">
+      <header className="TeamCard__header">
+        {name && <h3 className="TeamCard__name">{name}</h3>}
+        {title && <span className="TeamCard__jobTitle">{title}</span>}
         {location && (
-          <span>{`${location.city}, ${location.state ||
-            location.country}`}</span>
+          <span className="TeamCard__location">{`${
+            location.city
+          }, ${location.state || location.country}`}</span>
         )}
       </header>
-      {bio && <p dangerouslySetInnerHTML={{ __html: smart(bio) }} />}
-    </section>
+      {bio && (
+        <p
+          className="TeamCard__bio"
+          dangerouslySetInnerHTML={{ __html: smart(bio) }}
+        />
+      )}
+    </div>
   </article>
 );
 

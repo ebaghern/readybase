@@ -1,2 +1,92 @@
 .Homepage {
+
+  &__team {
+    display: grid;
+    max-width: $container-width;
+    margin: rem(40) auto;
+    padding: 0 $margin-small;
+    gap: $margin-small;
+    @include breakpoint(medium) {
+      margin: rem(100) auto;
+      padding: 0 $margin-large;
+      grid-template-columns: repeat(2, 1fr);
+      gap: $margin-large;
+    }
+    @include breakpoint(large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__testimonials {
+    position: relative;
+    max-width: $container-width;
+    margin: rem(40) auto;
+    padding: 0 $margin-small;
+    @include breakpoint(medium) {
+      display: grid;
+      margin: rem(100) auto;
+      padding: 0 $margin-large;
+      grid-template-columns: 33% 66%;
+      gap: $margin-large;
+    }
+  }
+
+  &__testimonialSlider {
+    @include breakpoint(1250) {
+      margin-right: rem(-80);
+    }
+    @include breakpoint(1340) {
+      margin-right: rem(-120);
+    }
+    @include breakpoint(medium) {
+      .slick-slider {
+        position: static;
+      }
+      .slick-dots {
+        display: inline-block;
+        bottom: 30%;
+        left: $margin-large;
+        width: auto;
+        text-align: left;
+      }
+      .slick-list {
+        overflow: visible;
+      }
+      .slick-track {
+        pointer-events: none;
+      }
+      .slick-slide {
+        transition: 0.25s opacity ease-in;
+        opacity: 0;
+        pointer-events: none;
+
+        &.slick-active,
+        &.slick-active + .slick-slide,
+        &.slick-current,
+        &.slick-current + .slick-slide {
+          opacity: 1;
+          pointer-events: auto;
+        }
+
+        &.slick-active + .slick-slide + .slick-slide,
+        &.slick-current + .slick-slide + .slick-slide {
+          opacity: 0.25;
+        }
+      }
+
+      .CardSlider__cardInner {
+        box-shadow: 0 rem(20) rem(40) 0 rgba($color-primary, 0.08);
+      }
+    }
+  }
+
+  &__imageTextBlocks {
+    max-width: $container-width;
+    margin: rem(40) auto;
+    padding: 0 $margin-small;
+    @include breakpoint(medium) {
+      margin: rem(100) auto;
+      padding: 0 $margin-large;
+    }
+  }
 }

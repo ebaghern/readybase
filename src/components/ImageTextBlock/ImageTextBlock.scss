@@ -1,0 +1,33 @@
+.ImageTextBlock {
+  $self: &;
+  display: grid;
+  align-items: center;
+  grid-template: aiuto auto / auto;
+  gap: $margin-small;
+  @include breakpoint(medium) {
+    grid-template: auto / 1fr 1fr;
+    gap: $margin-large;
+  }
+
+  &__image {
+    @include breakpoint(medium) {
+      #{$self}:nth-child(odd) & {
+        order: 2;
+      }
+    }
+    @include breakpoint(small down) {
+      max-width: rem(270);
+      margin: 0 auto;
+    }
+  }
+
+  + #{$self} {
+    margin-top: rem(40);
+    @include breakpoint(medium) {
+      margin-top: rem(100);
+    }
+    @include breakpoint(large) {
+      margin-top: rem(140);
+    }
+  }
+}

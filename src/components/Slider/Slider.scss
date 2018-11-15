@@ -1,0 +1,174 @@
+@import 'variables';
+@import '~slick-carousel/slick/slick.css';
+
+.slick-slider {
+  max-width: 100%;
+}
+
+// Arrows
+.slick-prev,
+.slick-next {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: rem(20);
+  height: rem(20);
+  padding: 0;
+  transform: translate(0, -50%);
+  border: none;
+  outline: none;
+  background: transparent;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background: transparent;
+    color: transparent;
+
+    &:before {
+      opacity: $slick-opacity-on-hover;
+    }
+  }
+  &.slick-disabled:before {
+    opacity: $slick-opacity-not-active;
+  }
+
+  &:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: rem(26);
+    height: rem(26);
+    margin: 0 auto;
+    transform-origin: center;
+    background-image: make-chevron(down, $grey-600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: '';
+    opacity: $slick-opacity-default;
+  }
+}
+
+.slick-prev {
+  left: rem(-25);
+
+  [dir='rtl'] & {
+    right: rem(-25);
+    left: auto;
+  }
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(90deg);
+
+    [dir='rtl'] & {
+      margin-right: rem(4);
+      margin-left: auto;
+      transform: translate(-50%, -50%) rotate(-90deg);
+    }
+  }
+}
+
+.slick-next {
+  right: rem(-25);
+
+  [dir='rtl'] & {
+    right: auto;
+    left: rem(-25);
+  }
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+
+    [dir='rtl'] & {
+      margin-right: auto;
+      margin-left: rem(4);
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+  }
+}
+
+@include breakpoint(small down) {
+  .slick-prev {
+    left: rem(10);
+  }
+  .slick-next {
+    right: rem(10);
+  }
+}
+
+// Dots
+.slick-dotted.slick-slider {
+  margin-bottom: rem(30);
+}
+
+.slick-dots {
+  display: block;
+  position: absolute;
+  bottom: rem(-25);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  z-index: 1;
+
+  li {
+    display: inline-block;
+    position: relative;
+    width: rem(20);
+    height: rem(20);
+    margin: 0 rem(6);
+    padding: 0;
+    cursor: pointer;
+
+    button {
+      display: block;
+      width: rem(20);
+      height: rem(20);
+      padding: rem(6);
+      border: 0;
+      outline: none;
+      background: transparent;
+      color: transparent;
+      font-size: 0;
+      line-height: 0;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        outline: none;
+
+        &:before {
+          opacity: $slick-opacity-on-hover;
+        }
+      }
+
+      &:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: rem(10);
+        height: rem(10);
+        transition: 0.25s all ease-in;
+        border-radius: rem(10);
+        background-color: $slick-dot-color;
+        content: '';
+        opacity: 1;
+      }
+    }
+
+    &.slick-active button:before {
+      transform: scale(1.5);
+      background-color: $slick-dot-color-active;
+      opacity: 1;
+    }
+  }
+}

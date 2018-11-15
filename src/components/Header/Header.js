@@ -6,6 +6,7 @@ import Hamburger from 'components/Hamburger';
 import Menu from 'components/Menu';
 import menuItemShape from 'lib/propTypes/shape-menuItem';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
+import ReadybaseLogo from 'static/images/readybase-logo.svg';
 import './Header.scss';
 const MENU_ITEMS = [
   {
@@ -73,10 +74,8 @@ class Header extends Component {
         <div className="Header__logoWrapper">
           <Link href="/" prefetch>
             <a className="Header__logoLink">
-              <img
+              <ReadybaseLogo
                 className="Header__logo"
-                src="static/images/readybase-logo.png"
-                alt="Readybase Logo"
               />
               <h1 className="Header__pageTitle">{pageTitle}</h1>
             </a>

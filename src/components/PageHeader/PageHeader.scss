@@ -53,8 +53,9 @@
 
   &--dark {
     background: $color-primary;
+    color: $white;
 
-    * {
+    a:not(.Button) {
       color: $white;
     }
   }
