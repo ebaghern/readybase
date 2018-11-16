@@ -1,0 +1,20 @@
+.RaisedCallout {
+  padding: 2rem 1rem;
+  border: 1px solid $grey-300;
+  border-radius: rem(6);
+  box-shadow: $shadow-large;
+  @include breakpoint(medium) {
+    padding: 3rem;
+  }
+  @include breakpoint(large) {
+    padding: 5rem;
+  }
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -29,7 +29,6 @@
     "next": "^7.0.2",
     "next-url-prettifier": "^1.4.0",
     "node-sass": "^4.9.4",
-    "normalize.css": "^8.0.0",
     "postcss-font-smoothing": "^0.1.0",
     "postcss-preset-env": "^6.2.0",
     "postcss-svg": "^2.4.0",

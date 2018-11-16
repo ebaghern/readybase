@@ -1,0 +1,146 @@
+html {
+  color: $black;
+  font-family: $font-family;
+  font-size: $base-font-size;
+  letter-spacing: $base-letter-spacing;
+  line-height: $base-line-height;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @include text-std;
+}
+
+h1,
+.text--h1 {
+  @include text-xxl;
+  @include font-heading;
+  margin: ($margin-small * 0.75) 0;
+
+  @include breakpoint(medium) {
+    margin: $margin-small 0;
+  }
+}
+
+h2,
+.text--h2 {
+  @include text-xl;
+  @include font-heading;
+  margin: ($margin-small * 0.75) 0;
+
+  @include breakpoint(medium) {
+    margin: $margin-small 0;
+  }
+}
+
+h3,
+.text--h3 {
+  @include text-lg;
+  @include font-heading;
+  margin: ($margin-small * 0.5) 0;
+  line-height: 1.06;
+}
+
+h4,
+.text--h4 {
+  @include text-std;
+  @include font-heading;
+  margin: ($margin-small * 0.325) 0;
+}
+
+h5,
+.text--h5 {
+  @include text-sm;
+  @include font-heading;
+  margin: ($margin-small * 0.325) 0;
+  line-height: 1.2;
+}
+
+h6,
+.text--h6 {
+  @include text-sm;
+  @include font-heading;
+  margin: ($margin-small * 0.325) 0;
+  line-height: 1.2;
+}
+
+p,
+ul,
+ol,
+.text-std {
+  margin: rem(18) 0;
+
+  @include breakpoint(medium) {
+    margin: rem(22) 0;
+  }
+}
+
+small,
+.text--sm {
+  @include text-sm;
+}
+
+ul,
+ol {
+  padding: 0;
+  padding: 0 0 0 ($margin-small * 2);
+  list-style-position: outside;
+
+  ul,
+  ol {
+    margin: 0;
+  }
+}
+
+blockquote {
+  @include text-lg;
+  margin: $margin-small 0 ($margin-small * 1.5);
+  padding-left: $margin-small;
+  color: $grey-600;
+
+  @include breakpoint(medium up) {
+    margin: $margin-large 0 ($margin-large * 1.25);
+    padding-left: $margin-large;
+  }
+
+  b,
+  strong {
+    color: $black;
+  }
+}
+
+code,
+pre {
+  @include text-xs;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 4px;
+  background: $grey-800;
+  color: $grey-100;
+  font-family: $font-family-mono;
+}
+
+pre {
+  display: block;
+  max-width: 100%;
+  margin: $margin-small 0;
+  padding: #{$margin-small / 2};
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+code {
+  @include text-sm;
+  line-height: inherit;
+}
+
+::selection {
+  background: lighten($color-primary, 20%);
+}
+
+// Text for screen readers only.
+.screen-reader-text,
+.sr,
+.visually-hidden {
+  @include srt;
+}

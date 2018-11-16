@@ -7,6 +7,7 @@ import CardSlider from 'components/CardSlider';
 import EmailSignupForm from 'components/EmailSignupForm';
 import ImageTextBlock from 'components/ImageTextBlock';
 import PageHeader from 'components/PageHeader';
+import RaisedCallout from 'components/RaisedCallout';
 import TeamCard from 'components/TeamCard';
 import TestimonialCard from 'components/TestimonialCard';
 import TestimonialCredit from 'components/TestimonialCredit';
@@ -115,6 +116,33 @@ const Index = () => (
         )}
       />
     </div>
+    <section className="Homepage__callout">
+      <RaisedCallout>
+        {(baseClass) => (
+          <>
+            <h2
+              className={cx(
+                `${baseClass}__heading`,
+                'Homepage__calloutHeading'
+              )}
+            >
+              Get more done with freelancer power.
+              <br />{' '}
+              Make your impact, Build Your Vision
+            </h2>
+            <div
+              className={cx(
+                `${baseClass}__contentWrapper`,
+                'Homepage__calloutContent'
+              )}
+            >
+              <Button>Gain Access to a Freelancer</Button>
+              <Button>Become a ReadyBase Freelancer</Button>
+            </div>
+          </>
+        )}
+      </RaisedCallout>
+    </section>
   </Layout>
 );
 

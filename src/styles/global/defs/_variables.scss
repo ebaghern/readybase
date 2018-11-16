@@ -1,13 +1,15 @@
 @import '../util/rem';
 
-$font-family: 'Comfortaa', 'Open Sans', sans-serif !default;
+$font-family-sans: 'Comfortaa', 'Open Sans', sans-serif !default;
 $font-family-mono: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace !default;
+$font-family: $font-family-sans;
 $font-weight-light: 200;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $base-font-size: 16px;
 $base-line-height: 1.6;
 $base-letter-spacing: 1.4;
+$heading-line-height: 1.6;
 
 $margin-small: rem(15);
 $margin-large: rem(30);
@@ -69,3 +71,5 @@ $form-field-padding-base: 16;
 $form-field-font-size: 16;
 $form-field-border-radius: 4;
 $form-field-border-width: 1;
+
+$shadow-large: 0 rem(20) rem(50) rem(-10) rgba($color-primary, 0.08);

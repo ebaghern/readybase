@@ -5,6 +5,7 @@ files:
   ignore:
     - 'public/**/*'
     - 'node_modules/**/*'
+    - 'src/styles/global/_normalize.scss'
 rules:
   no-ids: 2
   no-important: 2

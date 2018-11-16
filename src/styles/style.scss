@@ -1,4 +1,5 @@
 @charset 'utf-8';
-@import '~normalize.css/normalize.css';
+@import 'global/normalize';
 @import 'global/resets';
+@import 'global/typography';
 @import 'global/forms';

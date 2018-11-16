@@ -12,7 +12,7 @@ module.exports = withSass(
     distDir: '../public'
   },
   {
-    webpack: function(cfg) {
+    webpack(cfg) {
       const originalEntry = cfg.entry;
       cfg.entry = async () => {
         const entries = await originalEntry();

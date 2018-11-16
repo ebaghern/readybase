@@ -98,6 +98,10 @@
   font-size: rem(12);
 }
 
+@mixin font-heading {
+  line-height: $heading-line-height;
+}
+
 // Buttons styling
 @mixin button-reset {
   padding: 0;

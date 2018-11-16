@@ -75,7 +75,7 @@
       }
 
       .CardSlider__cardInner {
-        box-shadow: 0 rem(20) rem(40) 0 rgba($color-primary, 0.08);
+        box-shadow: $shadow-large;
       }
     }
   }
@@ -87,6 +87,39 @@
     @include breakpoint(medium) {
       margin: rem(100) auto;
       padding: 0 $margin-large;
+    }
+  }
+
+  &__callout {
+    max-width: $container-width;
+    margin: rem(40) auto;
+    padding: 0 $margin-small;
+    text-align: center;
+    @include breakpoint(medium) {
+      margin: rem(100) auto;
+      padding: 0 $margin-large;
+    }
+
+    .Button {
+      margin: 0.5rem 0;
+      @include breakpoint(medium) {
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  &__calloutHeading {
+    br {
+      @include breakpoint(medium down) {
+        display: none;
+      }
+    }
+  }
+
+  &__calloutContent {
+    margin-top: 2rem;
+    @include breakpoint(medium) {
+      margin-top: 4rem;
     }
   }
 }
