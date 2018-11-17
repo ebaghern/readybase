@@ -1,8 +1,8 @@
 import React from 'react';
 import PageHeader from 'components/PageHeader';
 
-const Mission = (props) => (
-  <PageHeader className="Homepage__pageHeader" {...props} />
+const MissionHeader = (props) => (
+  <PageHeader className="Mission__pageHeader" {...props} />
 );
 
-export default Mission;
+export default MissionHeader;

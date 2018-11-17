@@ -17,6 +17,11 @@ const routes = [
     priority: '.09'
   },
   {
+    page: 'referral',
+    prettyUrl: '/referral-program',
+    priority: '.09'
+  },
+  {
     page: 'blog',
     prettyUrl: '/blog',
     priority: '.07'

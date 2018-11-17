@@ -1,0 +1,35 @@
+.RaisedTextBlock {
+  padding: 1rem;
+  border: 1px solid $grey-300;
+  border-radius: rem(6);
+  box-shadow: $shadow-large;
+  @include breakpoint(medium) {
+    padding: rem(20);
+  }
+  @include breakpoint(large) {
+    padding: rem(24);
+  }
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  &__contentWrapper {
+    margin-top: 2rem;
+    @include breakpoint(medium) {
+      margin-top: 3rem;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,5 +1,11 @@
 .Homepage {
 
+  &__pageHeader {
+    .PageHeader__content {
+      max-width: rem(440);
+    }
+  }
+
   &__team {
     @include make-section;
     display: grid;
