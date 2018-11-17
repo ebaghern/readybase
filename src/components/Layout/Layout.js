@@ -3,6 +3,7 @@ import Head from 'components/Head';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import Header from 'components/Header';
+import Footer from 'components/Footer';
 import headerThemeOptions from 'lib/propTypes/oneOf-headerTheme';
 
 class Layout extends Component {
@@ -41,6 +42,7 @@ class Layout extends Component {
           />
           {children}
         </div>
+        <Footer />
       </div>
     );
   }

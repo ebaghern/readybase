@@ -7,39 +7,8 @@ import Menu from 'components/Menu';
 import menuItemShape from 'lib/propTypes/shape-menuItem';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
 import ReadybaseLogo from 'static/images/readybase-logo.svg';
+import menuItems from 'data/menu-topNav';
 import './Header.scss';
-const MENU_ITEMS = [
-  {
-    id: 0,
-    href: '/',
-    label: 'Home'
-  },
-  {
-    id: 1,
-    href: '/',
-    label: 'Contact',
-    children: [
-      {
-        id: 2,
-        href: '',
-        label: 'Next'
-      },
-      {
-        id: 3,
-        href: '',
-        label: 'Not Hidden'
-      },
-      {
-        id: 4,
-        href: '/',
-        label: 'Page',
-        options: {
-          target: '_blank'
-        }
-      }
-    ]
-  }
-];
 
 class Header extends Component {
   static propTypes = {
@@ -52,7 +21,7 @@ class Header extends Component {
 
   static defaultProps = {
     menuIsActive: false,
-    menuItems: MENU_ITEMS,
+    menuItems,
     theme: 'light',
     pageTitle: 'Readybase'
   };

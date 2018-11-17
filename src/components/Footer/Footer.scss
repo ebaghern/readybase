@@ -1,0 +1,48 @@
+.Footer {
+  margin: rem(40) 0 0;
+  padding: rem(200) $margin-small rem(40);
+  background-color: $color-primary;
+  color: $white;
+
+  a:not(.Button) {
+    color: $white;
+  }
+
+  @include breakpoint(medium) {
+    margin: rem(100) 0 0;
+    padding: rem(240) $margin-large rem(40);
+  }
+
+  &__contentWrapper {
+    @include block-center;
+    display: grid;
+    max-width: $container-width;
+    grid-template: auto / auto;
+    gap: $margin-large;
+    @include breakpoint(medium) {
+      column-gap: rem(90);
+      grid-template: repeat(3, auto) / 1fr 2fr 1fr;
+      row-gap: rem(60);
+    }
+  }
+
+  &__navMenu {
+    @include breakpoint(medium) {
+      display: grid;
+      column-gap: rem(90);
+      grid-template: auto / 1fr 1fr;
+    }
+  }
+
+  &__copyright,
+  &__buttonGroup {
+    grid-column: 1 / 4;
+  }
+
+  &__logo {
+
+    * {
+      fill: $white;
+    }
+  }
+}
