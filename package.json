@@ -11,7 +11,7 @@
     "node": ">=11.1.0"
   },
   "scripts": {
-    "dev": "node --experimental-modules src/config/server.js",
+    "dev": "node --inspect --experimental-modules src/config/server.js",
     "start": "NODE_ENV=production node --experimental-modules src/config/server.js",
     "build": "next build",
     "storybook": "start-storybook -p 6006",
