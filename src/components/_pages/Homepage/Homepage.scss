@@ -72,6 +72,35 @@
     }
   }
 
+  &__iconBlocks {
+    @include make-section;
+    text-align: center;
+    @include breakpoint(medium) {
+      margin: rem(160) auto;
+    }
+  }
+
+  &__iconBlocksWrapper {
+    display: grid;
+    margin: rem(30) 0;
+    grid-template: auto / 1fr;
+    gap: $margin-large;
+    @include breakpoint(medium) {
+      margin: rem(60) 0;
+      grid-template: auto / repeat(3, 1fr);
+    }
+    @include breakpoint(large) {
+      gap: rem(90);
+    }
+  }
+
+  &__iconBlocksHeading {
+    margin: rem(40) 0;
+    @include breakpoint(medium) {
+      margin: rem(90) 0;
+    }
+  }
+
   &__imageTextBlocks {
     @include make-section;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from 'components/Layout';
+import IconBlocks from './sections/HomepageIconBlocks';
 import ImageBlocks from './sections/HomepageImageBlocks';
 import CallToAction from './sections/HomepageCallToAction';
 import Header from './sections/HomepageHeader';
@@ -18,6 +19,7 @@ const Index = () => (
     <Header theme={HEADER_THEME} heading={HEADING} content={CONTENT} />
     <Team teamMembers={teamMembers} />
     <Testimonials testimonials={testimonials} />
+    <IconBlocks />
     <ImageBlocks />
     <CallToAction />
   </Layout>

@@ -1,0 +1,14 @@
+.IconTextBlock {
+  text-align: center;
+
+  &__content {
+    color: $grey-600;
+  }
+
+  &__contentWrapper {
+    margin-top: 1rem;
+    @include breakpoint(medium) {
+      margin-top: 1.5rem;
+    }
+  }
+}
