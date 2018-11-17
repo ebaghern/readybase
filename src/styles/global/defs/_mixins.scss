@@ -347,7 +347,19 @@
   }
 }
 
+// Center block elements.
 @mixin block-center {
   margin-right: auto;
   margin-left: auto;
+}
+
+// Add consistent margins/padding to sections.
+@mixin make-section {
+  max-width: $container-width;
+  margin: rem(40) auto;
+  padding: 0 $margin-small;
+  @include breakpoint(medium) {
+    margin: rem(100) auto;
+    padding: 0 $margin-large;
+  }
 }

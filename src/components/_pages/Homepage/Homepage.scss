@@ -1,14 +1,10 @@
 .Homepage {
 
   &__team {
+    @include make-section;
     display: grid;
-    max-width: $container-width;
-    margin: rem(40) auto;
-    padding: 0 $margin-small;
     gap: $margin-small;
     @include breakpoint(medium) {
-      margin: rem(100) auto;
-      padding: 0 $margin-large;
       grid-template-columns: repeat(2, 1fr);
       gap: $margin-large;
     }
@@ -18,14 +14,10 @@
   }
 
   &__testimonials {
+    @include make-section;
     position: relative;
-    max-width: $container-width;
-    margin: rem(40) auto;
-    padding: 0 $margin-small;
     @include breakpoint(medium) {
       display: grid;
-      margin: rem(100) auto;
-      padding: 0 $margin-large;
       grid-template-columns: 33% 66%;
       gap: $margin-large;
     }
@@ -81,24 +73,12 @@
   }
 
   &__imageTextBlocks {
-    max-width: $container-width;
-    margin: rem(40) auto;
-    padding: 0 $margin-small;
-    @include breakpoint(medium) {
-      margin: rem(100) auto;
-      padding: 0 $margin-large;
-    }
+    @include make-section;
   }
 
   &__callout {
-    max-width: $container-width;
-    margin: rem(40) auto;
-    padding: 0 $margin-small;
+    @include make-section;
     text-align: center;
-    @include breakpoint(medium) {
-      margin: rem(100) auto;
-      padding: 0 $margin-large;
-    }
 
     .Button {
       margin: 0.5rem 0;
