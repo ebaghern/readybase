@@ -83,6 +83,13 @@
   }
 }
 
+@mixin text-std-lg {
+  font-size: rem(16);
+  @include breakpoint(medium) {
+    font-size: rem(18);
+  }
+}
+
 @mixin text-std {
   font-size: rem(14);
   @include breakpoint(medium) {

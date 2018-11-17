@@ -1,0 +1,80 @@
+import React from 'react';
+import cx from 'classnames';
+import Layout from 'components/Layout';
+import Header from './sections/MissionHeader';
+import Button from 'components/Button';
+import IconTextBlock from 'components/IconTextBlock';
+import RaisedCallout from 'components/RaisedCallout';
+import IconSelfEmployed from 'static/images/img_self_employed.svg';
+import IconChangeGame from 'static/images/img_change_game.svg';
+import IconLearning from 'static/images/img_learning.svg';
+import IconConfidence from 'static/images/img_2confidence.svg';
+import './Mission.scss';
+
+const HEADER_THEME = 'light';
+const HEADING = `Mission and Core Values`;
+const SUB_HEADING = `ReadyBase is changing how organizations build teams.`;
+const CONTENT = `We built ReadyBase so that we could start and run business completely or mostly powered Freelancers. `;
+
+const ICON_GROUP = [
+  {
+    heading: 'Self-employed mentality',
+    content: `Don’t just do the work. Crush it.`,
+    icon: <IconSelfEmployed />
+  },
+  {
+    heading: 'Change the game',
+    content: `If the game can't be won, change the game until it can be.`,
+    icon: <IconChangeGame />
+  },
+  {
+    heading: 'Always be learning',
+    content: `There’s always more to learn and further to grow learning is a lifelong journey.`,
+    icon: <IconLearning />
+  },
+  {
+    heading: '2 parts confidence, 1 part humanity',
+    content: `Grow confident in your ability, and keep the ego in check.`,
+    icon: <IconConfidence />
+  }
+];
+
+const Mission = () => (
+  <Layout className="Mission" title="Readybase" headerTheme={HEADER_THEME}>
+    <Header
+      theme={HEADER_THEME}
+      subHeading={SUB_HEADING}
+      heading={HEADING}
+      content={CONTENT}
+    />
+    <section className="Mission__callout">
+      <RaisedCallout>
+        {(baseClass) => (
+          <>
+            <h2
+              className={cx(`${baseClass}__heading`, 'Mission__calloutHeading')}
+            >
+              Core Values
+            </h2>
+            <div
+              className={cx(
+                `${baseClass}__contentWrapper`,
+                'Mission__calloutContent'
+              )}
+            >
+              {ICON_GROUP.map((blockProps, i) => (
+                <IconTextBlock
+                  {...blockProps}
+                  key={i}
+                  className="Mission__iconBlock"
+                />
+              ))}
+            </div>
+          </>
+        )}
+      </RaisedCallout>
+    </section>
+  </Layout>
+);
+
+export default Mission;

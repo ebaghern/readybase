@@ -12,6 +12,11 @@ const routes = [
     priority: '.09'
   },
   {
+    page: 'mission',
+    prettyUrl: '/mission',
+    priority: '.09'
+  },
+  {
     page: 'blog',
     prettyUrl: '/blog',
     priority: '.07'

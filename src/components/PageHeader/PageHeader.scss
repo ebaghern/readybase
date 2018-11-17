@@ -16,6 +16,14 @@
     @include breakpoint(medium) {
       padding: 0 $margin-large;
     }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
   }
 
   &__heading {
@@ -25,7 +33,7 @@
   }
 
   &__subHeading {
-    @include text-xl;
+    @include text-lg;
     @include block-center;
   }
 
@@ -58,5 +66,13 @@
     a:not(.Button) {
       color: $white;
     }
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  > *:first-child {
+    margin-top: 0;
   }
 }

@@ -1,0 +1,17 @@
+.Mission {
+
+  &__callout {
+    @include make-section;
+    margin-top: 0;
+    text-align: center;
+    @include breakpoint(medium) {
+      margin-top: 0;
+    }
+  }
+
+  &__calloutContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: $margin-large;
+  }
+}

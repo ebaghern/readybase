@@ -1,6 +1,10 @@
 .IconTextBlock {
   text-align: center;
 
+  &__heading {
+    @include text-std-lg;
+  }
+
   &__content {
     color: $grey-600;
   }

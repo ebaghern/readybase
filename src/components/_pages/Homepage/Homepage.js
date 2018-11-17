@@ -14,7 +14,7 @@ const HEADER_THEME = 'dark';
 const HEADING = `Meet the perfect freelancers for your projects.`;
 const CONTENT = `We'll help you find developers, data scientists, and designers that fit seamlessly with your project needs and culture.`;
 
-const Index = () => (
+const Homepage = () => (
   <Layout className="Homepage" title="Readybase" headerTheme={HEADER_THEME}>
     <Header theme={HEADER_THEME} heading={HEADING} content={CONTENT} />
     <Team teamMembers={teamMembers} />
@@ -25,4 +25,4 @@ const Index = () => (
   </Layout>
 );
 
-export default Index;
+export default Homepage;

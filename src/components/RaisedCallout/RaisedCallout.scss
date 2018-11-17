@@ -17,4 +17,11 @@
   > *:last-child {
     margin-bottom: 0;
   }
+
+  &__contentWrapper {
+    margin-top: 2rem;
+    @include breakpoint(medium) {
+      margin-top: 3rem;
+    }
+  }
 }
