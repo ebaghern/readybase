@@ -1,18 +1,41 @@
 .Header {
   $self: &;
-  display: grid;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   padding: rem(20);
-  background-color: 0;
-  grid-template-columns: 1fr auto;
-  gap: rem(30);
+  transition: 0.125s box-shadow ease-in;
+  background-color: transparent;
+  box-shadow: none;
+  z-index: 10;
 
   @include breakpoint(medium) {
     position: fixed;
+
+    &:before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: 0.125s transform ease-in;
+      background-color: #fff;
+      content: '';
+    }
+
+    &--isScrolled {
+      box-shadow: 0 rem(10) rem(10) rgba($color-primary, 0.08);
+      &:before {
+        transform: scaleY(1);
+      }
+    }
   }
 
   &__pageTitle {
@@ -20,6 +43,7 @@
   }
 
   &__logoWrapper {
+    position: relative;
     width: 100%;
     max-width: rem(200);
 
@@ -34,6 +58,10 @@
     #{$self}--dark & * {
       fill: $white;
     }
+
+    * {
+      transition: 0.25s fill ease-in;
+    }
   }
 
   &__nav {
@@ -42,7 +70,9 @@
         display: flex;
 
         &__link {
+          transition: 0.25s color ease-in;
           text-decoration: none;
+
           #{$self}--dark & {
             color: $white;
           }
