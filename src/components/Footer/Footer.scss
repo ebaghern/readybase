@@ -15,11 +15,9 @@
 
   &__contentWrapper {
     @include block-center;
-    display: grid;
     max-width: $container-width;
-    grid-template: auto / auto;
-    gap: $margin-large;
     @include breakpoint(medium) {
+      display: grid;
       column-gap: rem(90);
       grid-template: repeat(3, auto) / 1fr 2fr 1fr;
       row-gap: rem(60);
@@ -36,7 +34,18 @@
 
   &__copyright,
   &__buttonGroup {
+    text-align: center;
     grid-column: 1 / 4;
+
+    .Button {
+      margin: 1rem 0;
+      @include breakpoint(small down) {
+        width: 100%;
+      }
+      @include breakpoint(medium) {
+        margin: 0 1rem;
+      }
+    }
   }
 
   &__logo {
