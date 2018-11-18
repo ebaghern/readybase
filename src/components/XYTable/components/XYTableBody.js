@@ -2,6 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import colShape from 'lib/propTypes/shape-xyTable';
+import find from 'array.prototype.find';
 import weakKey from 'lib/utils/weakKey';
 
 const XYTableBody = ({ cols, rows }) => (
@@ -13,7 +14,7 @@ const XYTableBody = ({ cols, rows }) => (
             {row}
           </th>
           {cols.map((col, i) => {
-            const currentCell = col.rows.find((r) => r.key === row);
+            const currentCell = find(col.rows, (r) => r.key === row);
             return (
               <td
                 key={currentCell ? weakKey(currentCell) : i}

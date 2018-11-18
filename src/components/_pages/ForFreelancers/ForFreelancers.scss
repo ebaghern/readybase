@@ -47,8 +47,8 @@
   }
 
   &__iconBlocksButton {
-    grid-column: 1 / -1;
     text-align: center;
+    grid-column: 1 / -1;
   }
 
   &__howItWorks {
@@ -60,12 +60,18 @@
     }
   }
 
-  &__compare {
+  &__types {
     @include make-section;
+    display: grid;
+    gap: $margin-small;
+    @include breakpoint(medium) {
+      grid-template: auto / repeat(2, 1fr);
+      gap: $margin-large;
+    }
   }
 
-  &__compareHeading {
-    margin-bottom: 2em;
+  &__typesButton {
     text-align: center;
+    grid-column: 1 / -1;
   }
 }

@@ -1,0 +1,33 @@
+.OList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &__item {
+    display: flex;
+    margin-bottom: rem(10);
+    counter-increment: step-counter;
+    @include breakpoint(medium) {
+      margin-bottom: rem(20);
+    }
+
+    &:before {
+      display: inline-flex;
+      flex-grow: 0;
+      flex-shrink: 0;
+      align-content: center;
+      justify-content: center;
+      width: rem(20);
+      height: rem(20);
+      margin-right: rem(10);
+      padding: rem(4);
+      border-radius: rem(10);
+      background-color: $color-primary-light;
+      color: white;
+      font-size: 80%;
+      font-weight: bold;
+      line-height: 1;
+      content: counter(step-counter);
+    }
+  }
+}

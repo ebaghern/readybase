@@ -1,0 +1,38 @@
+.ListGrid {
+  margin: 0;
+  padding: 0;
+  border: 1px solid $grey-300;
+  border-radius: rem(6);
+  background-color: $white;
+  font-weight: $font-weight-bold;
+  list-style: none;
+  text-align: center;
+  box-shadow: $shadow-large;
+  @include breakpoint(medium) {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+  }
+
+  &__item {
+    padding: rem(20);
+    transition: 0.5s color ease-in;
+    border-bottom: 1px solid $grey-300;
+
+    &:hover {
+      color: $color-primary;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    @include breakpoint(medium) {
+      &:nth-last-child(-n + 2) {
+        border-bottom: 0;
+      }
+      &:nth-child(odd) {
+        border-right: 1px solid $grey-300;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import wrapValidator from './utils/wrap-validator';
+import wrapValidator from './utils/wrapValidator';
 
 export default function mutuallyExclusiveOfType(propType, ...exclusiveProps) {
   if (typeof propType !== 'function') {
