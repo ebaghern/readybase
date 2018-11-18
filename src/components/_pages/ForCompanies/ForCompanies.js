@@ -15,7 +15,7 @@ import IconFindGigs from 'static/images/img_find_freelance_gigs.svg';
 import './ForCompanies.scss';
 
 const HEADER_THEME = 'light';
-const HEADING = `ForCompanies Program`;
+const HEADING = `For Companies`;
 const CONTENT = `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`;
 const ICON_GROUP = [
   // @todo Get content from Eamon
