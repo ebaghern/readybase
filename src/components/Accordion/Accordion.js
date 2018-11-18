@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Accordion as Acc } from 'react-accessible-accordion';
-import AccordionItem from './components/AccordionItem';
 import classNames from 'classnames';
 import './Accordion.scss';
 

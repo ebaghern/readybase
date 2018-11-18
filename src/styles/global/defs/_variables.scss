@@ -50,6 +50,9 @@ $color-warning: map-get($theme-colors, warning);
 $color-info: map-get($theme-colors, info);
 $color-light: map-get($theme-colors, light);
 
+/// Color variants
+$color-primary-light: desaturate(lighten($color-primary, 12%), 15%);
+
 
 /// Button options
 $button-color-primary: $color-secondary;
