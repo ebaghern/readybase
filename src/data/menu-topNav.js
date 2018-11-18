@@ -6,7 +6,7 @@ export default [
   },
   {
     id: 1,
-    href: '/',
+    href: '/for-freelancers',
     label: 'For Freelancers'
   },
   {
