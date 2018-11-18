@@ -1,7 +1,7 @@
 export default [
   {
     id: 0,
-    href: '/',
+    href: '/for-companies',
     label: 'For Companies'
   },
   {
