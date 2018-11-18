@@ -1,9 +1,9 @@
 import { AccordionItemTitle as AccTitle } from 'react-accessible-accordion';
-import classNames from 'classnames';
+import cx from 'classnames';
 
 const AccordionItemTitle = ({ className, children }) => {
   return (
-    <AccTitle className={classNames('Accordion__title', className)}>
+    <AccTitle className={cx('Accordion__title', className)}>
       {children}
     </AccTitle>
   );

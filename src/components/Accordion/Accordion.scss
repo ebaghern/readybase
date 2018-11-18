@@ -7,7 +7,7 @@
 
   &__body {
     display: block;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     transition: 0.25s all ease-in;
     opacity: 1;
     animation: fade-in 0.35s ease-in-out;
@@ -19,11 +19,33 @@
   }
 
   &__item {
+    padding: 1rem;
+    border: 1px solid $grey-300;
+    border-radius: rem(6);
+    box-shadow: $shadow-large;
+    @include breakpoint(medium) {
+      padding: rem(20);
+    }
+    @include breakpoint(large) {
+      padding: rem(24);
+    }
+
+    + #{$self}__item {
+      margin-top: $margin-small;
+    }
   }
 
   &__title {
     position: relative;
     cursor: pointer;
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
 
     &:after {
       position: absolute;
@@ -31,9 +53,9 @@
       right: 0;
       width: rem(16);
       height: rem(16);
-      transform: translateY(-50%) scaleY(-1);
+      transform: translateY(-50%) rotate(180deg);
       transition: 0.25s transform;
-      // background-image: url('icons/icon-chevron-down'param(--color, $black));
+      background-image: url('icons/icon-chevron-down' param(--color, $grey-400));
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -41,7 +63,7 @@
     }
 
     #{$self}__item--closed &:after {
-      transform: translateY(-50%) scaleY(1);
+      transform: translateY(-50%) rotate(0);
     }
   }
 }

@@ -63,4 +63,18 @@
     text-align: center;
     grid-column: 1 / -1;
   }
+
+  &__accordions {
+    @include make-section;
+  }
+
+  &__accordionsHeading {
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+
+  &__accordionsButton {
+    margin-top: $margin-large;
+    text-align: center;
+  }
 }
