@@ -2,7 +2,6 @@ import React from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import smart from 'lib/utils/smartContent';
-import './IconTextBlock.scss';
 
 const IconTextBlock = ({ content, heading, className, icon }) => {
   const renderIcon = (icon) => {

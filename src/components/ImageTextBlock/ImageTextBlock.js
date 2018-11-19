@@ -2,7 +2,6 @@ import React from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import smart from 'lib/utils/smartContent';
-import './ImageTextBlock.scss';
 
 const ImageTextBlock = ({ content, heading, className, image }) => {
   const renderImage = (image) => {

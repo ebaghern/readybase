@@ -8,7 +8,6 @@ import menuItemShape from 'lib/propTypes/shape-menuItem';
 import menuItems from 'data/menu-footerNav';
 import contactInfo from 'data/contact';
 import ReadybaseLogo from 'static/images/readybase-logo.svg';
-import './Footer.scss';
 
 class Footer extends Component {
   static propTypes = {

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
-import './PageHeader.scss';
 
 const PageHeader = ({
   className,

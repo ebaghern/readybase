@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import smart from 'lib/utils/smartContent';
 import Link from 'next/link';
-import './ListGrid.scss';
 
 const ListGrid = ({ items }) => (
   <ul className="ListGrid">

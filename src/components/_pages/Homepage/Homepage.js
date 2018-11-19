@@ -8,7 +8,6 @@ import Team from './sections/HomepageTeam';
 import Testimonials from './sections/HomepageTestimonials';
 import teamMembers from 'data/team';
 import testimonials from 'data/testimonials';
-import './Homepage.scss';
 
 const HEADER_THEME = 'dark';
 const HEADING = `Meet the perfect freelancers for your projects.`;

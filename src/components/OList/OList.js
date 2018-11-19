@@ -2,7 +2,6 @@ import React from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import elementType from 'lib/propTypes/validation-elementType';
-import './OList.scss';
 
 const OList = ({ children }) => (
   <ol className="OList">

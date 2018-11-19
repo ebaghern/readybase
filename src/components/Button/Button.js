@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import Link from 'components/Link';
-import './Button.scss';
 
 class Button extends Component {
   static defaultProps = {

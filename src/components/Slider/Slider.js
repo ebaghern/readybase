@@ -2,7 +2,6 @@ import React from 'react';
 import SlickSlider from 'react-slick';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import './Slider.scss';
 
 const Slider = ({ settings, className, children }) => {
   const allSettings = {

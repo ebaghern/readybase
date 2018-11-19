@@ -3,7 +3,6 @@ import cx from 'classnames';
 import PropTypes from 'prop-types';
 import Slider from 'components/Slider';
 import breakpoints from 'lib/data/breakpoints';
-import './CardSlider.scss';
 
 const CardSlider = ({ settings, className, children }) => {
   const allSettings = {

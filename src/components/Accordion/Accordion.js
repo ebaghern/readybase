@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Accordion as Acc } from 'react-accessible-accordion';
 import classNames from 'classnames';
-import './Accordion.scss';
 
 const Accordion = ({ className, children, accordion, onChange }) => {
   return (

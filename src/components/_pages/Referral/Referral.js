@@ -13,7 +13,6 @@ import Header from './sections/ReferralHeader';
 import IconJoinProgram from 'static/images/img_join_program.svg';
 import IconSendLeads from 'static/images/img_send_leads.svg';
 import IconEarnMoney from 'static/images/img_earn_money.svg';
-import './Referral.scss';
 
 const HEADER_THEME = 'light';
 const HEADING = `Referral Program`;

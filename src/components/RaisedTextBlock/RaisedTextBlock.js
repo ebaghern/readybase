@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import './RaisedTextBlock.scss';
 
 const RaisedTextBlock = ({ children, className }) => {
   const baseClass = 'RaisedTextBlock';

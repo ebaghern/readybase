@@ -9,7 +9,6 @@ import IconSelfEmployed from 'static/images/img_self_employed.svg';
 import IconChangeGame from 'static/images/img_change_game.svg';
 import IconLearning from 'static/images/img_learning.svg';
 import IconConfidence from 'static/images/img_2confidence.svg';
-import './Mission.scss';
 
 const HEADER_THEME = 'light';
 const HEADING = `Mission and Core Values`;

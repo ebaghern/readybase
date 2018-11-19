@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import smart from 'lib/utils/smartContent';
-import './TeamCard.scss';
 
 const TeamCard = ({ name, title, img, location, bio }) => (
   <article className="TeamCard" aria-labelledby="">

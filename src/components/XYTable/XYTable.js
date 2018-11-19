@@ -9,7 +9,6 @@ import TableLabel from './components/XYTableLabel';
 import breakpoints from 'lib/data/breakpoints';
 import colShape from 'lib/propTypes/shape-xyTable';
 import weakKey from 'lib/utils/weakKey';
-import './XYTable.scss';
 
 class XYTable extends Component {
   static propTypes = {

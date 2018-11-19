@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import TestimonialCredit from 'components/TestimonialCredit';
-import './TestimonialCard.scss';
 
 const TestimonialCard = ({ content, className, ...creditProps }) => (
   <figure className={cx('TestimonialCard', className)}>

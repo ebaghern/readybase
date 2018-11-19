@@ -5,7 +5,6 @@ import MenuItem from './components/MenuItem';
 import MenuLink from './components/MenuLink';
 import shape from 'lib/propTypes/shape-menuItem';
 import sr from 'lib/utils/screenReaderText';
-import './Menu.scss';
 
 class Menu extends Component {
   static propTypes = {

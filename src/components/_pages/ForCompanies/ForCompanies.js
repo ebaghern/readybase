@@ -12,7 +12,6 @@ import IconPay from 'static/images/img_pay_perhour.svg';
 import IconApply from 'static/images/img_apply_freelancer.svg';
 import IconEvaluate from 'static/images/img_evaluate_each_other.svg';
 import IconFindGigs from 'static/images/img_find_freelance_gigs.svg';
-import './ForCompanies.scss';
 
 const HEADER_THEME = 'light';
 const HEADING = `For Companies`;

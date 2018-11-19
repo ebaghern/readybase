@@ -9,7 +9,6 @@ import menuItemShape from 'lib/propTypes/shape-menuItem';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
 import menuItems from 'data/menu-topNav';
 import ReadybaseLogo from 'static/images/readybase-logo.svg';
-import './Header.scss';
 
 class Header extends Component {
   static propTypes = {
