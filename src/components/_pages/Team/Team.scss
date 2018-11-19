@@ -1,0 +1,32 @@
+.Team {
+  $self: &;
+
+  &__teamCards {
+    @include make-section;
+    margin-top: 0;
+    @include breakpoint(medium) {
+      margin-top: 0;
+    }
+  }
+
+  &__teamCard {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include breakpoint(medium) {
+      .TeamCard__imgWrapper {
+        width: 30%;
+      }
+
+      .TeamCard__contentWrapper {
+        width: calc(70% - #{$margin-large});
+      }
+    }
+
+    & + & {
+      margin-top: rem(30);
+    }
+  }
+}

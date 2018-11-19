@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 
-const TeamCard = ({ name, title, img, location, bio }) => (
-  <article className="TeamCard" aria-labelledby="">
+const TeamCard = ({ className, name, title, img, location, bio }) => (
+  <article className={cx('TeamCard', className)} aria-labelledby="">
     {img &&
       img.src && (
         <div className="TeamCard__imgWrapper">
@@ -31,7 +32,8 @@ const TeamCard = ({ name, title, img, location, bio }) => (
 );
 
 TeamCard.propTypes = {
-  name: PropTypes.string,
+  className: PropTypes.string,
+  name: PropTypes.string.isRequired,
   title: PropTypes.string,
   bio: PropTypes.string,
   img: PropTypes.shape({

@@ -7,6 +7,11 @@
     background-color: lighten(desaturate($purple, 20%), 20%);
     overflow: hidden;
 
+    @include breakpoint(small down) {
+      @include block-center;
+      max-width: rem(360);
+    }
+
     &:after {
       display: block;
       padding-bottom: 100%;
