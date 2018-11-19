@@ -1,12 +1,11 @@
 import React from 'react';
 import cx from 'classnames';
 import Layout from 'components/Layout';
-
-
 import Header from './sections/ForFreelancersHeader';
 import Types from './sections/ForFreelancersTypes';
 import HowItWorks from './sections/ForFreelancersHowItWorks';
 import IconBlocks from './sections/ForFreelancersIconBlocks';
+import Engagements from './sections/ForFreelancersEngagements';
 import './ForFreelancers.scss';
 
 const HEADER_THEME = 'light';
@@ -24,6 +23,7 @@ const ForFreelancers = () => (
     <IconBlocks />
     <HowItWorks />
     <Types />
+    <Engagements />
   </Layout>
 );
 

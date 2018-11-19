@@ -74,4 +74,21 @@
     text-align: center;
     grid-column: 1 / -1;
   }
+
+  &__engagements {
+    @include make-section;
+    text-align: center;
+  }
+
+  &__engagementsHeading {
+    margin-bottom: 2em;
+  }
+
+  &__engagementsWrapper {
+    display: grid;
+    gap: $margin-large;
+    @include breakpoint(medium) {
+      grid-template: auto / repeat(3, 1fr);
+    }
+  }
 }
