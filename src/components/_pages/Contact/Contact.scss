@@ -1,0 +1,40 @@
+.Contact {
+
+  &__formSection {
+    @include make-section;
+    margin-top: 0;
+    @include breakpoint(medium) {
+      margin-top: 0;
+    }
+  }
+
+  &__form {
+    @include block-center;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: rem(800);
+  }
+
+  &__input,
+  &__textArea {
+    flex-shrink: 0;
+    width: 100%;
+    margin-bottom: $margin-small;
+    @include breakpoint(medium) {
+      margin-bottom: $margin-large;
+    }
+  }
+
+  .Input__field {
+    &--textarea {
+      @include breakpoint(medium) {
+        min-height: rem(180);
+      }
+    }
+  }
+
+  &__button {
+    width: rem(280);
+    max-width: 100%;
+  }
+}
