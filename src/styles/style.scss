@@ -9,6 +9,7 @@
 @import '../components/Button/Button';
 @import '../components/CardSlider/CardSlider';
 @import '../components/Footer/Footer';
+@import '../components/Form/Form';
 @import '../components/Hamburger/Hamburger';
 @import '../components/Header/Header';
 @import '../components/IconTextBlock/IconTextBlock';
@@ -26,7 +27,7 @@
 @import '../components/TestimonialCredit/TestimonialCredit';
 @import '../components/XYTable/XYTable';
 
-// @import '../components/_templates/LandingPage/LandingPage';
+@import '../components/_templates/LandingPage/LandingPage';
 @import '../components/_pages/Homepage/Homepage';
 @import '../components/_pages/Mission/Mission';
 @import '../components/_pages/Referral/Referral';
@@ -34,3 +35,7 @@
 @import '../components/_pages/ForFreelancers/ForFreelancers';
 @import '../components/_pages/Team/Team';
 @import '../components/_pages/Contact/Contact';
+@import '../components/_pages/AccessFreelancer/AccessFreelancer';
+@import '../components/_pages/BecomeFreelancer/BecomeFreelancer';
+@import '../components/_pages/ScheduleCall/ScheduleCall';
+@import '../components/_pages/CallConfirmed/CallConfirmed';

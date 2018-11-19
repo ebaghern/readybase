@@ -13,4 +13,25 @@
   > *:last-child {
     margin-bottom: 0;
   }
+
+  &__imgWrapper {
+    flex-shrink: 0;
+    width: rem(80);
+    height: rem(80);
+    margin-bottom: rem(24);
+    border-radius: rem(40);
+    overflow: hidden;
+    @include breakpoint(medium) {
+      width: rem(120);
+      height: rem(120);
+      border-radius: rem(60);
+    }
+  }
+
+  &__img {
+    min-width: 100%;
+    max-width: none;
+    min-height: 100%;
+    max-height: 100%;
+  }
 }

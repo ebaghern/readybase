@@ -40,10 +40,10 @@ textarea {
 }
 
 select {
-  padding-right: 1rem;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28238, 46, 36%29'></polygon></svg>"); // sass-lint:disable-line quotes
+  padding-right: 2rem;
+  background-image: url('icons/icon-chevron-down' param(--color, $black));
   background-repeat: no-repeat;
   background-position: right -1rem center;
-  background-size: rem(9) rem(6);
+  background-size: rem(16) rem(8);
   background-origin: content-box;
 }

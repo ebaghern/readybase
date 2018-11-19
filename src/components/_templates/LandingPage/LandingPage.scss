@@ -1,0 +1,75 @@
+.LandingPage {
+  @include breakpoint(medium) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  &__inner {
+    display: grid;
+    flex-grow: 1;
+    width: 100%;
+    padding: $margin-small;
+    gap: $margin-large;
+    @include breakpoint(medium) {
+      @include block-center;
+      max-width: $container-width;
+      padding: rem(20);
+    }
+    @include breakpoint(large) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: rem(130);
+    }
+  }
+
+  &__header {
+    $self: &;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: $margin-small;
+    background-color: transparent;
+    @include breakpoint(medium) {
+      @include block-center;
+      max-width: $container-width;
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      padding: rem(20);
+      // z-index: 10;
+    }
+  }
+
+  &__logoWrapper {
+    position: relative;
+    width: 100%;
+    max-width: rem(200);
+
+    @include breakpoint(medium) {
+      max-width: rem(245);
+    }
+  }
+
+  &__logo {
+    width: 100%;
+  }
+
+  &__pageTitle {
+    @include srt;
+  }
+
+  &__footer {
+    @include remove-inner-vertical-margins;
+    @include block-center;
+    align-self: flex-end;
+    width: 100%;
+    max-width: $container-width;
+    padding: $margin-small;
+    @include breakpoint(medium) {
+      padding: rem(20);
+    }
+  }
+}

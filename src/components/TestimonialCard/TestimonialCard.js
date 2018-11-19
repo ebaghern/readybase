@@ -4,18 +4,35 @@ import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import TestimonialCredit from 'components/TestimonialCredit';
 
-const TestimonialCard = ({ content, className, ...creditProps }) => (
+const TestimonialCard = ({
+  imgLocation,
+  content,
+  className,
+  img,
+  ...creditProps
+}) => (
   <figure className={cx('TestimonialCard', className)}>
+    {imgLocation === 'top' &&
+      img && (
+        <div className="TestimonialCard__imgWrapper">
+          <img className="TestimonialCard__img" {...img} />
+        </div>
+      )}
     <blockquote className="TestimonialCard__quote">
       <p>{smart(content)}</p>
     </blockquote>
     <TestimonialCredit
+      img={imgLocation === 'bottom' ? img : undefined}
       className="TestimonialCard__caption"
       wrapperTag="figcaption"
       {...creditProps}
     />
   </figure>
 );
+
+TestimonialCard.defaultProps = {
+  imgLocation: 'bottom'
+};
 
 TestimonialCard.propTypes = {
   className: PropTypes.string,
@@ -26,6 +43,7 @@ TestimonialCard.propTypes = {
     src: PropTypes.string,
     alt: PropTypes.string
   }),
+  imgLocation: PropTypes.oneOf(['top', 'bottom']),
   location: PropTypes.shape({
     city: PropTypes.string,
     state: PropTypes.string,

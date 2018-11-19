@@ -1,0 +1,13 @@
+.Form {
+
+  &__input,
+  &__textArea,
+  &__select {
+    flex-shrink: 0;
+    width: 100%;
+    margin-bottom: $margin-small;
+    @include breakpoint(medium) {
+      margin-bottom: $margin-large;
+    }
+  }
+}

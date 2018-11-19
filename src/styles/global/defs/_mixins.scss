@@ -370,3 +370,12 @@
     padding: 0 $margin-large;
   }
 }
+
+@mixin remove-inner-vertical-margins {
+  > *:first-child {
+    margin-top: 0;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
