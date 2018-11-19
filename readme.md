@@ -11,12 +11,12 @@ WIP.
 
 ## Milestones
 - [x] ~~Component Architecture~~ (100%)
-- [x] ~~_Major components presentationally complete_~~ (100%)
-- [ ] **_All pages provided in mockups structurally complete on desktop_** (7/11)
-  - [x] ~~Main pages (7/7)~~
-  - [ ] Landing pages (0/4) 
+- [x] ~~Major components presentationally complete~~ (100%)
+- [ ] ~~All pages provided in mockups structurally complete on desktop~~ (11/11)
+  - [x] ~~Main pages~~ (7/7)
+  - [x] ~~Landing pages~~ (4/4)
 - [ ] **_Basic styling complete for desktop (presentationally ready to review)_** (80%)
-- [ ] **_All static styling and graphics polished for desktop (not including animations/transitions)_**
+- [ ] All static styling and graphics polished for desktop (not including animations/transitions)
 - [ ] Media query refinement
 - [ ] Integrations/functionality
   - [ ] Contact forms
