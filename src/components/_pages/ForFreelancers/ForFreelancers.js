@@ -6,6 +6,7 @@ import Types from './sections/ForFreelancersTypes';
 import HowItWorks from './sections/ForFreelancersHowItWorks';
 import IconBlocks from './sections/ForFreelancersIconBlocks';
 import Engagements from './sections/ForFreelancersEngagements';
+import CallToAction from './sections/ForFreelancersCallToAction';
 import './ForFreelancers.scss';
 
 const HEADER_THEME = 'light';
@@ -24,6 +25,7 @@ const ForFreelancers = () => (
     <HowItWorks />
     <Types />
     <Engagements />
+    <CallToAction />
   </Layout>
 );
 
