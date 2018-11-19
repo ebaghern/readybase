@@ -27,13 +27,23 @@ const routes = [
     priority: '.07'
   },
   {
+    page: 'team',
+    prettyUrl: '/our-team',
+    priority: '.07'
+  },
+  {
+    page: 'contact',
+    prettyUrl: '/contact-us',
+    priority: '.07'
+  },
+  {
     page: 'post',
-    prettyUrl: ({ slug = '' }) => `/blog/${slug}`,
+    prettyUrl: ({ slug }) => `/blog/${slug}`,
     prettyUrlPatterns: [
       {
         pattern: '/blog/:slug',
         defaultParams: {
-          apiRoute: 'post'
+          slug: ''
         }
       }
     ],
@@ -41,10 +51,13 @@ const routes = [
   },
   {
     page: 'team-member',
-    prettyUrl: ({ slug = '' }) => `/team/${slug}`,
+    prettyUrl: ({ slug }) => `/team/${slug}`,
     prettyUrlPatterns: [
       {
-        pattern: '/team/:slug'
+        pattern: '/team/:slug',
+        defaultParams: {
+          slug: ''
+        }
       }
     ],
     priority: '.05'
