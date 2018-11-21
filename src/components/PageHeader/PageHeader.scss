@@ -60,7 +60,10 @@
   }
 
   &--dark {
-    background: $color-primary;
+    background-image: url('flare-hero-home');
+    background-repeat: no-repeat;
+    background-position: 16%;
+    background-size: auto 100%;
     color: $white;
 
     a:not(.Button) {

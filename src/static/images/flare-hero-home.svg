@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2788.09 524.24">
+  <defs>
+    <linearGradient id="flare-hero-home-a" x1="764.21" y1="747.13" x2="2007.44" y2="-604.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f14f4"/>
+      <stop offset="1" stop-color="#4d35e2"/>
+    </linearGradient>
+    <linearGradient id="flare-hero-home-b" x1="808.94" y1="665.42" x2="916.51" y2="-177.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b364e2"/>
+      <stop offset="1" stop-color="#4d35e2"/>
+    </linearGradient>
+    <linearGradient id="flare-hero-home-c" x1="895.16" y1="66.38" x2="738.07" y2="571.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <path d="M114.91,0c13.68,122.37,54.64,202.6,91.82,254.8C596.51,802.13,2036.29,326,2146,288.72A3741.79,3741.79,0,0,0,2788.09,0Z" style="fill: url(#flare-hero-home-a)"/>
+  <path d="M0,0C159.78,585.68,842.11,803.84,1787.68,0Z" style="opacity: 0.10000000149011612;isolation: isolate;fill: url(#flare-hero-home-b)"/>
+  <path d="M261.49,0c9.62,93.9,41.4,221.41,139.3,284,122,78,278,76,442,58,143.67-15.77,273.63,33,378.94,156.27,60.1-6.79,119.77-15.2,178.19-24.74,49.72-87.86,125-256.24,127.34-473.53Z" style="fill: url(#flare-hero-home-c)"/>
+</svg>
