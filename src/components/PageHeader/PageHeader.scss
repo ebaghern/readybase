@@ -1,5 +1,6 @@
 .PageHeader {
   $self: &;
+  position: relative;
   padding: rem(80) 0 rem(40);
   text-align: center;
   @include breakpoint(medium) {
@@ -77,5 +78,41 @@
 
   > *:first-child {
     margin-top: 0;
+  }
+
+  &__donut {
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: rem(100);
+    height: rem(100);
+    opacity: 0;
+    animation: rise-and-spin 15s linear infinite;
+    pointer-events: none;
+
+    &:nth-child(2) {
+      left: 30%;
+      width: rem(80);
+      height: rem(80);
+      animation-delay: 3s;
+    }
+    &:nth-child(3) {
+      left: 49%;
+      width: rem(110);
+      height: rem(110);
+      animation-delay: 8s;
+    }
+    &:nth-child(4) {
+      left: 72%;
+      width: rem(60);
+      height: rem(60);
+      animation-delay: 10s;
+    }
+    &:nth-child(5) {
+      left: 90%;
+      width: rem(80);
+      height: rem(80);
+      animation-delay: 15s;
+    }
   }
 }

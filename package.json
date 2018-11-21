@@ -20,7 +20,6 @@
   "browserslist": "> 0.25%, Explorer 11",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "array.prototype.find": "^2.0.4",
     "classnames": "^2.2.6",
     "express": "^4.16.4",
     "fontfaceobserver": "^2.0.13",

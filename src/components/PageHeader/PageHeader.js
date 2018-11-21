@@ -1,45 +1,69 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
+import Donut from 'static/images/donut-dark.svg';
 
-const PageHeader = ({
-  className,
-  theme,
-  heading,
-  subHeading,
-  content,
-  children
-}) => (
-  <section className={cx(className, 'PageHeader', `PageHeader--${theme}`)}>
-    <div className="PageHeader__contentWrapper">
-      {heading && <h1 className="PageHeader__heading">{smart(heading)}</h1>}
-      {subHeading && (
-        <h2 className="PageHeader__subHeading">{smart(subHeading)}</h2>
-      )}
-      {content &&
-        (React.isValidElement(content) ? (
-          <div className="PageHeader__content">{content}</div>
-        ) : (
-          <p className="PageHeader__content">{smart(content)}</p>
-        ))}
-      {children && children('PageHeader')}
-    </div>
-  </section>
-);
+class PageHeader extends Component {
+  static propTypes = {
+    className: PropTypes.string,
+    theme: PropTypes.oneOf(themeOptions),
+    heading: PropTypes.string,
+    subHeading: PropTypes.string,
+    children: PropTypes.func,
+    content: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
+  };
 
-PageHeader.propTypes = {
-  className: PropTypes.string,
-  theme: PropTypes.oneOf(themeOptions),
-  heading: PropTypes.string,
-  subHeading: PropTypes.string,
-  children: PropTypes.func,
-  content: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
-};
+  static defaultProps = {
+    theme: 'light'
+  };
 
-PageHeader.defaultProps = {
-  theme: 'light'
-};
+  _wrapperEl = React.createRef();
+
+  /* componentDidMount() {
+    const { current } = this._wrapperEl;
+    if (current) {
+    }
+  } */
+
+  render() {
+    const {
+      className,
+      theme,
+      heading,
+      subHeading,
+      content,
+      children
+    } = this.props;
+    return (
+      <section
+        className={cx(className, 'PageHeader', `PageHeader--${theme}`)}
+        ref={this._wrapperEl}
+      >
+        <div className="PageHeader__contentWrapper">
+          {heading && <h1 className="PageHeader__heading">{smart(heading)}</h1>}
+          {subHeading && (
+            <h2 className="PageHeader__subHeading">{smart(subHeading)}</h2>
+          )}
+          {content &&
+            (React.isValidElement(content) ? (
+              <div className="PageHeader__content">{content}</div>
+            ) : (
+              <p className="PageHeader__content">{smart(content)}</p>
+            ))}
+          {children && children('PageHeader')}
+        </div>
+        <div className="PageHeader__donuts" aria-hidden>
+          <Donut className="PageHeader__donut" />
+          <Donut className="PageHeader__donut" />
+          <Donut className="PageHeader__donut" />
+          <Donut className="PageHeader__donut" />
+          <Donut className="PageHeader__donut" />
+        </div>
+      </section>
+    );
+  }
+}
 
 export default PageHeader;

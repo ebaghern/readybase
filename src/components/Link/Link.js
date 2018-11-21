@@ -1,6 +1,6 @@
 import React from 'react';
 import NextLink from 'next/link';
-import find from 'array.prototype.find';
+import { find } from 'lodash';
 import { routes } from 'src/config/routes';
 
 const Link = ({ href, children, ...rest }) => {

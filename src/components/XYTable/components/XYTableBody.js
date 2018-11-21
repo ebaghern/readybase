@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import colShape from 'lib/propTypes/shape-xyTable';
-import find from 'array.prototype.find';
+import { find } from 'lodash';
 import weakKey from 'lib/utils/weakKey';
 
 const XYTableBody = ({ cols, rows }) => (

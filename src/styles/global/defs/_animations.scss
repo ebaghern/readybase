@@ -89,3 +89,30 @@
     opacity: 1;
   }
 }
+
+@keyframes rise-and-spin {
+  0% {
+    transform: translateY(0) rotate(0) scale(1);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(-200px) rotate(0.25turn) scale(1);
+    opacity: 0.3;
+  }
+  40% {
+    transform: translateY(-400px) rotate(0.75turn) scale(1.125);
+    opacity: 0.6;
+  }
+  60% {
+    transform: translateY(-600px) rotate(1.5turn)  scale(1.25);
+    opacity: 0.9;
+  }
+  80% {
+    transform: translateY(-800px) rotate(2.5turn) scale(1.75);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(4turn) scale(2);
+    opacity: 0;
+  }
+}
