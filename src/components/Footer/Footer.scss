@@ -32,6 +32,18 @@
       display: grid;
       column-gap: rem(90);
       grid-template: auto / 1fr 1fr;
+      row-gap: rem(10);
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__contactInfo {
+    @include remove-inner-vertical-margins;
+    font-style: normal;
+    a {
+      text-decoration: none;
     }
   }
 

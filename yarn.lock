@@ -8421,6 +8421,11 @@ property-expr@^1.5.0:
   resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-1.5.1.tgz#22e8706894a0c8e28d58735804f6ba3a3673314f"
   integrity sha512-CGuc0VUTGthpJXL36ydB6jnbyOf/rAHFvmVrJlH+Rg0DqqLFQGAP6hIaxD/G0OAmBJPhXDHuEJigrp0e0wFV6g==
 
+protect-email@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/protect-email/-/protect-email-0.1.2.tgz#707618af4526887ad94e092d94d23cf3c3058c1f"
+  integrity sha512-TdKxhiAt/dwCyT84LcIhTeQiU1da25cUrJdu2sXRVeDN28b++AQ09Y6QXt27Ive8vYENBavQMOYn1OT0NbiIGw==
+
 proxy-addr@~2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.4.tgz#ecfc733bf22ff8c6f407fa275327b9ab67e48b93"

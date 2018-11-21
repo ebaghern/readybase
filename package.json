@@ -35,6 +35,7 @@
     "postcss-preset-env": "^6.2.0",
     "postcss-svg": "^2.4.0",
     "prop-types": "^15.6.2",
+    "protect-email": "^0.1.2",
     "react": "^16.6.0",
     "react-accessible-accordion": "^2.4.5",
     "react-dom": "^16.6.0",

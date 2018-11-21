@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
+import { protectEmail } from 'protect-email';
 import Button from 'components/Button';
 import Menu from 'components/Menu';
 import smart from 'lib/utils/smartContent';
@@ -23,7 +24,8 @@ class Footer extends Component {
 
   render() {
     const { className, contactInfo, menuItems } = this.props;
-    const { address, email } = contactInfo;
+    const { address } = contactInfo;
+    const email = protectEmail(contactInfo.email);
     return (
       <footer className={cx('Footer', className)}>
         <div className="Footer__contentWrapper">
@@ -39,7 +41,7 @@ class Footer extends Component {
               <br />
               {`${address.city}, ${address.state} ${address.zip}`}
             </p>
-            <p>{email}</p>
+            <p className="Footer__email" dangerouslySetInnerHTML={{ __html: `<a href="mailto:${email}">${email}</a>` }} />
           </address>
           <div className="Footer__buttonGroup">
             <Button>Gain Access to Freelancers</Button>
