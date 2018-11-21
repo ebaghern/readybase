@@ -12,7 +12,7 @@
   }
 
   @include breakpoint(medium) {
-    margin: rem(100) 0 0;
+    margin: rem(-200) 0 0;
     padding: rem(380) $margin-large rem(40);
   }
 
