@@ -1,7 +1,10 @@
 .Footer {
   margin: rem(40) 0 0;
   padding: rem(200) $margin-small rem(40);
-  background-color: $color-primary;
+  background-image: url('flare-footer');
+  background-repeat: no-repeat;
+  background-position: 65% 100%;
+  background-size: auto 100%;
   color: $white;
 
   a:not(.Button) {
@@ -10,7 +13,7 @@
 
   @include breakpoint(medium) {
     margin: rem(100) 0 0;
-    padding: rem(240) $margin-large rem(40);
+    padding: rem(380) $margin-large rem(40);
   }
 
   &__contentWrapper {
