@@ -21,31 +21,31 @@ const HomepageImageBlocks = () => (
             )}
           </p>
           <TestimonialCredit name="John Doe" title="EVP of Sales" />
-          <Button>Gain Access a Freelancer</Button>
+          <Button>Gain Access to Freelancers</Button>
         </>
       )}
     />
     <ImageTextBlock
       className="Homepage__imageTextBlock"
-      heading="Freelancers vetted by us, ready for you"
+      heading="A freelancer base vetted by us. Ready for you."
       image={<ImageVetted />}
-      content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi."
+      content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
     />
     <ImageTextBlock
       className="Homepage__imageTextBlock"
-      heading="Talent manager to help manage your freelance team"
+      heading="Talent manager to help manage your freelance team. Free."
       image={<ImageTalentManager />}
-      content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi."
+      content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
     />
     <ImageTextBlock
       className="Homepage__imageTextBlock"
-      heading="Long-term and short-term gigs from 6 months to 3 days"
+      heading="Long-term and short-term gigs. From 6 months to 3 days"
       image={<ImageLongTerm />}
       content={(smart) => (
         <>
           <p>
             {smart(
-              `Nisi proin posuere senectus viverra montes nunc in euismod congue, duis lorem litora varius aliquet lobortis vitae quisque netus ante, ornare phasellus malesuada sodales gravida nibh cubilia morbi.`
+              `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.`
             )}
           </p>
           <Button>Gain Access a Freelancer</Button>

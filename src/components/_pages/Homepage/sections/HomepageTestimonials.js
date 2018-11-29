@@ -5,8 +5,8 @@ import TestimonialCard from 'components/TestimonialCard';
 const HomepageTestimonials = ({ testimonials }) => (
   <section className="Homepage__testimonials">
     <header>
-      <h2>What our clients are saying</h2>
-      <p>Humpty dumpty had a great fall</p>
+      <h2>You're In Good Company</h2>
+      <p>Companies like yours use ReadyBase to get projects completed.</p>
     </header>
 
     {testimonials && (

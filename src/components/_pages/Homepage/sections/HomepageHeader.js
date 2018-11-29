@@ -16,7 +16,7 @@ const HomepageHeader = (props) => (
           Are you a freelancer?{' '}
           <Link href="#">
             <a>
-              <strong>Apply Now</strong>
+              <strong>Apply.</strong>
             </a>
           </Link>
         </p>

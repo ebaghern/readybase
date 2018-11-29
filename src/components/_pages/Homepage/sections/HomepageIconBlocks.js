@@ -10,35 +10,35 @@ import IconFindFreelancer from 'static/images/img_find_freelancer.svg';
 
 const iconGroupA = [
   {
-    heading: 'Get Project Done',
+    heading: 'Get Projects Done',
     content: `New initiatives that will grow your company.`,
     icon: <IconGetProjectDone />
   },
   {
-    heading: 'Move work of your plate',
+    heading: 'Move Work Off Your plate',
     content: `Delegates tasks to a pre-vetted network of freelancers.`,
     icon: <IconMoveWork />
   },
   {
-    heading: 'Gain an Extandable team',
-    content: `A  whole new team of resources. Without distracting your company.`,
+    heading: 'Gain an Extendable team',
+    content: `A whole new team of resources. Without distracting your company.`,
     icon: <IconGainTeam />
   }
 ];
 
 const iconGroupB = [
   {
-    heading: 'Gain Access',
+    heading: '1. Gain access',
     content: `Use our “Gain access to freelancers” button to get started.`,
     icon: <IconGainAccess />
   },
   {
-    heading: 'Tell us your need',
-    content: `Tell us about what you're looking for. We’ll schedule a call to get further info.`,
+    heading: '2. Tell us your need',
+    content: `Tell us what you're looking for. We’ll schedule a call to get further info.`,
     icon: <IconYourNeed />
   },
   {
-    heading: 'We find the freelancer',
+    heading: '3. We find the freelancer',
     content: `Based on culture fit, skillset, and timeline need.`,
     icon: <IconFindFreelancer />
   }
@@ -55,14 +55,14 @@ const HomepageIconBlocks = () => {
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(iconGroupA)}
         </div>
-        <Button>Gain Access a Freelancer</Button>
+        <Button>Gain Access to Freelancers</Button>
       </section>
       <section className="Homepage__iconBlocks">
-        <h2 className="Homepage__iconBlocksHeading">How It works?</h2>
+        <h2 className="Homepage__iconBlocksHeading">How It works</h2>
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(iconGroupB)}
         </div>
-        <Button>Gain Access a Freelancer</Button>
+        <Button>Gain Access to Freelancers</Button>
       </section>
     </>
   );

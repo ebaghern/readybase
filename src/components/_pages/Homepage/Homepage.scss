@@ -2,7 +2,11 @@
 
   &__pageHeader {
     .PageHeader__content {
-      max-width: rem(440);
+      max-width: rem(480);
+    }
+
+    .PageHeader__heading {
+      max-width: rem(800);
     }
   }
 
