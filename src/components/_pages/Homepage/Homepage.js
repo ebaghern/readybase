@@ -10,8 +10,9 @@ import teamMembers from 'data/team';
 import testimonials from 'data/testimonials';
 
 const HEADER_THEME = 'dark';
-const HEADING = `Meet the perfect freelancers for your projects.`;
-const CONTENT = `We'll help you find developers, data scientists, and designers that fit seamlessly with your project needs and culture.`;
+const HEADING = `Gain a powerful network of freelancers with just your email address.`;
+const CONTENT = `Find developers, data scientists, and designers to take on special projects with the support of our talent team.
+Matched to your culture and needs.`;
 
 const Homepage = () => (
   <Layout className="Homepage" title="Readybase" headerTheme={HEADER_THEME}>

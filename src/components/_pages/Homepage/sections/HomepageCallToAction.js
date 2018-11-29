@@ -12,7 +12,7 @@ const HomepageCallToAction = () => (
             className={cx(`${baseClass}__heading`, 'Homepage__calloutHeading')}
           >
             Get more done with freelancer power.
-            <br /> Make your impact, Build Your Vision
+            <br /> Make your impact. Build Your Vision.
           </h2>
           <div
             className={cx(
@@ -20,7 +20,7 @@ const HomepageCallToAction = () => (
               'Homepage__calloutContent'
             )}
           >
-            <Button>Gain Access to a Freelancer</Button>
+            <Button>Gain Access to Freelancers</Button>
             <Button>Become a ReadyBase Freelancer</Button>
           </div>
         </>
