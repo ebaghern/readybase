@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
-import Donut from 'static/images/donut-dark.svg';
 
 class PageHeader extends Component {
   static propTypes = {
@@ -53,13 +52,6 @@ class PageHeader extends Component {
               <p className="PageHeader__content">{smart(content)}</p>
             ))}
           {children && children('PageHeader')}
-        </div>
-        <div className="PageHeader__donuts" aria-hidden>
-          <Donut className="PageHeader__donut" />
-          <Donut className="PageHeader__donut" />
-          <Donut className="PageHeader__donut" />
-          <Donut className="PageHeader__donut" />
-          <Donut className="PageHeader__donut" />
         </div>
       </section>
     );
