@@ -1,28 +1,31 @@
 import React from 'react';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
-import IconGetProjectDone from 'static/images/img_get_project_done.svg';
-import IconMoveWork from 'static/images/img_move_work.svg';
-import IconGainTeam from 'static/images/img_gain_team.svg';
-import IconGainAccess from 'static/images/img_gain_access.svg';
-import IconYourNeed from 'static/images/img_your_need.svg';
-import IconFindFreelancer from 'static/images/img_find_freelancer.svg';
 
 const iconGroupA = [
   {
     heading: 'Get Projects Done',
     content: `New initiatives that will grow your company.`,
-    icon: <IconGetProjectDone />
+    icon: {
+      src: 'static/images/img_get_project_done.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Move Work Off Your plate',
     content: `Delegates tasks to a pre-vetted network of freelancers.`,
-    icon: <IconMoveWork />
+    icon: {
+      src: 'static/images/img_move_work.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Gain an Extendable team',
     content: `A whole new team of resources. Without distracting your company.`,
-    icon: <IconGainTeam />
+    icon: {
+      src: 'static/images/img_gain_team.svg',
+      alt: ''
+    }
   }
 ];
 
@@ -30,17 +33,26 @@ const iconGroupB = [
   {
     heading: '1. Gain access',
     content: `Use our “Gain access to freelancers” button to get started.`,
-    icon: <IconGainAccess />
+    icon: {
+      src: 'static/images/img_gain_access.svg',
+      alt: ''
+    }
   },
   {
     heading: '2. Tell us your need',
     content: `Tell us what you're looking for. We’ll schedule a call to get further info.`,
-    icon: <IconYourNeed />
+    icon: {
+      src: 'static/images/img_your_need.svg',
+      alt: ''
+    }
   },
   {
     heading: '3. We find the freelancer',
     content: `Based on culture fit, skillset, and timeline need.`,
-    icon: <IconFindFreelancer />
+    icon: {
+      src: 'static/images/img_find_freelancer.svg',
+      alt: ''
+    }
   }
 ];
 

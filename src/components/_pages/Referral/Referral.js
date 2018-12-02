@@ -10,9 +10,6 @@ import Accordion, {
   AccordionItemTitle
 } from 'components/Accordion';
 import Header from './sections/ReferralHeader';
-import IconJoinProgram from 'static/images/img_join_program.svg';
-import IconSendLeads from 'static/images/img_send_leads.svg';
-import IconEarnMoney from 'static/images/img_earn_money.svg';
 
 const HEADER_THEME = 'light';
 const HEADING = `Referral Program`;
@@ -21,17 +18,26 @@ const ICON_GROUP = [
   {
     heading: 'Get Project Done',
     content: `New initiatives that will grow your company.`,
-    icon: <IconJoinProgram />
+    icon: {
+      src: 'static/images/img_join_program.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Move work of your plate',
     content: `Delegates tasks to a pre-vetted network of freelancers.`,
-    icon: <IconSendLeads />
+    icon: {
+      src: 'static/images/img_send_leads.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Gain an Extandable team',
     content: `A  whole new team of resources. Without distracting your company.`,
-    icon: <IconEarnMoney />
+    icon: {
+      src: 'static/images/img_earn_money.svg',
+      alt: ''
+    }
   }
 ];
 const TEXT_BLOCKS = [

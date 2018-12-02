@@ -1,0 +1,488 @@
+<svg id="e4fcb340-9c2a-409c-80ff-e5abce149347" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 526 420">
+  <defs>
+    <mask id="f5ae7267-8005-4378-97f2-e587f65d829d" x="31" y="0.15" width="454" height="383.85" maskUnits="userSpaceOnUse">
+      <g id="a1f0c236-5713-4411-8a98-7957657fe2c3" data-name="mask-2">
+        <path id="a824db20-26cb-4302-9314-b9003b3dd055" data-name="path-1" d="M260,5C384.24,5,485,105.67,485,229.85S362.42,455.53,273.31,318.39,31,305.42,31,181.24,135.66,5,260,5Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="a6330c67-6c87-4065-bfa6-b19f682c87ff" x1="13.51" y1="460.38" x2="13.24" y2="464.07" gradientTransform="translate(-4687.98 -73571.01) scale(370.38 159.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5818be"/>
+    </linearGradient>
+    <linearGradient id="e95cbbe8-eab0-4bfd-a84c-27748da24c46" x1="13.53" y1="460.35" x2="13.19" y2="459.3" gradientTransform="matrix(116, 0, 0, -68.25, -1211, 31430.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f14f4"/>
+      <stop offset="1" stop-color="#4d35e2"/>
+    </linearGradient>
+    <linearGradient id="aa846a7e-3d6f-4c6c-bb39-9469bd9033ac" x1="13.46" y1="460.09" x2="13.11" y2="459.05" gradientTransform="matrix(78, 0, 0, -46.75, -816, 21553.49)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <mask id="a7f739ea-70a4-40c6-b236-5c3c1031a72a" x="159.38" y="371.48" width="43.45" height="20.73" maskUnits="userSpaceOnUse">
+      <g id="bfef98a9-567c-4f06-8344-2df9bb371459" data-name="mask-6">
+        <path id="bc114ae4-578b-4b45-8edb-cf0ac30513c0" data-name="path-5" d="M162.41,372.48a48,48,0,0,1,0,7.52,42.59,42.59,0,0,1-1.07,5h0a2.64,2.64,0,0,0,1.9,3.23,3,3,0,0,0,.43.07q31.34,2.85,32.42-2c1.14-5.13-18.39-5.36-22.71-14.81Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="a71f8f7a-1386-4671-a7ad-64f1ca8a4fdd" x="161.25" y="371.48" width="34.88" height="17.91" maskUnits="userSpaceOnUse">
+      <g id="a0b5dcdf-9be8-46fa-a007-bc2092b9fdd2" data-name="mask-6">
+        <path id="a2fcd6e2-211f-4431-a168-d22c8e899080" data-name="path-5" d="M162.41,372.48a48,48,0,0,1,0,7.52,42.59,42.59,0,0,1-1.07,5h0a2.64,2.64,0,0,0,1.9,3.23,3,3,0,0,0,.43.07q31.34,2.85,32.42-2c1.14-5.13-18.39-5.36-22.71-14.81Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="a4e14ef4-14b2-4143-9391-e40f8d666670" x="107.76" y="181.56" width="71.68" height="196.02" maskUnits="userSpaceOnUse">
+      <g id="e3eeffa0-a029-454b-b538-a2e28ae0a731" data-name="mask-8">
+        <path id="fdbf31c4-3406-4709-9807-a502c96caa62" data-name="path-7" d="M127.35,181.56Q141.45,258.71,148.7,285q-1.09,18.28,0,26c4.8,34,13.47,55.78,13.8,61.64s.33,4.38,1,4.86c.46.33,1.65-.34,3.59-2q6.61,0,6.67-2.85V182.37Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="ed195fa0-0ffd-4bb6-88fe-1b8fd83770a8" x="127.35" y="181.56" width="51.17" height="196.02" maskUnits="userSpaceOnUse">
+      <g id="a17500f4-d54f-4346-aa7c-e27bf538bdcc" data-name="mask-8">
+        <path id="b69b708e-e1b6-458a-b2ca-fb3a37797279" data-name="path-7" d="M127.35,181.56Q141.45,258.71,148.7,285q-1.09,18.28,0,26c4.8,34,13.47,55.78,13.8,61.64s.33,4.38,1,4.86c.46.33,1.65-.34,3.59-2q6.61,0,6.67-2.85V182.37Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="ef09d26b-39e6-4847-979e-74ec5819c5c0" x="104.87" y="373" width="40.28" height="21.05" maskUnits="userSpaceOnUse">
+      <g id="f60f2846-7b39-4892-9b35-96b55c4d6916" data-name="mask-10">
+        <path id="b36d8c87-6262-4636-a0bb-440db21040a5" data-name="path-9" d="M109.5,374.5l-3,11.75a4,4,0,0,0,2.88,4.83l.41.08q32,4.57,33.48-1c1.54-5.91-19.1-6.57-23.31-17.2Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="bf7d91d5-4ac8-46a5-8f73-605dffa216ed" x="104.6" y="180.84" width="74.84" height="196.02" maskUnits="userSpaceOnUse">
+      <g id="e0f7ff2d-f59c-488c-b391-20c01cfd0aba" data-name="mask-12">
+        <path id="a00ea4a2-67fa-487f-9750-8dc6a949cce4" data-name="path-11" d="M117.3,180.84q-9.64,18.58-10.12,46-.18,9.66,3.12,53.37Q99.5,304,109.18,374c-.45,1.91.84,2.86,3.89,2.86A10.05,10.05,0,0,0,120.5,374q8.5-66,11.92-89c3.42-23,24-71.56,28.07-100.12Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="ad572506-5d97-4c46-be3a-9e1214480137" x="101.62" y="180.84" width="58.87" height="196.02" maskUnits="userSpaceOnUse">
+      <g id="a645a518-2bc2-4368-ab61-3d289cc5406c" data-name="mask-12">
+        <path id="a1359dfe-ae4a-4882-8828-c71aae80e00e" data-name="path-11" d="M117.3,180.84q-9.64,18.58-10.12,46-.18,9.66,3.12,53.37Q99.5,304,109.18,374c-.45,1.91.84,2.86,3.89,2.86A10.05,10.05,0,0,0,120.5,374q8.5-66,11.92-89c3.42-23,24-71.56,28.07-100.12Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="a6a87d84-f2fb-4637-ba35-9a74be4831a7" x1="13.5" y1="460.7" x2="13.15" y2="459.66" gradientTransform="matrix(71.84, 1.25, 3.26, -186.95, -2318, 86227.64)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <mask id="e584f727-fe8e-492f-8f6e-6ae66b10bd58" x="105.03" y="100.51" width="73.25" height="187.15" maskUnits="userSpaceOnUse">
+      <g id="fdb0349f-fd46-4bc9-912a-ba049a1c7828" data-name="mask-14">
+        <path id="a04016a8-2b74-4b30-9024-d1995b91b629" data-name="path-13" d="M169.35,192.32l4.65.18V282q-28,12.5-65.5-2.56-3.75-36.39-3.45-50.45.3-13.67,8.26-39.38h-.07q4.14-24-1.39-55.24t25.55-33.85l11.8.21q39.88.69,25.06,91.18C172.63,192.05,171,192.2,169.35,192.32Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="a498b1cc-d11f-4340-961f-64b707eab610" x="134.12" y="65.64" width="24.49" height="56.25" maskUnits="userSpaceOnUse">
+      <g id="a50635a2-8840-4fae-8a7c-d698dc8e5232" data-name="mask-16">
+        <path id="a10a9c36-214e-4351-b1a4-1b06fa97fc01" data-name="path-15" d="M153.89,65.64q11.06,24.81-3.78,27.73l-.13,7.35q11.52,17.77,3,20.78c-8.5,3-17.95-12-17.32-17.21s2.2-9.94,2-15.68-4.09-8.74-3.51-11.33,6.46-3.11,6.85,1.32q3.27-5.8.18-10.59A14.27,14.27,0,0,0,153.89,65.64Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="a139ead5-f37f-4a73-a5f5-16b7a14d6ba5" x="134.12" y="65.64" width="24.64" height="56.93" maskUnits="userSpaceOnUse">
+      <g id="ece3ddcd-81ba-4bab-8ea6-d408322aece5" data-name="mask-16">
+        <path id="a8a88304-c09c-43f3-8a6b-e95561ca68e1" data-name="path-15" d="M153.89,65.64q11.06,24.81-3.78,27.73l-.13,7.35q11.52,17.77,3,20.78c-8.5,3-17.95-12-17.32-17.21s2.2-9.94,2-15.68-4.09-8.74-3.51-11.33,6.46-3.11,6.85,1.32q3.27-5.8.18-10.59A14.27,14.27,0,0,0,153.89,65.64Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="a3fcd39f-2927-46bb-980c-73dc9ef1c454" x1="13.68" y1="460.51" x2="13.03" y2="459.51" gradientTransform="matrix(69.9, 1.22, 1.47, -83.96, -1463.26, 38757.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d3e9"/>
+      <stop offset="1" stop-color="#00a7ce"/>
+    </linearGradient>
+    <mask id="e672f67f-6134-4578-a32f-a9387856c3eb" x="107.16" y="105.3" width="72.17" height="85.41" maskUnits="userSpaceOnUse">
+      <g id="adb99418-6644-46f7-9e16-a42f8b3ea181" data-name="mask-19">
+        <path id="fccc64fc-fac3-4d6c-8f01-c993a34780d3" data-name="path-18" d="M110.45,120.26c2.83-15.51,15.25-21,19.17-6.66q3.93,14.28-2.39,50.61,26.61,8.5,47.58,10.54a12.94,12.94,0,0,1,1.62,8.64q-.87,5.27-2.7,6.81c-29.22-1.5-53-5.58-61.41-12S107.63,135.77,110.45,120.26Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="b0f45503-a940-498f-8cab-12e4562a9685" x1="13.67" y1="460.41" x2="13.02" y2="459.41" gradientTransform="matrix(47.39, 0.83, 1.31, -75.07, -1063.16, 34661.82)" xlink:href="#a3fcd39f-2927-46bb-980c-73dc9ef1c454"/>
+    <mask id="b134aeac-014d-4516-84ad-3a02beb99b25" x="108.4" y="104.14" width="81.92" height="266.43" maskUnits="userSpaceOnUse">
+      <g id="ff1337e0-a1ac-4925-84ac-e134a981673b" data-name="mask-21">
+        <path id="b984fe21-9560-4b9e-b225-768e53c4ec6f" data-name="path-20" d="M162.13,104.14c6.86,2.68,12.39,9.5,17.87,20.86s17,49.5,5.19,54q-11.82,4.53-41.82-28.64a12,12,0,0,1,1.15-7.15,7.58,7.58,0,0,1,5.74-4.3l24.42,14.12q-.83-11.48-1.68-16.57C170.57,122,167.06,111.5,162.13,104.14Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="f71c58f7-65b0-4020-8d8d-82f319595601" x="142" y="104.14" width="48.32" height="75.44" maskUnits="userSpaceOnUse">
+      <g id="b7fb43d7-22a8-4107-8d85-4c67b3584770" data-name="mask-21">
+        <path id="bbe7f46f-9f44-42df-9bab-906b136bfc0f" data-name="path-20" d="M162.13,104.14c6.86,2.68,12.39,9.5,17.87,20.86s17,49.5,5.19,54q-11.82,4.53-41.82-28.64a12,12,0,0,1,1.15-7.15,7.58,7.58,0,0,1,5.74-4.3l24.42,14.12q-.83-11.48-1.68-16.57C170.57,122,167.06,111.5,162.13,104.14Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="be6d82d2-bbcd-43f3-a26d-52e2d632a880" x="434.89" y="373.94" width="39.04" height="24.34" maskUnits="userSpaceOnUse">
+      <g id="a8424d23-5880-4e3c-9f23-13f024e35841" data-name="mask-23">
+        <path id="e61ef1d9-cd6a-4f72-a7cb-8190ecf3420e" data-name="path-22" d="M473.94,373.94v15.47a5,5,0,0,1-3.93,4.84q-32.68,6.9-35,2c-2.4-5.22,23.85-10.29,22.84-22.29Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="a339685f-facb-42dd-a9a7-15cba02cbaae" x="384.19" y="369.91" width="41.09" height="21.98" maskUnits="userSpaceOnUse">
+      <g id="ef88b5aa-135d-4853-a508-c73e587b5758" data-name="mask-25">
+        <path id="aa0386ea-3abe-406d-9cea-d8f4089209cc" data-name="path-24" d="M425.29,369.91V385a5,5,0,0,1-4.38,4.92q-36.72,4.25-36.72-.53c0-5.05,25.05-9.68,25.05-19.46Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="b453374e-5f37-4443-a0e4-7d8e98d9590b" x1="13.78" y1="460.74" x2="13.43" y2="459.69" gradientTransform="translate(1454.35 93135.52) rotate(180) scale(74.23 201.73)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <mask id="eb0f8c45-5f1b-40cd-9250-623e474419ec" x="402.15" y="177.61" width="74.23" height="201.73" maskUnits="userSpaceOnUse">
+      <g id="e2352633-95aa-4d4d-86ab-dbfdceb06e3c" data-name="mask-27">
+        <path id="b110ba8c-1d1c-4495-b0c1-ff9b2ce53f16" data-name="path-26" d="M437.18,244.44q2.71,22.14,3.8,34.11,2.32,25.56,16.3,97.47a13,13,0,0,0,17.37,0q3.64-71.43-1.43-95l3.16-100H429.09l-20.82-3.48q-6.12,69.36-6.12,95.83t6.12,99.27a13.8,13.8,0,0,0,18,0Q431,311.5,431,283.52,434.47,264.29,437.18,244.44Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="f1eca685-d9bb-495a-bd33-3273e1ed84d6" x="402.15" y="177.61" width="75.12" height="201.73" maskUnits="userSpaceOnUse">
+      <g id="af12a87f-5871-4e3c-b522-4bb80b524b70" data-name="mask-27">
+        <path id="b2e2b4d2-77f9-4df0-9fc8-211d64681402" data-name="path-26" d="M437.18,244.44q2.71,22.14,3.8,34.11,2.32,25.56,16.3,97.47a13,13,0,0,0,17.37,0q3.64-71.43-1.43-95l3.16-100H429.09l-20.82-3.48q-6.12,69.36-6.12,95.83t6.12,99.27a13.8,13.8,0,0,0,18,0Q431,311.5,431,283.52,434.47,264.29,437.18,244.44Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="b49cc1f2-773f-4859-ac0b-73f6ffeb2008" x="352.05" y="67.27" width="23.34" height="22.05" maskUnits="userSpaceOnUse">
+      <g id="eb28782d-9a7c-499d-aa67-64099ee88533" data-name="mask-29">
+        <path id="e3c946a8-1d96-401e-947e-b1eac804338a" data-name="path-28" d="M360.22,86.13c-3.57-2.85-7.06-8.43-5.68-9.29.59-.37,1.69.07,3.32,1.34a34.92,34.92,0,0,1,1.86-4.64q-8.18-4.76-7.64-6c.53-1.24,10.67,2,14,4.41q3.35,2.37,9.29,14.27l-11.19,3.1A39.4,39.4,0,0,1,360.22,86.13Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="e3f22a21-b437-4f35-a114-90d17dc8bc73" x1="13.83" y1="460.55" x2="13.18" y2="459.55" gradientTransform="translate(-1062.95 32968.51) rotate(-176) scale(61.56 71.47)" xlink:href="#a3fcd39f-2927-46bb-980c-73dc9ef1c454"/>
+    <mask id="a661cea8-a3c2-4e91-a6d1-7d6a651f75a7" x="359.04" y="80.24" width="64.36" height="73.19" maskUnits="userSpaceOnUse">
+      <g id="bf64f891-6d44-4fdf-a641-6cb2e6e5c02b" data-name="mask-31">
+        <path id="fde5e9a1-e02c-4271-9253-41a656b6517f" data-name="path-30" d="M363,80.24q9.14,6.57,22.26,44.79l24.79-38.16a9.08,9.08,0,0,1,7.74.52A12.54,12.54,0,0,1,423.4,94Q399.12,144.89,389.81,152T359,132Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="eaf8b5f3-a006-4847-81e4-16cd5db30c1a" x="359.04" y="80.24" width="64.36" height="75.65" maskUnits="userSpaceOnUse">
+      <g id="a5b28015-938b-4cc2-91c9-dcb9ae8b6547" data-name="mask-31">
+        <path id="fe11a7a4-fcd7-4187-b11b-ebfb1f8dc28c" data-name="path-30" d="M363,80.24q9.14,6.57,22.26,44.79l24.79-38.16a9.08,9.08,0,0,1,7.74.52A12.54,12.54,0,0,1,423.4,94Q399.12,144.89,389.81,152T359,132Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="bb98fd5a-2652-4ef5-b335-c3747ceaf4b0" x1="13.72" y1="460.66" x2="13.07" y2="459.66" gradientTransform="matrix(76.55, 5.35, 8.66, -123.89, -4564.97, 57079.75)" xlink:href="#a3fcd39f-2927-46bb-980c-73dc9ef1c454"/>
+    <mask id="f58bdf3d-11c1-48bb-b949-854d8dcbe646" x="403.07" y="74.84" width="80.3" height="138.15" maskUnits="userSpaceOnUse">
+      <g id="e1853edb-1be0-429d-b55e-ecb4baf80980" data-name="mask-33">
+        <path id="b742ddf9-d284-4898-8059-a52966b9262b" data-name="path-32" d="M439,79.72c-19.56,2.19-32.3,13.56-30.74,55.11.54,14.44-3.9,31.54-5.12,52a23,23,0,0,0,1.94,9.69q34.9,14,72.72,0,8-62.07,4.56-83.58C478.85,91.45,457.91,77.59,439,79.72Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="aeda152a-9a2a-42d6-a555-1ce75266b758" x="423.49" y="74.84" width="26.65" height="138.15" maskUnits="userSpaceOnUse">
+      <g id="a0a0d36e-ee9e-409d-a8fb-f40ca7629e34" data-name="mask-35">
+        <path id="e43bb28d-c082-441d-8d1b-519a954b13c1" data-name="path-34" d="M428.3,81.16c-2.32,3.77-8.1,31.28-2.3,129.34L450.14,213q-9.94-108.33-3.58-129.77-1.32-5.58-2.23-5.85L436,74.84A17.57,17.57,0,0,0,428.3,81.16Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="e4d508c0-c48a-439b-8f36-82e107e88a34" x="417.67" y="74.84" width="32.47" height="138.91" maskUnits="userSpaceOnUse">
+      <g id="b123539c-c747-4d76-8315-e9840ec14ada" data-name="mask-35">
+        <path id="f2fd7060-e500-44a3-9dd5-8f743f9ee280" data-name="path-34" d="M428.3,81.16c-2.32,3.77-8.1,31.28-2.3,129.34L450.14,213q-9.94-108.33-3.58-129.77-1.32-5.58-2.23-5.85L436,74.84A17.57,17.57,0,0,0,428.3,81.16Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="f8dafdf4-bc42-4983-bd42-039f7b1ea779" x1="13.05" y1="460.52" x2="12.7" y2="459.47" gradientTransform="matrix(17.52, 1.22, 6.8, -97.27, -2922.06, 44878.48)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <mask id="b49524c9-4caf-4fcb-a11c-f5dc5cda86b1" x="403.07" y="79.51" width="83.06" height="135.3" maskUnits="userSpaceOnUse">
+      <g id="beb6b3c3-0076-47eb-ada8-a03e3eec22df" data-name="mask-33">
+        <path id="a480650a-6df0-4d64-83b6-9bac4f68abda" data-name="path-32" d="M439,79.72c-19.56,2.19-32.3,13.56-30.74,55.11.54,14.44-3.9,31.54-5.12,52a23,23,0,0,0,1.94,9.69q34.9,14,72.72,0,8-62.07,4.56-83.58C478.85,91.45,457.91,77.59,439,79.72Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="b39b398e-14a1-40d5-919f-d6748ac18c47" x="418.89" y="28.83" width="40.49" height="46.06" maskUnits="userSpaceOnUse">
+      <g id="b10e9f49-caeb-4205-9bfb-34f1f71a57de" data-name="mask-37">
+        <path id="e3dc551a-fda8-4222-839a-134483d860c4" data-name="path-36" d="M425.39,54.31q-4.47-6.27,0-15.2c1-1.94,6.28-4.47,8.73-4.84,8.63-1.33,21.21-.77,24.72,16s-11.15,20-15.51,23.74c-3.43,3,1.23-2.26-1.45-1.94q-2.53-2.53-7-7.63T425.39,54.31Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="acae1836-529c-4fbc-84db-6471b55d51f4" x="423.16" y="33.81" width="36.23" height="41.08" maskUnits="userSpaceOnUse">
+      <g id="fc05a6cb-e3c2-4408-b373-3c21e3b7b1b4" data-name="mask-37">
+        <path id="ad8b891d-15b3-4915-86f7-9da73d58bf63" data-name="path-36" d="M425.39,54.31q-4.47-6.27,0-15.2c1-1.94,6.28-4.47,8.73-4.84,8.63-1.33,21.21-.77,24.72,16s-11.15,20-15.51,23.74c-3.43,3,1.23-2.26-1.45-1.94q-2.53-2.53-7-7.63T425.39,54.31Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="e788b9ae-88ad-48da-af23-7ac8cceb0749" x="417.49" y="50.73" width="29.03" height="42.45" maskUnits="userSpaceOnUse">
+      <g id="e91eb166-8d45-4654-8227-2ed5a2d3c945" data-name="mask-39">
+        <path id="bb446135-2eb6-4b39-8c16-54d04eba3405" data-name="path-38" d="M423.93,50.73q-15,24.85,5,24.85-3.49,17.67,3.52,17.6c5.51,0,15-6,14-11.2-.65-3.5-1.37-6.64-2.16-9.45a35.49,35.49,0,0,1-6.55-6.43c2.75-1.7,3.66-3.54,2.73-5.54-1.38-3-5-1.23-5.11.84a8.24,8.24,0,0,1,.63-9Q426.7,54.92,423.93,50.73Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="f2eaf355-2aeb-4058-8d5f-884ba3cd04ce" x="417.49" y="50.73" width="29.37" height="43.3" maskUnits="userSpaceOnUse">
+      <g id="affec327-197d-4e15-bcb2-3b08e9c96a25" data-name="mask-39">
+        <path id="f8c21e3f-99c8-469b-8e6e-f5be11acc0e3" data-name="path-38" d="M423.93,50.73q-15,24.85,5,24.85-3.49,17.67,3.52,17.6c5.51,0,15-6,14-11.2-.65-3.5-1.37-6.64-2.16-9.45a35.49,35.49,0,0,1-6.55-6.43c2.75-1.7,3.66-3.54,2.73-5.54-1.38-3-5-1.23-5.11.84a8.24,8.24,0,0,1,.63-9Q426.7,54.92,423.93,50.73Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <linearGradient id="b3e87199-bea8-49d3-a77e-827187425eb9" x1="9.56" y1="458.84" x2="9.21" y2="457.79" gradientTransform="matrix(8.93, 0, 0, -9.14, 350.81, 4370.71)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <linearGradient id="a4851c13-cf8b-46d8-a463-8f6956a39816" x1="9.56" y1="458.84" x2="9.21" y2="457.79" gradientTransform="matrix(8.93, 0, 0, -9.14, 359.84, 4380.06)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <linearGradient id="a86f5611-14a1-403f-b9dd-bd34f8e1340f" x1="9.56" y1="458.84" x2="9.21" y2="457.79" gradientTransform="matrix(8.93, 0, 0, -9.14, 368.31, 4388.83)" xlink:href="#e95cbbe8-eab0-4bfd-a84c-27748da24c46"/>
+    <linearGradient id="e459705d-1d36-4448-82a2-86c01b7a4823" x1="14.24" y1="460.63" x2="13.59" y2="459.63" gradientTransform="translate(1023.46 56892.7) rotate(180) scale(39.55 123.3)" xlink:href="#a3fcd39f-2927-46bb-980c-73dc9ef1c454"/>
+    <mask id="beb5223d-ccc4-4a81-b906-3e82e493d937" x="456.82" y="89.19" width="39.55" height="124.78" maskUnits="userSpaceOnUse">
+      <g id="f66c795c-4c40-4b3b-91aa-6d9eabb1b719" data-name="mask-43">
+        <path id="a0b283df-464c-476a-8ad5-4a315c2665fb" data-name="path-42" d="M456.82,102.15q0,13.47,21.13,54.28l-18.22,51.7a27.49,27.49,0,0,0,5.42,2.93,42.23,42.23,0,0,0,7,1.44q24.24-44.55,24.23-56.07c0-11.52-14.32-52.7-21.57-62S456.82,88.69,456.82,102.15Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+    <mask id="bab4136e-189e-458e-88b5-2304cee18922" x="220.5" y="362.38" width="46.61" height="34.92" maskUnits="userSpaceOnUse">
+      <g id="bf3dee40-11c1-452d-965f-f72f47851201" data-name="mask-45">
+        <path id="bed7f63d-da25-430d-b3d5-5f2eda434dd9" data-name="path-44" d="M221,362.38h46.11L261.89,394a2,2,0,0,1-1.54,1.63,72.18,72.18,0,0,1-15.85,1.69,83.14,83.14,0,0,1-16.71-1.71h0a2,2,0,0,1-1.57-1.64Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </mask>
+  </defs>
+  <title>Artboard 1</title>
+  <g id="a4972408-5d0b-4d0c-b499-1ff285bf178a" data-name="Page-1">
+    <g id="b1b3ec75-eb24-45c3-9c37-5c6432324e7e" data-name="section---illustration">
+      <g id="ad3ef796-fe28-4a2f-8f29-a430f58a6cc8" data-name="section">
+        <g>
+          <rect id="b9be6e87-4630-4517-bd23-0cf71648bb2d" data-name="Rectangle-7" width="526" height="420" style="fill: none"/>
+          <g id="ec5dd951-fdb9-442a-90a7-f6e89c955d92" data-name="Group-37">
+            <g id="fcebebfd-80b9-4fe1-a410-44fd0e123795" data-name="Oval-9">
+              <path d="M256.05,5C131.76,5,31,105.67,31,229.85s122.58,225.68,211.69,88.54S485,305.42,485,181.24,380.34,5,256.05,5Z" style="fill: #f0edfc;fill-rule: evenodd"/>
+            </g>
+            <g style="mask: url(#f5ae7267-8005-4378-97f2-e587f65d829d)">
+              <path id="bd9e2ae7-ef2e-4b88-bc7f-c6874c9c5c58" data-name="Path-16" d="M129,38.19c-38.16,70.67,1,127.27,68,121.39,140.67-12.34,161.28-60.35,259-25.62q12.16,4.75,16.1,7.57c9.52,6.82,12.37,12.82,12.37,12.82q-2.91-26.57-7.31-37C459.38,75.58,437,53.15,422.19,44.84,342.66.14,253.27-1.17,234.93.6,170.1,6.85,132.67,31.36,129,38.19Z" style="fill-rule: evenodd;fill: url(#a6330c67-6c87-4065-bfa6-b19f682c87ff)"/>
+            </g>
+          </g>
+          <g id="a845a66a-171d-4c94-9930-def35e60b19d" data-name="Group-36">
+            <path id="a46a6d33-fbbc-48ea-978d-d9ababc37934" data-name="Combined-Shape" d="M400,62V72.25a2,2,0,0,1-3.57,1.24L392.08,68H290a6,6,0,0,1-6-6V12a6,6,0,0,1,6-6H394a6,6,0,0,1,6,6Z" style="fill-rule: evenodd;fill: url(#e95cbbe8-eab0-4bfd-a84c-27748da24c46)"/>
+            <path id="b3ab0e74-381b-40c0-b1e0-ff3f97acac77" data-name="Rectangle-16" d="M304,22h64a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H304a2,2,0,0,1-2-2h0A2,2,0,0,1,304,22Z" style="fill: #fff;fill-rule: evenodd"/>
+            <path id="b5406b96-d49c-4768-9fff-07f44ab3b74f" data-name="Rectangle-16-Copy" d="M304,34h33a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H304a2,2,0,0,1-2-2h0A2,2,0,0,1,304,34Z" style="fill: #fff;fill-rule: evenodd"/>
+            <path id="a75b1dc6-6fd3-48cb-bb77-1b0217f5a357" data-name="Rectangle-16-Copy-2" d="M304,47h64a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H304a2,2,0,0,1-2-2h0A2,2,0,0,1,304,47Z" style="fill: #fff;fill-rule: evenodd"/>
+          </g>
+          <g id="b264d18a-d97e-4eaf-a509-8763ef40d23b" data-name="Group-34">
+            <path d="M191.73,82l-3.16,4A2,2,0,0,1,185,84.75V76.61h0c0-.2,0-.41,0-.62V46a6,6,0,0,1,6-6h66a6,6,0,0,1,6,6V76a6,6,0,0,1-6,6Z" style="fill-rule: evenodd;fill: url(#aa846a7e-3d6f-4c6c-bb39-9469bd9033ac)"/>
+            <path id="ae5fb06e-aa5b-4b01-b3d4-b6c10ab6b9b6" data-name="Rectangle-16-Copy-5" d="M200.5,50h48a1.5,1.5,0,0,1,1.5,1.5h0a1.5,1.5,0,0,1-1.5,1.5h-48a1.5,1.5,0,0,1-1.5-1.5h0A1.5,1.5,0,0,1,200.5,50Z" style="fill: #fff;fill-rule: evenodd"/>
+            <path id="f4613488-8c67-4a95-934d-eb595ad7749b" data-name="Rectangle-16-Copy-4" d="M223.5,60h25a1.5,1.5,0,0,1,1.5,1.5h0a1.5,1.5,0,0,1-1.5,1.5h-25a1.5,1.5,0,0,1-1.5-1.5h0A1.5,1.5,0,0,1,223.5,60Z" style="fill: #fff;fill-rule: evenodd"/>
+          </g>
+          <path d="M242.44,385h.06c21.82,0,39.5,4.92,39.5,11s-17.68,11-39.5,11c-11.1,0-21.13-1.28-28.31-3.33C198.28,406.37,177.6,408,155,408c-50.26,0-91-8.06-91-18s40.74-18,91-18C196.49,372,231.49,377.49,242.44,385Z" style="fill: #1c036c;fill-rule: evenodd;opacity: 0.019999999552965164;isolation: isolate"/>
+          <g id="abd84687-b4ad-4612-8154-e8305a8de56e" data-name="Group-6">
+            <path id="a739efde-809c-4b32-b757-61da68a02b61" data-name="Path-7" d="M159.16,104.5q11.09-5.39-2-20.18c-13.07-14.79-.88-10.25,2-20.17s-27.77-19.66-31.66-2.39Q110.27,80.56,122,100c3.63,6,3.63,7.5,11.5,16.5Z" style="fill: #080d38"/>
+            <g id="ffc9b18b-83fd-4caa-ad13-e52c8bf46f85" data-name="Group-19">
+              <g id="b8f36ea2-33b8-4712-9d05-125e8348c96d" data-name="Path-22">
+                <path d="M162.41,372.48a48,48,0,0,1,0,7.52,42.59,42.59,0,0,1-1.07,5h0a2.64,2.64,0,0,0,1.9,3.23,3,3,0,0,0,.43.07q31.34,2.85,32.42-2c1.14-5.13-18.39-5.36-22.71-14.81Z" style="fill: #fed2f5"/>
+              </g>
+              <g style="mask: url(#a7f739ea-70a4-40c6-b236-5c3c1031a72a)">
+                <path id="fbb7122e-fa11-4ece-81d8-3368a4c93331" data-name="Path-28" d="M180.25,376.22c2.93,1.62,4,5.06-.11,6.34s-18.23.53-20.76-5.85l1.05,15,29.12.51,13.28-3.95-2.64-5.35Z" style="fill: #0c1642"/>
+              </g>
+              <g style="mask: url(#a71f8f7a-1386-4671-a7ad-64f1ca8a4fdd)">
+                <path id="aa844da9-701e-49f6-82dd-ae6f40682964" data-name="Path-77" d="M164.08,377.73q1.14,1,2.1,1.74c2.35,1.88,5.21,3.82,6.45,3.71a2.32,2.32,0,0,1-2.11,1.05c-.66,0-2.38-.91-5.16-2.59q-3.54-1-3.81-1.56c-.13-.29-.43-5.69.53-6.4l1,2.11C163.34,376.22,163.66,376.86,164.08,377.73Z" style="fill-rule: evenodd;opacity: 0.04693080484867096;isolation: isolate"/>
+              </g>
+            </g>
+            <g id="bf18c181-79ee-4073-a39c-2b50f2009b30" data-name="Group-22">
+              <g id="aeab54b2-fe20-4647-bc4b-c0b11e5f46d9" data-name="Path-92">
+                <path d="M127.35,181.56Q141.45,258.71,148.7,285q-1.09,18.28,0,26c4.8,34,13.47,55.78,13.8,61.64s.33,4.38,1,4.86c.46.33,1.65-.34,3.59-2q6.61,0,6.67-2.85V182.37Z" style="fill: #fed2f5"/>
+              </g>
+              <g style="mask: url(#a4e14ef4-14b2-4143-9391-e40f8d666670)">
+                <path id="ba77fe07-b513-44c7-be1c-302c17ea555d" data-name="Path-30" d="M179.44,191.45q-21,9.78-71.68,8.9l4.77-13.49Z" style="fill: #5b34b4"/>
+              </g>
+              <g style="mask: url(#ed195fa0-0ffd-4bb6-88fe-1b8fd83770a8)">
+                <path id="a3e348e5-b06e-4284-a542-5a8b6c3eb92d" data-name="Path-31" d="M159.33,198.63,158.15,266c-.15,8.61,21.21,13,20.35,19-.13.88-4.42,3.46-12.87,5.76-3,.82-9.61,1-10.63,2.74s-2.2,6.49-1.5,19.5q.74,13.51,5.87,60.6Q140,334.47,145.72,285.88L140,265.69Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+              </g>
+            </g>
+            <g id="a551f96a-33a2-4918-aafa-5f65cc232c65" data-name="Group-20">
+              <g id="fb08901f-725b-4fd6-b5d2-74d80a984f2b" data-name="Path-21">
+                <path d="M109.5,374.5l-3,11.75a4,4,0,0,0,2.88,4.83l.41.08q32,4.57,33.48-1c1.54-5.91-19.1-6.57-23.31-17.2Z" style="fill: #fed2f5"/>
+              </g>
+              <g style="mask: url(#ef09d26b-39e6-4847-979e-74ec5819c5c0)">
+                <path id="a42973b4-fc47-4ffa-af5e-a29983f9f372" data-name="Path-29" d="M125,378c1.44,1,3.45,5-.91,6.66s-16.19.65-19.22-6.07l0,13,17.94,2.3q21,.87,22.26-3.12T125,378Z" style="fill: #0c1642"/>
+              </g>
+            </g>
+            <g id="b2d030d5-601b-49c9-bb35-1b17c7ae26ba" data-name="Group-23">
+              <g id="b58c9bd3-b089-44bb-96c2-ce9451f62b79" data-name="Path-17">
+                <path d="M117.3,180.84q-9.64,18.58-10.12,46-.18,9.66,3.12,53.37Q99.5,304,109.18,374c-.45,1.91.84,2.86,3.89,2.86A10.05,10.05,0,0,0,120.5,374q8.5-66,11.92-89c3.42-23,24-71.56,28.07-100.12Z" style="fill: #fed2f5"/>
+              </g>
+              <g style="mask: url(#bf7d91d5-4ac8-46a5-8f73-605dffa216ed)">
+                <path d="M179.44,191.45q-21,9.78-71.68,8.9l4.77-13.49Z" style="fill: #252525;fill-opacity: 0.20000001788139343"/>
+              </g>
+              <g style="mask: url(#ad572506-5d97-4c46-be3a-9e1214480137)">
+                <path id="b6622c50-22cf-4e06-91d8-e4364f6478b8" data-name="Path-78" d="M110,277.5q-7,26.5-7,37c0,5.55-2.26,11.82-1,18q.33,1.61,4,4.5,1.19-10,3-29c.94-10.09,2-16.5,4.54-18s4.42-.89,12,1c4,1,9.54,1,11.5-1s1.58-8.63-1.5-10Q132.41,278.64,110,277.5Z" style="fill-rule: evenodd;opacity: 0.04693080484867096;isolation: isolate"/>
+              </g>
+            </g>
+            <g id="f82db5ee-c7ba-4bd2-bd7e-152055ef4a38" data-name="Group-25">
+              <path d="M169.35,192.32l4.65.18V282q-28,12.5-65.5-2.56-3.75-36.39-3.45-50.45.3-13.67,8.26-39.38h-.07q4.14-24-1.39-55.24t25.55-33.85l11.8.21q39.88.69,25.06,91.18C172.63,192.05,171,192.2,169.35,192.32Z" style="fill: url(#a6a87d84-f2fb-4637-ba35-9a74be4831a7)"/>
+              <g style="mask: url(#e584f727-fe8e-492f-8f6e-6ae66b10bd58)">
+                <path id="eb7a5cc0-88a8-49c0-88e4-0428075c5bea" data-name="Path-36" d="M154,105.5c6.28,4.18,8,17.5,2.22,20-6.67,2.88-21.88-3.48-20.44-22.25Q147.72,101.32,154,105.5Z" style="fill: #fff"/>
+              </g>
+            </g>
+            <path id="abe01065-3a44-4366-9a6e-124e57abff83" data-name="Path-20" d="M137.81,135.28l-17.19,55.25a2.66,2.66,0,0,0,1.74,3.32l.24.06,37,7.82a2.66,2.66,0,0,0,3.09-1.85l15.61-53.49a2.65,2.65,0,0,0-1.8-3.29h-.05L141,133.51A2.65,2.65,0,0,0,137.81,135.28Z" style="fill: #27c193"/>
+            <path d="M138,130.6l-11.41,56.79a2.65,2.65,0,0,0,2.05,3.11l36.77,7.79a2.65,2.65,0,0,0,3.14-2,.52.52,0,0,0,0-.11l9.7-57.88a2.65,2.65,0,0,0-2.11-3l-35.07-6.7A2.64,2.64,0,0,0,138,130.6Z" style="fill: #fff"/>
+            <path id="e307e149-d1f7-4204-ab34-fa034d53725a" data-name="Path-46" d="M156.94,73.8c.76,2.55,4.45,4.64,4.65,5.85.14.81-1,1.59-3.54,2.36Z" style="fill: #fed2f5"/>
+            <g id="f8f70484-6dca-42ad-8dba-aa8ff35be8c1" data-name="Group-24">
+              <g id="f7242da1-9073-4546-8591-ac1458f7cf0a" data-name="Path-6">
+                <path d="M153.89,65.64q11.06,24.81-3.78,27.73l-.13,7.35q11.52,17.77,3,20.78c-8.5,3-17.95-12-17.32-17.21s2.2-9.94,2-15.68-4.09-8.74-3.51-11.33,6.46-3.11,6.85,1.32q3.27-5.8.18-10.59A14.27,14.27,0,0,0,153.89,65.64Z" style="fill: #fed2f5"/>
+              </g>
+              <g style="mask: url(#a498b1cc-d11f-4340-961f-64b707eab610)">
+                <path id="a4408d91-4eec-4685-bf06-13b253088a6c" data-name="Path-129" d="M151.22,85.18c.81,1.57,3.6,1.62,4.55.08" style="fill: none;stroke: #080d38;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.0598398447036743px"/>
+              </g>
+              <g style="mask: url(#a498b1cc-d11f-4340-961f-64b707eab610)">
+                <path id="fc3788d6-d684-403e-9b82-4b9f83b272de" data-name="Oval-2" d="M150.7,76.3a1.2,1.2,0,0,0,1.22-1.18,1.2,1.2,0,1,0-1.22,1.18Z" style="fill: #080d38"/>
+              </g>
+              <g style="mask: url(#a498b1cc-d11f-4340-961f-64b707eab610)">
+                <path id="b9594e44-3a13-406b-aeeb-fc5238dfb0fb" data-name="Path-35" d="M151,93.26a12.51,12.51,0,0,1-7.65-1.36q2.34,5.75,7.58,5.84Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+              </g>
+              <g style="mask: url(#a139ead5-f37f-4a73-a5f5-16b7a14d6ba5)">
+                <path id="f8ff7223-9288-4262-a810-409937079823" data-name="Path-37" d="M155.61,107.12c1.29,3.69.48,11.17-3.46,11.88s-15.47-4.14-16.75-16q-.79,20.73,16.75,19.45C160,121.93,160.44,111.6,155.61,107.12Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+              </g>
+            </g>
+            <path id="ad02856d-2a40-4b7f-8aa3-1af2cd1b84f9" data-name="Path-34" d="M174,176.48l9.9-.57q-1.32,9.45-3,11.93t-8.41,1.5Z" style="fill: #fed2f5"/>
+            <g id="b2ce59d6-fc5a-4033-b31a-5e73b3e43756" data-name="Group-26">
+              <g id="a323cbe9-40b2-44e7-9bb3-d92f33fb3baa" data-name="Path-19">
+                <path d="M110.45,120.26c2.83-15.51,15.25-21,19.17-6.66q3.93,14.28-2.39,50.61,26.61,8.5,47.58,10.54a12.94,12.94,0,0,1,1.62,8.64q-.87,5.27-2.7,6.81c-29.22-1.5-53-5.58-61.41-12S107.63,135.77,110.45,120.26Z" style="fill: url(#a3fcd39f-2927-46bb-980c-73dc9ef1c454)"/>
+              </g>
+              <g style="mask: url(#e672f67f-6134-4578-a32f-a9387856c3eb)">
+                <path id="e2e300f2-8b13-463e-a6f1-5a79e118a7e4" data-name="Path-41" d="M170.86,173.67q3,7.79-1.51,17.05H176q5-12.87,2.5-17.05T170.86,173.67Z" style="fill: #f4f4f4"/>
+              </g>
+            </g>
+            <path id="ae4b7a64-e11f-45ad-9c48-56919fce9bd2" data-name="Path-33" d="M150.48,141.1q-7.47-9.93-9.21-10c-1.15,0-1.74.38-1.75,1.2q-4.25-1.31-5.25-.09c-1,1.21-.72,7.95-.18,10.7q.54,2.76,11.31,6.76Z" style="fill: #fed2f5"/>
+            <g id="b36bf92a-ca3b-4953-99de-753927814288" data-name="Group-27">
+              <g id="ea531075-6aa3-464a-94a7-7d34d61034b1" data-name="Path-18">
+                <path d="M162.13,104.14c6.86,2.68,12.39,9.5,17.87,20.86s17,49.5,5.19,54q-11.82,4.53-41.82-28.64a12,12,0,0,1,1.15-7.15,7.58,7.58,0,0,1,5.74-4.3l24.42,14.12q-.83-11.48-1.68-16.57C170.57,122,167.06,111.5,162.13,104.14Z" style="fill: url(#b0f45503-a940-498f-8cab-12e4562a9685)"/>
+              </g>
+              <g style="mask: url(#b134aeac-014d-4516-84ad-3a02beb99b25)">
+                <path id="af81e027-8626-46c1-8c02-c128ec7c1e89" data-name="Path-32" d="M125,186.48q1.22,76-1.62,92.62c-2.83,16.63-13.69,44.49-14.51,91.47" style="fill: none;stroke: #fff;stroke-width: 0.927359938621521px"/>
+              </g>
+              <g style="mask: url(#f71c58f7-65b0-4020-8d8d-82f319595601)">
+                <path id="e52bb2bd-7126-4f39-9708-fa0f1d511e96" data-name="Path-40" d="M153.15,140a14.72,14.72,0,0,0-7.33,13.71L142,150a22.41,22.41,0,0,1,1-5,31.25,31.25,0,0,1,2.82-5l6.18-2Z" style="fill: #f4f4f4"/>
+              </g>
+            </g>
+            <path d="M175.82,153.94,178,138.09a2.66,2.66,0,0,0-2.17-3L169.34,134l2,17.06Z" style="fill: #fff"/>
+          </g>
+          <ellipse id="ffeebd90-589c-452d-a1ef-6b060b62e75f" data-name="Oval-14" cx="413" cy="390" rx="91" ry="18" style="fill: #1c036c;opacity: 0.019999999552965164;isolation: isolate"/>
+          <g id="ab84bd8f-82a3-4da0-b0ab-5e2b8c1d1999" data-name="Group-66">
+            <g id="e098a5fb-5ce3-474c-8355-d4fbf9f762d1" data-name="Group-80">
+              <g id="a18f25ab-71c2-4813-a0a5-aadaa36d619e" data-name="Path-105">
+                <path d="M473.94,373.94v15.47a5,5,0,0,1-3.93,4.84q-32.68,6.9-35,2c-2.4-5.22,23.85-10.29,22.84-22.29Z" style="fill: #0c1642"/>
+              </g>
+              <g style="mask: url(#be6d82d2-bbcd-43f3-a26d-52e2d632a880)">
+                <path id="b780d230-5d40-4320-bf8e-59fbf30b175d" data-name="Path-111" d="M458.76,385.49q-2.13-3.56-7-3.55" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+              <g style="mask: url(#be6d82d2-bbcd-43f3-a26d-52e2d632a880)">
+                <path d="M452.16,388.81q-2.13-3.56-7-3.55" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+            </g>
+            <g id="aeb08ae1-c98b-49be-a904-2ebf3b619ccf" data-name="Group-81">
+              <path d="M425.29,369.91V385a5,5,0,0,1-4.38,4.92q-36.72,4.25-36.72-.53c0-5.05,25.05-9.68,25.05-19.46Z" style="fill: #0c1642"/>
+              <g style="mask: url(#a339685f-facb-42dd-a9a7-15cba02cbaae)">
+                <path id="a3232b06-044b-4de9-8677-fa6c6666d9fb" data-name="Path-112" d="M406.75,380.53a5.43,5.43,0,0,0-4.44-4" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+              <g style="mask: url(#a339685f-facb-42dd-a9a7-15cba02cbaae)">
+                <path d="M399.7,383.76a5.4,5.4,0,0,0-4.44-4" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+            </g>
+            <g id="ea154086-5738-4563-87b6-8f50ae28847b" data-name="Group-67">
+              <path d="M437.18,244.44q2.71,22.14,3.8,34.11,2.32,25.56,16.3,97.47a13,13,0,0,0,17.37,0q3.64-71.43-1.43-95l3.16-100H429.09l-20.82-3.48q-6.12,69.36-6.12,95.83t6.12,99.27a13.8,13.8,0,0,0,18,0Q431,311.5,431,283.52,434.47,264.29,437.18,244.44Z" style="fill: url(#b453374e-5f37-4443-a0e4-7d8e98d9590b)"/>
+              <g style="mask: url(#eb0f8c45-5f1b-40cd-9250-623e474419ec)">
+                <path id="ffdfe0eb-63b7-4ef9-95b4-ddd1b03cc3ed" data-name="Path-110" d="M475.46,195.64q-33.61,20.25-71,7.58V185.83Z" style="fill-opacity: 0.20000001788139343"/>
+              </g>
+              <g style="mask: url(#eb0f8c45-5f1b-40cd-9250-623e474419ec)">
+                <path id="e7cb5e1e-1de8-4369-a8d1-90767fd97247" data-name="Path-109" d="M435,286.53l-7.3,87.27q-13.11,9.27-20.1,0c20.65-18.39,13.81-69.32,13.81-87.27q0-18,13.59-61l3.94,34.81Z" style="fill: #252525;fill-opacity: 0.20000001788139343"/>
+              </g>
+              <g style="mask: url(#f1eca685-d9bb-495a-bd33-3273e1ed84d6)">
+                <path id="bc4d2a5f-4539-4367-88db-ad96eeff3436" data-name="Path-89" d="M476.44,368.13q-9.06,8.69-22,.87" style="fill: none;stroke: #0c1642;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+              <g style="mask: url(#eb0f8c45-5f1b-40cd-9250-623e474419ec)">
+                <path id="a4238af1-d365-4ef0-b176-8777a5b30001" data-name="Path-90" d="M427.93,365.08q-11.22,6-21.4,0" style="fill: none;stroke: #0c1642;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.6490000486373901px"/>
+              </g>
+            </g>
+            <g id="f5d89326-582f-4851-982f-9297e38cd2c0" data-name="Group-8">
+              <g id="b0a4130f-66a4-4af4-bf10-f4657b3025a9" data-name="Group-82">
+                <path d="M360.22,86.13c-3.57-2.85-7.06-8.43-5.68-9.29.59-.37,1.69.07,3.32,1.34a34.92,34.92,0,0,1,1.86-4.64q-8.18-4.76-7.64-6c.53-1.24,10.67,2,14,4.41q3.35,2.37,9.29,14.27l-11.19,3.1A39.4,39.4,0,0,1,360.22,86.13Z" style="fill: #fed2f5"/>
+                <g style="mask: url(#b49cc1f2-773f-4859-ac0b-73f6ffeb2008)">
+                  <path id="f81c8490-8fda-47b6-be95-3a7114e84662" data-name="Path-114" d="M359.46,73.4c1.63,1,4.54,4.58,3.25,7.82-.53,1.33-3.68-2-5.07-3.24Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+                </g>
+              </g>
+              <g id="af73067e-62ac-4560-94d4-1920a50b5612" data-name="Group-79">
+                <g id="bc32dd8c-f0b2-41b5-91dd-a951ee774b65" data-name="Path-54">
+                  <path d="M423.71,84.48q-10,5.24-28.28,41.26L376.2,84.5a9.12,9.12,0,0,0-7.74-.56,12.54,12.54,0,0,0-6.47,5.8q17,53.74,25.2,62t33.25-15.51Z" style="fill: url(#e3f22a21-b437-4f35-a114-90d17dc8bc73)"/>
+                </g>
+                <g style="mask: url(#a661cea8-a3c2-4e91-a6d1-7d6a651f75a7)">
+                  <path id="a60930c0-4473-4689-9c41-5eb97305cd76" data-name="Path-73" d="M363.82,94.32a27.16,27.16,0,0,1,6.3-4.84,32.84,32.84,0,0,1,8.24-1.94l-1-3.39-9.7-2.42-7.27,7.75,2.43,4.84Z" style="fill: #f4f4f4;fill-rule: evenodd"/>
+                </g>
+                <g style="mask: url(#eaf8b5f3-a006-4847-81e4-16cd5db30c1a)">
+                  <path id="a6fa7d41-4ebb-4024-ab65-28043ba73349" data-name="Path-102" d="M410.5,103.5a84.2,84.2,0,0,0-3,15c-4.13,34.84-13.34,32.55-19.5,35.5q7.63,2.75,10.5,1.5,7.47-3.25,22-13.5Q411.13,101.4,410.5,103.5Z" style="fill: #252525;fill-opacity: 0.20000001788139343;fill-rule: evenodd"/>
+                </g>
+              </g>
+              <g id="fcd63f12-f909-424f-865c-97b7d4b5f32c" data-name="Group-15">
+                <g id="ac9fb6c7-89b2-484f-b723-0f3913cb1e0a" data-name="Path-122">
+                  <path d="M439,79.72c-19.56,2.19-32.3,13.56-30.74,55.11.54,14.44-3.9,31.54-5.12,52a23,23,0,0,0,1.94,9.69q34.9,14,72.72,0,8-62.07,4.56-83.58C478.85,91.45,457.91,77.59,439,79.72Z" style="fill: url(#bb98fd5a-2652-4ef5-b335-c3747ceaf4b0)"/>
+                </g>
+                <g style="mask: url(#f58bdf3d-11c1-48bb-b949-854d8dcbe646)">
+                  <g id="a93057f9-8ae7-4cc7-b8a1-f0af04844301" data-name="Group-7">
+                    <g>
+                      <g id="ff9cdf20-60e7-4348-b99c-a9c7eaef2465" data-name="Path-2">
+                        <path d="M428.3,81.16c-2.32,3.77-8.1,31.28-2.3,129.34L450.14,213q-9.94-108.33-3.58-129.77-1.32-5.58-2.23-5.85L436,74.84A17.57,17.57,0,0,0,428.3,81.16Z" style="fill: #f4f4f4"/>
+                      </g>
+                      <g style="mask: url(#aeda152a-9a2a-42d6-a555-1ce75266b758)">
+                        <polygon id="a3809ca2-94b8-4be9-ad60-814834121b90" data-name="Path-15" points="426.36 100.14 432.25 95.52 439.94 101.11 448.18 85.61 426.36 82.7 426.36 100.14" style="fill-rule: evenodd;opacity: 0.04693080484867096;isolation: isolate"/>
+                      </g>
+                      <g style="mask: url(#aeda152a-9a2a-42d6-a555-1ce75266b758)">
+                        <polygon points="432.67 92.88 439.45 100.14 447.21 84.16 432.67 92.88" style="fill: #fff;fill-rule: evenodd"/>
+                      </g>
+                      <g style="mask: url(#e4d508c0-c48a-439b-8f36-82e107e88a34)">
+                        <path id="fff6066f-7621-4900-b0b5-3b5994b464ea" data-name="Path-10" d="M428.38,80.6q-9.6,23.91.77,133.15l-10-.7q-3-73.41.22-101T428.38,80.6Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+                      </g>
+                      <g style="mask: url(#aeda152a-9a2a-42d6-a555-1ce75266b758)">
+                        <polygon id="a3d765aa-0e94-49da-88c0-9717622a1606" data-name="Path-12" points="431.69 93.36 426.85 99.17 427.82 82.22 431.69 93.36" style="fill: #fff;fill-rule: evenodd"/>
+                      </g>
+                      <g style="mask: url(#aeda152a-9a2a-42d6-a555-1ce75266b758)">
+                        <polygon points="432.67 93.84 427.82 98.69 431.21 104.5 427.82 185.88 434.13 191.69 439.46 183.94 434.12 104.5 437.51 98.69 432.67 93.84" style="fill-rule: evenodd;fill: url(#f8dafdf4-bc42-4983-bd42-039f7b1ea779)"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g style="mask: url(#b49524c9-4caf-4fcb-a11c-f5dc5cda86b1)">
+                  <path id="a3436db4-aee5-4bfb-8176-18f4d6f890d8" data-name="Path-88" d="M457.14,96q-5.75,17.67,6,51.59c8.41,24.23-13.2,46-13.21,64l23.88,3.16,12.29-56.53Z" style="fill: #252525;fill-opacity: 0.20000001788139343"/>
+                </g>
+              </g>
+              <g id="b09a98ac-d172-4505-9826-292d435b2fa5" data-name="Group-5">
+                <g id="e65970fd-b47c-479c-874d-e834b1bd2cdd" data-name="Path-127">
+                  <path d="M425.39,54.31q-4.47-6.27,0-15.2c1-1.94,6.28-4.47,8.73-4.84,8.63-1.33,21.21-.77,24.72,16s-11.15,20-15.51,23.74c-3.43,3,1.23-2.26-1.45-1.94q-2.53-2.53-7-7.63T425.39,54.31Z" style="fill: #30007d"/>
+                </g>
+                <g style="mask: url(#b39b398e-14a1-40d5-919f-d6748ac18c47)">
+                  <path id="a3b52905-7085-497b-a2ec-08bccb11f19e" data-name="Path-3" d="M429.86,28.83c-3.05,2.75-7.14,14.79,8,19.58,6.88,2.18-4.62,1-3.61,9.39q-3.11,2-.74-4.09-9.37-.55-12-5.66c-2.64-5.11-3.74-9.7-1.23-14Q422.81,29.7,429.86,28.83Z" style="opacity: 0.20000001788139343;isolation: isolate"/>
+                </g>
+                <g style="mask: url(#acae1836-529c-4fbc-84db-6471b55d51f4)">
+                  <path id="b28ab444-c0b4-4eb9-8025-3b3b83794c5d" data-name="Path-5" d="M435.31,61.61c-1.59-2.71-2.32-4.56-2.16-5.55.86-5.59,4.82-7.42,6.3-6.29,2.8,2.13,8.24,21.88,15.52,17.44A16.06,16.06,0,0,1,444.3,73.5a27.57,27.57,0,0,1-7.21-6.83C435.49,64.34,434.9,62.66,435.31,61.61Z" style="opacity: 0.20000001788139343;isolation: isolate"/>
+                </g>
+              </g>
+              <path id="a0e63986-c86d-4668-a7e1-ed3c9022f99b" data-name="Path-11" d="M422.66,53.54c-1.52,3.17-5.51,4.94-5.92,6.18-.27.82.55,1.72,2.47,2.68Z" style="fill: #fed2f5"/>
+              <g>
+                <g id="a3c2697f-5db0-40c7-8509-1dbae3c40caf" data-name="Path-120">
+                  <path d="M423.93,50.73q-15,24.85,5,24.85-3.49,17.67,3.52,17.6c5.51,0,15-6,14-11.2-.65-3.5-1.37-6.64-2.16-9.45a35.49,35.49,0,0,1-6.55-6.43c2.75-1.7,3.66-3.54,2.73-5.54-1.38-3-5-1.23-5.11.84a8.24,8.24,0,0,1,.63-9Q426.7,54.92,423.93,50.73Z" style="fill: #fed2f5"/>
+                </g>
+                <g style="mask: url(#e788b9ae-88ad-48da-af23-7ac8cceb0749)">
+                  <path d="M426.2,58.85A1.34,1.34,0,1,0,425,57.42,1.34,1.34,0,0,0,426.2,58.85Z" style="fill: #4a0300"/>
+                </g>
+                <g style="mask: url(#e788b9ae-88ad-48da-af23-7ac8cceb0749)">
+                  <path id="f996da00-dccd-48d9-b60f-2b42e9f64b3a" data-name="Path-8" d="M426.35,75.78A10.34,10.34,0,0,0,434,72.87q0,7.66-6.17,9Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+                </g>
+                <g style="mask: url(#f2eaf355-2aeb-4058-8d5f-884ba3cd04ce)">
+                  <path id="b347a6d4-731f-430d-bc46-c524541ef3a6" data-name="Path-9" d="M427.39,85.11c.66,1.78,2.07,5.48,6.61,5.41s12.1-3,12.87-8.06q-.83,9.48-13.11,11.41Q425.11,95.24,427.39,85.11Z" style="opacity: 0.04693080484867096;isolation: isolate"/>
+                </g>
+              </g>
+              <path d="M421,67.27a1.71,1.71,0,0,0,3.12.22" style="fill: none;stroke: #f3bfbd;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.1872800588607788px"/>
+            </g>
+            <g id="be87c17d-e591-4430-890a-d37c765542ce" data-name="Group-68">
+              <g id="b4723221-7c15-4c35-8523-fe7e1fdf337d" data-name="Group-78">
+                <g id="fd0062f2-43fb-446e-9492-5be93e0cf65a" data-name="task">
+                  <rect id="e438ca3c-559a-418a-8ca4-58e47136db58" data-name="Rectangle-5" x="430.71" y="152.64" width="48.84" height="61.75" rx="4.07" transform="translate(0.26 367.66) rotate(-44)" style="fill: #fff"/>
+                  <g>
+                    <ellipse id="aabc62e0-763b-4caa-8f23-b8cfba19ff77" data-name="Oval-10" cx="434.94" cy="182.25" rx="4.47" ry="4.57" transform="translate(-4.53 353.29) rotate(-44)" style="fill: url(#b3e87199-bea8-49d3-a77e-827187425eb9)"/>
+                    <path id="b39e5cb3-1d59-4b66-bca8-261e3c02437d" data-name="Path-14" d="M440.46,174.2l14.23-13.74" style="fill: none;stroke: #999;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <path d="M443.64,177.48,455.57,166" style="fill: none;stroke: #bacdef;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <polyline id="bd76e261-e626-43b1-a559-b44f352a34c0" data-name="Path-24" points="433.36 183.37 435.46 183.43 435.48 180.06" style="fill: none;stroke: #fff;stroke-width: 0.9777600169181824px"/>
+                  </g>
+                  <g id="bbaed755-b75f-4778-b604-73ed895386f6" data-name="Group-20-Copy">
+                    <ellipse cx="443.97" cy="191.6" rx="4.47" ry="4.57" transform="translate(-8.49 362.18) rotate(-44)" style="fill: url(#a4851c13-cf8b-46d8-a463-8f6956a39816)"/>
+                    <path d="M449.49,183.55l14.23-13.74" style="fill: none;stroke: #999;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <path d="M452.67,186.83l11.93-11.52" style="fill: none;stroke: #bacdef;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <polyline points="442.39 192.72 444.49 192.78 444.51 189.41" style="fill: none;stroke: #fff;stroke-width: 0.9777600169181824px"/>
+                  </g>
+                  <g id="bfb8fcad-984b-451b-9008-20639f6814a8" data-name="Group-20-Copy-2">
+                    <ellipse cx="452.44" cy="200.37" rx="4.47" ry="4.57" transform="translate(-12.21 370.52) rotate(-44)" style="fill: url(#a86f5611-14a1-403f-b9dd-bd34f8e1340f)"/>
+                    <path d="M458,192.31l14.23-13.73" style="fill: none;stroke: #999;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <path d="M461.13,195.6l11.93-11.52" style="fill: none;stroke: #bacdef;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.3036799430847168px"/>
+                    <polyline points="450.86 201.49 452.95 201.55 452.97 198.17" style="fill: none;stroke: #fff;stroke-width: 0.9777600169181824px"/>
+                  </g>
+                  <path id="ba0ec074-9e74-491f-857f-770eab571f91" data-name="Rectangle-13" d="M424.79,165.37l13.27-12.81a4.06,4.06,0,0,1,5.74.1h0a4.06,4.06,0,0,1-.1,5.74l-13.26,12.81a4.06,4.06,0,0,1-5.75-.1h0A4.06,4.06,0,0,1,424.79,165.37Z" style="fill: #0c1642;fill-rule: evenodd"/>
+                </g>
+                <g id="efa08644-db4a-4ffe-8d41-12022760f729" data-name="Path-87">
+                  <path d="M464.22,205.73c-2.31,5.05-15.39,4.82-14.93,8.16s5.3-.28,6.32,1.66-5.86,2.88-5.91,6,9.58,4.11,11.57,2.48,6.78-3.78,8.73-11.74q4.61-5.86,4.5-7.77Z" style="fill: #fed2f5"/>
+                </g>
+                <g id="a3bc8a9d-ccdc-4338-91bc-9071d6852b1f" data-name="Path-68">
+                  <path d="M456.82,102.15q0,13.47,21.13,54.28l-18.22,51.7a27.49,27.49,0,0,0,5.42,2.93,42.23,42.23,0,0,0,7,1.44q24.24-44.55,24.23-56.07c0-11.52-14.32-52.7-21.57-62S456.82,88.69,456.82,102.15Z" style="fill: url(#e459705d-1d36-4448-82a2-86c01b7a4823)"/>
+                </g>
+                <g style="mask: url(#beb5223d-ccc4-4a81-b906-3e82e493d937)">
+                  <path id="af4cb166-71ca-4a52-b6a1-2a7bc58a2e98" data-name="Path-69" d="M459.82,202.83a33.16,33.16,0,0,0,6.79,4.84,29.6,29.6,0,0,0,7.75,1.94L472.42,214a40.39,40.39,0,0,1-7.75-1.94,26.39,26.39,0,0,1-5.82-3.63Z" style="fill: #f4f4f4;fill-rule: evenodd"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="eff86c0c-0c80-4d8d-81af-813c4b9bd224" data-name="Group-54">
+            <g id="a63d98cd-3ea4-4401-8518-2254bdfcd318" data-name="Group-51-Copy">
+              <path d="M285,329.16q-2,4.32-7.64,7.18c-5.64,2.85-8.79,19.09-11.15,22.56a13.29,13.29,0,0,1-11.31,6.38c-5.36.08-8.2-4.21-9-9.34s.56-8.54,6.74-12.86,7-5.57,7.24-9.7,5.39-5.42,8.28-6.14,6.22-4.82,7.23-5.89a7.81,7.81,0,0,1,6.29-1.57,4.6,4.6,0,0,1,3.49,3.8A17.77,17.77,0,0,1,285,329.16Z" style="fill: #2caf78;fill-rule: evenodd"/>
+              <path id="f6b00949-225a-4969-a7bf-b1a977fe0a55" data-name="Path-25" d="M247.59,362.08q11.74-21.91,29.32-34.46" style="fill: none;stroke: #000;stroke-opacity: 0.20000000298023224;stroke-width: 0.550000011920929px"/>
+              <path d="M258.63,345.13q8.81-1.62,12.25,1.09" style="fill: none;stroke: #000;stroke-opacity: 0.20000000298023224;stroke-width: 0.550000011920929px"/>
+              <path id="aab81217-c33e-4fa7-a661-031b5316165e" data-name="Path-47" d="M263,340.4q7.61-1.48,9.42-.08" style="fill: none;stroke: #000;stroke-opacity: 0.20000000298023224;stroke-width: 0.550000011920929px"/>
+            </g>
+            <g id="fea1534f-78f0-46f1-b39f-73d85fd08c2e" data-name="Group-52">
+              <path id="b259ffdc-e446-4f6c-9a98-7cadd2db68b3" data-name="Path-26" d="M234.68,365.54q-7.5-12.53,0-21.36c7.51-8.84,5.18-10.26,3.37-16.93s.69-16.12,5.14-19.87,4.87-6.51,3.85-14.77q-1-8.25,9.32-15.76a26,26,0,0,0,3.83-14.22c0-8.18,7.87-12,11.85-11s11.67,14.43,6.49,25.2-8.26,12.54-9.29,13.81-3.47,5.17-1.73,12.42-5.41,10.45-9.23,15.17-3.49,10.78-.79,18.35-.31,24.54-4.43,27.77Q248.94,367.61,234.68,365.54Z" style="fill: #6ce1b0;fill-rule: evenodd"/>
+              <path id="a26d715c-80cc-4812-abf5-75c1f1c90df8" data-name="Path-27" d="M243.36,365.13q1.13-59.4,24.67-96.87" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="eb0b3cf3-4a9f-4bdc-b72c-9d4375d4fc4e" data-name="Path-42" d="M246.05,331.63q6.34-4.77,8-5.4" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="b070fc11-9cc4-45d5-ba04-8295e17545d1" data-name="Path-42-Copy" d="M244.65,338.64q8-6,9.68-6.62" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="a5e57a8e-b38c-45e3-b585-d447a862b5c9" data-name="Path-43" d="M250.89,307.17q-3-7-3.44-7" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="ef6d23a4-c000-42a3-b92c-0ca410b211b3" data-name="Path-45" d="M252.13,303.21q-3.33-9.1-4.91-10" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+            </g>
+            <g id="f86c9c76-b893-4181-af66-8184f95c2684" data-name="Group-51">
+              <path d="M227.49,364.59q-3.7-3-5.11-9.15c-1.41-6.17-16.4-13.15-19.2-16.28a13.28,13.28,0,0,1-3.46-12.52c1.22-5.22,6.08-6.93,11.25-6.5s8.15,2.61,10.85,9.65,3.71,8.13,7.66,9.37,4,6.55,4,9.52,3.16,7.2,4,8.44a7.76,7.76,0,0,1,0,6.48,4.58,4.58,0,0,1-4.52,2.47A17.89,17.89,0,0,1,227.49,364.59Z" style="fill: #02bc85;fill-rule: evenodd"/>
+              <path d="M209.67,330.67q19.07,15.21,23.85,36.59" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="e7b7b909-fa43-44c9-94e2-9547e8afc362" data-name="Path-26-Copy" d="M218.36,338.56q1.89-6.8,1.58-8.28" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="f231c703-8fd8-4485-b8e2-91224725aa99" data-name="Path-26-Copy-2" d="M216.26,336.46q2-7.95,1.66-9.44" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="f8fb47a6-bd7f-4ebb-84d7-a33e90f58022" data-name="Path-26-Copy-4" d="M231.48,359.32c2-3.67,3-6,3-7" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+              <path id="aa7fe8b5-16b6-41ba-9306-b08253603003" data-name="Path-26-Copy-5" d="M230.09,355.81q3.27-6.24,3.27-7.76" style="fill: none;stroke: #07946a;stroke-width: 0.550000011920929px"/>
+            </g>
+            <g id="e62ae4e8-703d-413c-af15-29ed5ec6d37e" data-name="Group-55">
+              <g id="ea3672d6-f8c1-42cf-8dd6-0353468a54e6" data-name="Rectangle-20">
+                <path d="M221,362.38h46.11L261.89,394a2,2,0,0,1-1.54,1.63,72.18,72.18,0,0,1-15.85,1.69,83.14,83.14,0,0,1-16.71-1.71h0a2,2,0,0,1-1.57-1.64Z" style="fill: #6b18dc;fill-rule: evenodd"/>
+              </g>
+              <g style="mask: url(#bab4136e-189e-458e-88b5-2304cee18922)">
+                <polygon id="ba02088c-2f32-4693-a00f-c4dc89f82005" data-name="Path-48" points="220.5 372.12 265.06 378.84 266.62 371 220.5 372.12" style="fill-rule: evenodd;opacity: 0.20000001788139343;isolation: isolate"/>
+              </g>
+            </g>
+            <path id="b0afd696-18a1-4da5-8000-155a0f3f283f" data-name="Rectangle-20-Copy" d="M221.5,372h45.11a2,2,0,0,0,2-2v-8.3a2,2,0,0,0-2-2H221.5a2,2,0,0,0-2,2V370A2,2,0,0,0,221.5,372Z" style="fill: #6f17e0;fill-rule: evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

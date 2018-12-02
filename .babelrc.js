@@ -10,13 +10,13 @@ module.exports = {
               removeAttrs: { attrs: '(data-name)' }
             },
             {
-              cleanupIDs: false
+              cleanupIDs: true
             },
             {
               inlineStyles: true
             },
             {
-              mergePaths: false
+              mergePaths: true
             }
           ]
         }

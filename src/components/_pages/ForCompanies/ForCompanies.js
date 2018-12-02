@@ -6,12 +6,6 @@ import IconTextBlock from 'components/IconTextBlock';
 import RaisedCallout from 'components/RaisedCallout';
 import Header from './sections/ForCompaniesHeader';
 import Compare from './sections/ForCompaniesCompare';
-import IconContract from 'static/images/img_long_term_contract.svg';
-import IconGetTeam from 'static/images/img_get_team.svg';
-import IconPay from 'static/images/img_pay_perhour.svg';
-import IconApply from 'static/images/img_apply_freelancer.svg';
-import IconEvaluate from 'static/images/img_evaluate_each_other.svg';
-import IconFindGigs from 'static/images/img_find_freelance_gigs.svg';
 
 const HEADER_THEME = 'light';
 const HEADING = `For Companies`;
@@ -21,17 +15,26 @@ const ICON_GROUP = [
   {
     heading: 'Long Term or Short Term Contract',
     content: `Whether its a 6 month contractors or a 3 week design project.`,
-    icon: <IconContract />
+    icon: {
+      src: 'static/images/img_long_term_contract.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Get a Team Manager for Free',
     content: `Get feedback/consulting from your freelance team and HR Support.`,
-    icon: <IconGetTeam />
+    icon: {
+      src: 'static/images/img_get_team.svg',
+      alt: ''
+    }
   },
   {
     heading: 'Pay per Hour for Freelancer',
     content: `You only pay what the freelancer costs per hour. ReadyBase manages payroll and invoicing.`,
-    icon: <IconPay />
+    icon: {
+      src: 'static/images/img_pay_perhour.svg',
+      alt: ''
+    }
   }
 ];
 const HOW_IT_WORKS = [
@@ -39,21 +42,28 @@ const HOW_IT_WORKS = [
   {
     heading: '1. Apply as a ReadyBase Freelancer',
     content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: <IconApply />
+    icon: {
+      src: 'static/images/img_apply_freelancer.svg',
+      alt: ''
+    }
   },
   {
     heading: '2. Evaluate if we’re a good fit for each other',
     content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: <IconEvaluate />
+    icon: {
+      src: 'static/images/img_evaluate_each_other.svg',
+      alt: ''
+    }
   },
   {
     heading: '3. We find you Freelance gigs',
     content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: <IconFindGigs />
+    icon: {
+      src: 'static/images/img_find_freelance_gigs.svg',
+      alt: ''
+    }
   }
 ];
-
-
 
 const ForCompanies = () => (
   <Layout className="ForCompanies" title="Readybase" headerTheme={HEADER_THEME}>
