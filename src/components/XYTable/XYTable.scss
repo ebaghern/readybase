@@ -27,14 +27,14 @@
   }
 
   &__body {
-    border: 1px solid $grey-300;
+    border: 1px solid $gray-300;
     border-radius: rem(6);
     border-top-right-radius: 0;
     box-shadow: $shadow-large;
   }
 
   &__bodyRow {
-    border-bottom: 1px solid $grey-300;
+    border-bottom: 1px solid $gray-300;
 
     &:last-child {
       border-bottom: 0;
@@ -51,7 +51,7 @@
   }
 
   &__bodyCell {
-    border-right: 1px solid $grey-300;
+    border-right: 1px solid $gray-300;
 
     &--featured {
       color: $color-primary-light;
@@ -66,7 +66,7 @@
   &__headerCell {
     display: flex;
     align-items: center;
-    border: 1px solid $grey-300;
+    border: 1px solid $gray-300;
     border-right: 0;
     border-bottom: 0;
 
@@ -75,7 +75,7 @@
     }
 
     &:last-of-type {
-      border-right: 1px solid $grey-300;
+      border-right: 1px solid $gray-300;
       border-top-right-radius: rem(6);
     }
   }
@@ -94,7 +94,7 @@
   &__listItem {
     margin: $margin-small 0;
     padding: 1.5rem;
-    border: 1px solid $grey-300;
+    border: 1px solid $gray-300;
     box-shadow: $shadow-large;
   }
 

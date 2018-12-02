@@ -98,7 +98,7 @@ blockquote {
   @include text-lg;
   margin: $margin-small 0 ($margin-small * 1.5);
   padding-left: $margin-small;
-  color: $grey-600;
+  color: $gray-600;
 
   @include breakpoint(medium up) {
     margin: $margin-large 0 ($margin-large * 1.25);
@@ -117,8 +117,8 @@ pre {
   display: inline-block;
   padding: 0px 5px;
   border-radius: 4px;
-  background: $grey-800;
-  color: $grey-100;
+  background: $gray-800;
+  color: $gray-100;
   font-family: $font-family-mono;
 }
 

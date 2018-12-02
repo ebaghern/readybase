@@ -1,4 +1,5 @@
 .Homepage {
+  $self: &;
 
   &__pageHeader {
     .PageHeader__content {
@@ -85,6 +86,7 @@
   &__iconBlocks {
     @include make-section;
     text-align: center;
+    z-index: 1;
     @include breakpoint(medium) {
       margin: rem(160) auto;
     }
@@ -111,8 +113,33 @@
     }
   }
 
+  &__imageTextBlockWrapper {
+    &:last-child {
+      background-color: $white;
+    }
+    &:nth-child(odd) .ImageTextBlock__image {
+      @include breakpoint(medium) {
+        order: 2;
+      }
+    }
+  }
+
   &__imageTextBlocks {
+    &:after {
+      bottom: rem(480);
+      @include breakpoint(370) {
+        bottom: rem(400);
+      }
+      @include breakpoint(medium) {
+        bottom: rem(280);
+      }
+    }
+  }
+
+  &__imageTextBlock {
     @include make-section;
+    position: relative;
+    z-index: 1;
   }
 
   &__callout {

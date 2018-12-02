@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
+import PageSection from 'components/PageSection';
 
 const iconGroupA = [
   {
@@ -63,19 +64,19 @@ const HomepageIconBlocks = () => {
     ));
   return (
     <>
-      <section className="Homepage__iconBlocks">
+      <PageSection className="Homepage__iconBlocks">
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(iconGroupA)}
         </div>
         <Button>Gain Access to Freelancers</Button>
-      </section>
-      <section className="Homepage__iconBlocks">
+      </PageSection>
+      <PageSection className="Homepage__iconBlocks">
         <h2 className="Homepage__iconBlocksHeading">How It works</h2>
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(iconGroupB)}
         </div>
         <Button>Gain Access to Freelancers</Button>
-      </section>
+      </PageSection>
     </>
   );
 };

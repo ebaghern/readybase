@@ -11,7 +11,7 @@
 
   &__image {
     @include breakpoint(medium) {
-      #{$self}:nth-child(odd) & {
+      #{$self}:nth-child(odd):not(:only-child) & {
         order: 2;
       }
     }

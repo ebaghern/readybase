@@ -18,16 +18,17 @@ $container-width: rem(1160);
 $white: #fff;
 $black: #333;
 $purple: #7f2aea;
+$pale: #f6f4fe;
 $aqua: #00a7ce;
-$grey-100: lighten($black, 80%);
-$grey-200: lighten($black, 70%);
-$grey-300: lighten($black, 60%);
-$grey-400: lighten($black, 50%);
-$grey-500: lighten($black, 40%);
-$grey-600: lighten($black, 30%);
-$grey-700: lighten($black, 20%);
-$grey-800: lighten($black, 10%);
-$grey-900: darken($black, 10%);
+$gray-100: lighten($black, 75%);
+$gray-200: lighten($black, 70%);
+$gray-300: lighten($black, 60%);
+$gray-400: lighten($black, 50%);
+$gray-500: lighten($black, 40%);
+$gray-600: lighten($black, 30%);
+$gray-700: lighten($black, 20%);
+$gray-800: lighten($black, 10%);
+$gray-900: darken($black, 10%);
 
 /// Theme colors
 $theme-colors: (
@@ -37,7 +38,7 @@ $theme-colors: (
   danger: #ff1914,
   warning: #ffb006,
   info: #ffcf07,
-  light: $grey-200,
+  light: $gray-200,
   dark: $black,
   white: $white
 ) !default;
@@ -58,7 +59,7 @@ $color-primary-light: desaturate(lighten($color-primary, 12%), 15%);
 $button-color-primary: $color-secondary;
 $button-color-secondary: $color-primary;
 $button-color-danger: $color-danger;
-$button-color-disabled: $grey-400;
+$button-color-disabled: $gray-400;
 $button-color-ghost: $white;
 $button-line-height: 1.5;
 $button-padding-base: 16;
