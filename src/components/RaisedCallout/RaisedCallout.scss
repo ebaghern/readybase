@@ -10,6 +10,13 @@
     padding: 5rem;
   }
 
+  &--flare {
+    background-image: url('/static/images/img_bg_foot.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+  }
+
   > *:first-child {
     margin-top: 0;
   }

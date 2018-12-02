@@ -4,12 +4,12 @@ import Button from 'components/Button';
 import RaisedCallout from 'components/RaisedCallout';
 
 const HomepageCallToAction = () => (
-  <section className="Homepage__callout">
-    <RaisedCallout>
+  <section className="Homepage__cta">
+    <RaisedCallout className="Homepage__ctaCallout" showImg={true}>
       {(baseClass) => (
         <>
           <h2
-            className={cx(`${baseClass}__heading`, 'Homepage__calloutHeading')}
+            className={cx(`${baseClass}__heading`, 'Homepage__ctaCalloutHeading')}
           >
             Get more done with freelancer power.
             <br /> Make your impact. Build Your Vision.
@@ -17,7 +17,7 @@ const HomepageCallToAction = () => (
           <div
             className={cx(
               `${baseClass}__contentWrapper`,
-              'Homepage__calloutContent'
+              'Homepage__ctaCalloutContent'
             )}
           >
             <Button>Gain Access to Freelancers</Button>

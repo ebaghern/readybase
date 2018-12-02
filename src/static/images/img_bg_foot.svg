@@ -1,16 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1093px" height="300px" viewBox="0 0 1093 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>img_bg_foot</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="01---Landing-Page" transform="translate(-183.000000, -5271.000000)">
-            <g id="section---" transform="translate(183.000000, 5271.000000)">
-                <g id="Group-9" transform="translate(-35.000000, 0.000000)">
-                    <path d="M0,324.687012 C107.015512,78.223392 344.859725,3.42649282 713.532638,100.296314 C915.026551,153.239394 1054.08111,134.901107 1130.69631,45.2814555 L1134.5,324.687012 L0,324.687012 Z" id="Path-18-Copy" fill="#FBFAFE"></path>
-                    <path d="M0.122584576,304.820529 C107.138097,111.690242 344.98231,63.5600095 713.655223,160.429831 C916.183485,213.644688 1055.62969,194.84447 1131.99384,104.029176 L1141,304.820529 L0.122584576,304.820529 Z" id="Path-18" fill="#F7F5FD"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg id="fa1839fe-019a-4a78-ba22-b7625580a6fc" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1130.57 259.54">
+  <title>Artboard 2</title>
+  <g>
+    <path d="M713.41,55Q175.55-86.3,9,259.54H1130.57V0Q1015.66,134.43,713.41,55Z" style="fill: #fbfafe;fill-rule: evenodd"/>
+    <path d="M713.53,115.15Q160.53-30.15,0,259.54H1130.57V60.25Q1015.61,194.52,713.53,115.15Z" style="fill: #f7f5fd;fill-rule: evenodd"/>
+  </g>
 </svg>
