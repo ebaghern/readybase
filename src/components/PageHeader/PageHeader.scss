@@ -10,6 +10,17 @@
     padding: rem(180) 0;
   }
 
+  &--light {
+    background-image: url('img_bg_hero_alt_preserve');
+    background-repeat: no-repeat;
+    background-position: 50% calc(100% - #{rem(80)});
+    background-size: cover;
+    @include breakpoint(xlarge) {
+      background-image: url('img_bg_hero_alt');
+      background-size: 100%;
+    }
+  }
+
   &__contentWrapper {
     @include block-center;
     padding: 0 $margin-small;
@@ -61,7 +72,7 @@
   }
 
   &--dark {
-    background-image: url('flare-hero-home');
+    background-image: url('flare-hero-home-preserve');
     background-repeat: no-repeat;
     background-position: 16%;
     background-size: auto 100%;

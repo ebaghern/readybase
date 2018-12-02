@@ -1,5 +1,5 @@
-<svg id="e87aead2-6e5d-430f-a338-231148a83cef" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 438.18">
-  <title>top</title>
+<svg id="e87aead2-6e5d-430f-a338-231148a83cef"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 438.18" preserveAspectRatio="none">
   <rect width="1440" height="438.18" style="fill: #fff"/>
   <path d="M673.05,219.19Q219.52,219.19,0,0V438.18H1440V415.63Q1224.59,219.19,673.05,219.19Z" style="fill: #f6f4fe"/>
 </svg>
