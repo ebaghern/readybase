@@ -1,10 +1,11 @@
 import React from 'react';
 import cx from 'classnames';
 import Button from 'components/Button';
+import PageSection from 'components/PageSection';
 import RaisedCallout from 'components/RaisedCallout';
 
 const HomepageCallToAction = () => (
-  <section className="Homepage__cta">
+  <PageSection className="Homepage__cta">
     <RaisedCallout className="Homepage__ctaCallout" showImg={true}>
       {(baseClass) => (
         <>
@@ -31,7 +32,7 @@ const HomepageCallToAction = () => (
         </>
       )}
     </RaisedCallout>
-  </section>
+  </PageSection>
 );
 
 export default HomepageCallToAction;
