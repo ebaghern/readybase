@@ -113,17 +113,6 @@
     }
   }
 
-  &__imageTextBlockWrapper {
-    &:last-child {
-      background-color: $white;
-    }
-    &:nth-child(odd) .ImageTextBlock__image {
-      @include breakpoint(medium) {
-        order: 2;
-      }
-    }
-  }
-
   &__imageTextBlocks {
     &:after {
       bottom: rem(480);
@@ -136,9 +125,25 @@
     }
   }
 
+  &__imageTextBlockWrapper {
+    padding: rem(20) $margin-small;
+    @include breakpoint(medium) {
+      padding: rem(50) $margin-large;
+    }
+    &:last-child {
+      //background-color: $white;
+    }
+    &:nth-child(odd) .ImageTextBlock__image {
+      @include breakpoint(medium) {
+        order: 2;
+      }
+    }
+  }
+
   &__imageTextBlock {
-    @include make-section;
+    @include block-center;
     position: relative;
+    max-width: $container-width;
     z-index: 1;
   }
 

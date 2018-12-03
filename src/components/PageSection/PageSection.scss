@@ -1,67 +1,84 @@
 .PageSection {
+  $self: &;
   position: relative;
   &--gray {
     background-color: $gray-100;
   }
+
   &--pale {
     background-color: $pale;
-    &:before,
-    &:after {
+
+    &#{$self}--first,
+    &#{$self}--last,
+    &#{$self}--only {
+      // background-color: transparent;
+    }
+
+    &#{$self}--first:before,
+    &#{$self}--only:before {
       display: block;
       position: absolute;
+      top: rem(-50);
       left: 0;
       width: 100%;
-      height: rem(430);
+      height: rem(100);
+      background-image: url('img_bg_gray_top');
       background-repeat: no-repeat;
-      background-position: center;
-      content: '';
-    }
-    &:before {
-      top: rem(-180);
-      height: rem(180);
-      background-image: url('/static/images/img_bg_gray_top.jpg');
       background-position: bottom center;
-      background-size: 100% auto;
+      background-size: 100% rem(100);
+      content: '';
       @include breakpoint(medium) {
-        top: rem(-200);
+        top: rem(-140);
         height: rem(280);
         background-size: 120% rem(280);
       }
       @include breakpoint(large) {
-        top: rem(-300);
+        top: rem(-180);
         height: rem(360);
         background-size: 120% rem(360);
       }
       @include breakpoint(xlarge) {
-        top: rem(-300);
+        top: rem(-200);
         height: rem(400);
         background-size: 100% rem(400);
       }
       @include breakpoint(xxlarge) {
-        top: rem(-300);
+        top: rem(-240);
         height: rem(480);
         background-size: 100% rem(480);
       }
     }
-    &:after {
-      bottom: 0;
-      height: rem(180);
-      background-image: url('/static/images/img_bg_gray_bottom.jpg');
+
+    &#{$self}--last:after,
+    &#{$self}--only:after {
+      display: block;
+      position: absolute;
+      bottom: rem(-50);
+      left: 0;
+      width: 100%;
+      height: rem(100);
+      background-image: url('img_bg_gray_bottom');
+      background-repeat: no-repeat;
       background-position: bottom center;
-      background-size: 100% auto;
+      background-size: 100% rem(100);
+      content: '';
       @include breakpoint(medium) {
+        bottom: rem(-140);
         height: rem(280);
         background-size: 120% rem(280);
       }
       @include breakpoint(large) {
+        bottom: rem(-180);
         height: rem(360);
         background-size: 120% rem(360);
       }
       @include breakpoint(xlarge) {
+        bottom: rem(-200);
         height: rem(400);
         background-size: 100% rem(400);
       }
       @include breakpoint(xxlarge) {
+        bottom: rem(-240);
         height: rem(480);
         background-size: 100% rem(480);
       }

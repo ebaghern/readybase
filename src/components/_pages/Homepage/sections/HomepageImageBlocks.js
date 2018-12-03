@@ -61,17 +61,23 @@ const BLOCKS = [
 ];
 
 const HomepageImageBlocks = () => (
-  <PageSection element="div" color="pale" className="Homepage__imageTextBlocks">
-    {BLOCKS.map((blockProps, i) => (
-      <div className="Homepage__imageTextBlockWrapper">
-        <ImageTextBlock
-          key={i}
-          className="Homepage__imageTextBlock"
-          {...blockProps}
-        />
-      </div>
-    ))}
-  </PageSection>
+  <div className="Homepage__imageTextBlocks">
+    {BLOCKS.map((blockProps, i, arr) => {
+      return (
+        <PageSection
+          className="Homepage__imageTextBlockWrapper"
+          position={i === 0 ? 'first' : i === arr.length - 2 && 'last'}
+          color={i !== arr.length - 1 && 'pale'}
+        >
+          <ImageTextBlock
+            key={i}
+            className="Homepage__imageTextBlock"
+            {...blockProps}
+          />
+        </PageSection>
+      );
+    })}
+  </div>
 );
 
 export default HomepageImageBlocks;

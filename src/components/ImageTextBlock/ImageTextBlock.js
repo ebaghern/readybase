@@ -20,7 +20,7 @@ const ImageTextBlock = ({ content, heading, className, image }) => {
   };
 
   return (
-    <section className={cx('ImageTextBlock', className)}>
+    <div className={cx('ImageTextBlock', className)}>
       {renderImage(image)}
       <div className="ImageTextBlock__contentWrapper">
         {heading && (
@@ -34,7 +34,7 @@ const ImageTextBlock = ({ content, heading, className, image }) => {
           )}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

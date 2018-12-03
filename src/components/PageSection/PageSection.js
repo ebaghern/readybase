@@ -3,7 +3,7 @@ import cx from 'classnames';
 import { isArray } from 'lodash';
 import PropTypes from 'prop-types';
 
-const PageSection = ({ element, className, children, color }) => {
+const PageSection = ({ element, className, children, color, position }) => {
   const Element = element;
   return (
     <Element
@@ -11,7 +11,8 @@ const PageSection = ({ element, className, children, color }) => {
         isArray(className) ? className.join(' ') : className,
         'PageSection',
         {
-          [`PageSection--${color}`]: color
+          [`PageSection--${color}`]: color,
+          [`PageSection--${position}`]: position
         }
       )}
     >
@@ -26,7 +27,8 @@ PageSection.propTypes = {
     PropTypes.arrayOf(PropTypes.string),
     PropTypes.string
   ]),
-  color: PropTypes.oneOf(['gray', 'pale', 'white'])
+  color: PropTypes.oneOf(['gray', 'pale', 'white']),
+  position: PropTypes.oneOf(['first', 'last', 'only'])
 };
 
 PageSection.defaultProps = {
