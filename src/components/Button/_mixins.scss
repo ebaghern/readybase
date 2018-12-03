@@ -25,7 +25,7 @@
     background-image: linear-gradient(to right, $background, saturate(lighten($background, 5%), 5%));
     &:hover,
     &:focus {
-      background-image: linear-gradient(to left, $background, saturate(lighten($background, 5%), 5%));
+      background-position: right center;
     }
   }
   box-shadow: 0 2px 0 rgba($black, 0.035);
@@ -44,10 +44,12 @@
 @mixin button-variant-other($color, $background, $border) {
   @include button-color($color, $background, $border);
   @if $background != transparent or $background != 0 {
-    background-image: linear-gradient(to right, $background, saturate(lighten($background, 5%), 5%));
+    background-image: linear-gradient(to right, $background 0%, saturate(lighten($background, 5%), 5%) 50%, $background 100%);
+    background-position: left center;
+    background-size: 200% auto;
     &:hover,
     &:focus {
-      background-image: linear-gradient(to left, $background, saturate(lighten($background, 5%), 5%));
+      background-position: right center;
     }
   }
 
@@ -122,7 +124,7 @@
   @include button-size;
   display: inline-block;
   position: relative;
-  transition: 0.75s all ease-in-out;
+  transition: 0.25s all ease-in-out;
   border: rem($button-border-width) solid transparent;
   background-image: none;
   font-weight: $button-font-weight;
@@ -178,7 +180,7 @@
   &:focus,
   &:active,
   &--active {
-    background: saturate(lighten($button-color-primary, 5%), 5%);
+    background-color: saturate(lighten($button-color-primary, 5%), 5%);
     text-decoration: none;
   }
 }
