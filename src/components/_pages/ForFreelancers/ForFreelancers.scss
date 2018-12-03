@@ -47,14 +47,14 @@
 
   &__howItWorks {
     margin-top: 0;
-    padding: 0 0 $margin-small;
+    padding: 0 $margin-small rem(20);
     text-align: center;
     @include breakpoint(medium) {
-      padding: 0 0 $margin-large;
+      padding: 0 $margin-large rem(50);
     }
   }
 
-  &__howItWorksCallout {
+  &__howItWorksInner {
     @include block-center;
     max-width: $container-width;
   }

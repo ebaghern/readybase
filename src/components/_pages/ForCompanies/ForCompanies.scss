@@ -18,6 +18,7 @@
   &__iconBlocks {
     @include make-section;
     margin-top: 0;
+    padding-top: 0 !important; // sass-lint:disable-line no-important
     text-align: center;
     @include breakpoint(medium) {
       margin-top: 0;
@@ -47,11 +48,16 @@
 
   &__howItWorks {
     margin-top: 0;
-    padding: 0 0 $margin-small;
+    padding: 0 $margin-small rem(20);
     text-align: center;
     @include breakpoint(medium) {
-      padding: 0 0 $margin-large;
+      padding: 0 $margin-large rem(50);
     }
+  }
+
+  &__howItWorksInner {
+    @include block-center;
+    max-width: $container-width;
   }
 
   &__howItWorksCallout {
@@ -78,6 +84,18 @@
     @include breakpoint(medium) {
       transform: translateY(rem(50));
     }
+  }
+
+  &__why {
+    margin: rem(80) 0;
+    text-align: center;
+    @include breakpoint(medium) {
+      margin: rem(100) 0;
+    }
+  }
+
+  &__whyInner {
+    @include make-section;
   }
 
   &__compareHeading {

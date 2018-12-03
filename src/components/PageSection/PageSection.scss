@@ -12,9 +12,6 @@
     &#{$self}--last,
     &#{$self}--only {
       // background-color: transparent;
-      > * {
-        z-index: 1;
-      }
     }
 
     &#{$self}--first:before,
@@ -89,5 +86,6 @@
   }
   > * {
     position: relative;
+    z-index: 1;
   }
 }
