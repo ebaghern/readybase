@@ -37,7 +37,7 @@ const IconTextBlock = ({ content, heading, className, icon }) => {
 };
 
 IconTextBlock.propTypes = {
-  content: PropTypes.oneOfType([PropTypes.func, PropTypes.string]).isRequired,
+  content: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   heading: PropTypes.string,
   icon: PropTypes.oneOfType([
     PropTypes.element,

@@ -2,6 +2,7 @@
   padding: 1rem;
   border: 1px solid $gray-300;
   border-radius: rem(6);
+  background: $white;
   box-shadow: $shadow-large;
   @include breakpoint(medium) {
     padding: rem(20);

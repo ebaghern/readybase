@@ -11,7 +11,13 @@
 
   &__calloutContent {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: $margin-large;
+    gap: $margin-small;
+    @include breakpoint(medium) {
+      gap: $margin-large;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint(large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 }

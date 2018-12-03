@@ -1,0 +1,15 @@
+@each $size in map-keys($breakpoints) {
+  // sass-lint:disable-block no-important
+  .hide-#{$size}-up {
+    @include breakpoint($size) {
+      display: none !important;
+    }
+  }
+
+  .hide-#{$size}-down {
+    @include breakpoint($size down) {
+      display: none !important;
+    }
+  }
+}
+

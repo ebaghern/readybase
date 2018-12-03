@@ -89,15 +89,26 @@ class Header extends Component {
             </a>
           </Link>
         </div>
-        <nav className="Header__nav">
+        <nav
+          className={cx('Header__nav', {
+            'Header__nav--active': menuIsActive
+          })}
+        >
           <Menu className="Header__navMenu" items={menuItems} />
-          <Hamburger
-            className="Header__navToggle"
-            handleToggle={handleMenuToggle}
-            isActive={menuIsActive}
-          />
+          <Button className="Header__button hide-large-up" href={buttonLink}>
+            {buttonText}
+          </Button>
         </nav>
-        <Button href={buttonLink}>{buttonText}</Button>
+        <Hamburger
+          className={cx('Header__navToggle', {
+            'Header__navToggle--active': menuIsActive
+          })}
+          handleToggle={handleMenuToggle}
+          isActive={menuIsActive}
+        />
+        <Button className="Header__button hide-large-down" href={buttonLink}>
+          {buttonText}
+        </Button>
       </header>
     );
   }

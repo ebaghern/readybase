@@ -1,5 +1,15 @@
 .Referral {
 
+  &__pageHeader {
+    z-index: 1;
+    @include breakpoint(medium) {
+      margin-bottom: rem(-80);
+    }
+    @include breakpoint(large) {
+      margin-bottom: rem(-120);
+    }
+  }
+
   &__callout {
     @include make-section;
     margin-top: 0;
@@ -18,9 +28,12 @@
   &__iconBlocks {
     @include make-section;
     margin-top: 0;
+    margin-bottom: rem(30);
+    padding-top: 0 !important; // sass-lint:disable-line no-important
     text-align: center;
     @include breakpoint(medium) {
       margin-top: 0;
+      margin-bottom: rem(100);
     }
   }
 
@@ -30,7 +43,7 @@
     grid-template: auto / 1fr;
     gap: $margin-large;
     @include breakpoint(medium) {
-      margin: rem(60) 0;
+      margin: rem(60) 0 0;
       grid-template: auto / repeat(3, 1fr);
     }
     @include breakpoint(large) {
@@ -46,10 +59,28 @@
   }
 
   &__textBlocks {
+    margin-top: rem(-60);
+    padding: rem(60) $margin-small rem(20);
+    text-align: center;
+    @include breakpoint(medium) {
+      margin-top: rem(-240);
+      padding: rem(180) $margin-large rem(50);
+    }
+    @include breakpoint(large) {
+      margin-top: rem(-240);
+      padding-top: rem(190);
+    }
+    &:before {
+      // background-image: url('img_bg_gray_top_transparent') !important;
+    }
+  }
+
+  &__textBlocksInner {
     @include block-center;
     display: grid;
     max-width: $container-width;
     padding: 0 $margin-small;
+    text-align: left;
     grid-template: auto / 1fr;
     gap: $margin-small;
     @include breakpoint(medium) {
@@ -60,12 +91,28 @@
   }
 
   &__textBlocksButton {
-    text-align: center;
-    grid-column: 1 / -1;
+    @include block-center;
+    margin-top: 2rem;
   }
 
   &__accordions {
+    @include breakpoint(medium) {
+      margin-bottom: rem(80);
+    }
+    @include breakpoint(large) {
+      margin-bottom: rem(120);
+    }
+    @include breakpoint(xlarge) {
+      margin-bottom: rem(180);
+    }
+    @include breakpoint(xxlarge) {
+      margin-bottom: rem(240);
+    }
+  }
+
+  &__accordionsInner {
     @include make-section;
+    padding-bottom: 0 !important; // sass-lint:disable-line no-important
   }
 
   &__accordionsHeading {
@@ -75,6 +122,10 @@
 
   &__accordionsButton {
     margin-top: $margin-large;
+    transform: translateY(rem(30));
     text-align: center;
+    @include breakpoint(medium) {
+      transform: translateY(rem(46));
+    }
   }
 }

@@ -69,7 +69,44 @@
   }
 
   &__nav {
-    @include breakpoint(medium) {
+    @include breakpoint(medium down) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      padding: $margin-small;
+      transform: translateX(100%);
+      transition: 0.25s transform ease-in;
+      background: linear-gradient(to bottom, $color-primary-light 0%, $color-primary 100%);
+
+      .Menu {
+        margin-bottom: $margin-small;
+
+        &__item--has-children > a {
+          display: none;
+        }
+
+        &__submenu {
+          margin: 0;
+          padding: 0;
+        }
+
+        &__item {
+          margin: 1rem 0;
+          font-weight: $font-weight-bold;
+        }
+
+        &__link {
+          color: $white;
+          text-decoration: none;
+        }
+      }
+
+      &--active {
+        transform: translateX(0);
+      }
+    }
+    @include breakpoint(large) {
       .Menu {
         display: flex;
 
@@ -133,7 +170,13 @@
   }
 
   &__navToggle {
-    @include breakpoint(medium) {
+    z-index: 2;
+    &--active {
+      .Hamburger__line {
+        background-color: $white;
+      }
+    }
+    @include breakpoint(large) {
       display: none;
     }
   }
