@@ -46,12 +46,17 @@
   }
 
   &__howItWorks {
-    @include make-section;
     margin-top: 0;
+    padding: 0 0 $margin-small;
     text-align: center;
     @include breakpoint(medium) {
-      margin-top: 0;
+      padding: 0 0 $margin-large;
     }
+  }
+
+  &__howItWorksCallout {
+    @include block-center;
+    max-width: $container-width;
   }
 
   &__types {

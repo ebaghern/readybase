@@ -42,6 +42,11 @@
   }
 
   &__bodyCell,
+  &__headerCell {
+    background-color: $white;
+  }
+
+  &__bodyCell,
   &__headerSpacer,
   &__headerCell {
     padding: 1rem;

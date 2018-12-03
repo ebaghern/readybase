@@ -1,4 +1,5 @@
 import React from 'react';
+import PageSection from 'components/PageSection';
 import XYTable from 'components/XYTable';
 
 const COMPARE_TABLE = {
@@ -123,10 +124,12 @@ const COMPARE_TABLE = {
 };
 
 const ForCompaniesCompare = (props) => (
-  <section className="ForCompanies__compare">
-    <h2 className="ForCompanies__compareHeading">How We Compare</h2>
-    <XYTable cols={COMPARE_TABLE.cols} />
-  </section>
+  <PageSection color="pale" className="ForCompanies__compare">
+    <div className="ForCompanies__compareInner">
+      <h2 className="ForCompanies__compareHeading">How We Compare</h2>
+      <XYTable cols={COMPARE_TABLE.cols} />
+    </div>
+  </PageSection>
 );
 
 export default ForCompaniesCompare;

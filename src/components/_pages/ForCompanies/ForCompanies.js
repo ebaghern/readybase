@@ -3,9 +3,10 @@ import cx from 'classnames';
 import Layout from 'components/Layout';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
-import RaisedCallout from 'components/RaisedCallout';
 import Header from './sections/ForCompaniesHeader';
 import Compare from './sections/ForCompaniesCompare';
+import Investment from './sections/ForCompaniesInvestment';
+import HowItWorks from './sections/ForCompaniesHowItWorks';
 
 const HEADER_THEME = 'light';
 const HEADING = `For Companies`;
@@ -37,33 +38,6 @@ const ICON_GROUP = [
     }
   }
 ];
-const HOW_IT_WORKS = [
-  // @todo Get content from Eamon
-  {
-    heading: '1. Apply as a ReadyBase Freelancer',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: {
-      src: 'static/images/img_apply_freelancer.svg',
-      alt: ''
-    }
-  },
-  {
-    heading: '2. Evaluate if we’re a good fit for each other',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: {
-      src: 'static/images/img_evaluate_each_other.svg',
-      alt: ''
-    }
-  },
-  {
-    heading: '3. We find you Freelance gigs',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
-    icon: {
-      src: 'static/images/img_find_freelance_gigs.svg',
-      alt: ''
-    }
-  }
-];
 
 const ForCompanies = () => (
   <Layout className="ForCompanies" title="Readybase" headerTheme={HEADER_THEME}>
@@ -79,25 +53,9 @@ const ForCompanies = () => (
         ))}
       </div>
     </section>
-    <section className="ForCompanies__howItWorks">
-      <RaisedCallout>
-        {() => (
-          <>
-            <h2>How It Works</h2>
-            <div className="ForCompanies__iconBlocksWrapper">
-              {HOW_IT_WORKS.map((blockProps, i) => (
-                <IconTextBlock
-                  {...blockProps}
-                  key={i}
-                  className="ForCompanies__iconBlock"
-                />
-              ))}
-            </div>
-          </>
-        )}
-      </RaisedCallout>
-    </section>
+    <HowItWorks />
     <Compare />
+    <Investment />
   </Layout>
 );
 

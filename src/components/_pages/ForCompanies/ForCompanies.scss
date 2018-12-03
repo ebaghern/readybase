@@ -46,16 +46,38 @@
   }
 
   &__howItWorks {
-    @include make-section;
     margin-top: 0;
+    padding: 0 0 $margin-small;
     text-align: center;
     @include breakpoint(medium) {
-      margin-top: 0;
+      padding: 0 0 $margin-large;
     }
   }
 
-  &__compare {
+  &__howItWorksCallout {
+    @include block-center;
+    max-width: $container-width;
+  }
+
+  &__compareInner {
     @include make-section;
+  }
+
+  &__investment {
+    text-align: center;
+  }
+
+  &__investmentInner {
+    @include make-section;
+    max-width: rem(1000);
+    padding-bottom: 0 !important; // sass-lint:disable-line no-important
+  }
+
+  &__investmentButton {
+    transform: translateY(rem(30));
+    @include breakpoint(medium) {
+      transform: translateY(rem(50));
+    }
   }
 
   &__compareHeading {
