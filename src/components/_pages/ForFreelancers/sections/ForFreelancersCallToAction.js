@@ -1,10 +1,11 @@
 import React from 'react';
 import cx from 'classnames';
 import Button from 'components/Button';
+import PageSection from 'components/PageSection';
 import RaisedCallout from 'components/RaisedCallout';
 
 const ForFreelancersCallToAction = () => (
-  <section className="ForFreelancers__callout">
+  <PageSection className="ForFreelancers__callout">
     <RaisedCallout showImg={true}>
       {(baseClass) => (
         <>
@@ -29,7 +30,7 @@ const ForFreelancersCallToAction = () => (
         </>
       )}
     </RaisedCallout>
-  </section>
+  </PageSection>
 );
 
 export default ForFreelancersCallToAction;
