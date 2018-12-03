@@ -12,7 +12,9 @@ class Layout extends Component {
     className: PropTypes.string,
     title: PropTypes.string,
     headerTheme: PropTypes.oneOf(headerThemeOptions),
-    showDonuts: PropTypes.bool
+    showDonuts: PropTypes.bool,
+    headerButtonText: PropTypes.string,
+    headerButtonLink: PropTypes.string
   };
 
   static defaultProps = {
@@ -28,7 +30,15 @@ class Layout extends Component {
     this.setState((state) => ({ menuIsActive: !state.menuIsActive }));
 
   render() {
-    const { children, className, title, headerTheme, showDonuts } = this.props;
+    const {
+      children,
+      className,
+      title,
+      headerTheme,
+      showDonuts,
+      headerButtonText,
+      headerButtonLink
+    } = this.props;
     const { menuIsActive } = this.state;
 
     return (
@@ -43,6 +53,8 @@ class Layout extends Component {
             theme={headerTheme}
             menuIsActive={menuIsActive}
             handleMenuToggle={this.toggleMenu}
+            buttonText={headerButtonText}
+            buttonLink={headerButtonLink}
           />
           {children}
         </div>

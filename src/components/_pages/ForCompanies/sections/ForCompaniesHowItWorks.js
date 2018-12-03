@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'components/Button';
 import PageSection from 'components/PageSection';
 import RaisedCallout from 'components/RaisedCallout';
 import IconTextBlock from 'components/IconTextBlock';
@@ -50,6 +51,12 @@ const ForCompaniesHowItWorks = (props) => (
               />
             ))}
           </div>
+          <Button
+            href="access-freelancers"
+            className="ForCompanies__howItWorksButton"
+          >
+            Gain Access to Freelancers
+          </Button>
         </>
       )}
     </RaisedCallout>

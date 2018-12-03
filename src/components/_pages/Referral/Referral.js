@@ -115,7 +115,7 @@ const Referral = () => (
         </RaisedTextBlock>
       ))}
       <div className="Referral__textBlocksButton">
-        <Button>Become a ReadyBase Freelancer</Button>
+        <Button href="become-a-freelancer">Become a ReadyBase Freelancer</Button>
       </div>
     </section>
     <section className="Referral__accordions">
@@ -142,7 +142,7 @@ const Referral = () => (
         })}
       </Accordion>
       <div className="Referral__accordionsButton">
-        <Button>Gain Access to a Freelancer</Button>
+        <Button href="access-freelancers">Gain Access to a Freelancer</Button>
       </div>
     </section>
   </Layout>

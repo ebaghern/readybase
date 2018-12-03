@@ -9,7 +9,10 @@ const HomepageCallToAction = () => (
       {(baseClass) => (
         <>
           <h2
-            className={cx(`${baseClass}__heading`, 'Homepage__ctaCalloutHeading')}
+            className={cx(
+              `${baseClass}__heading`,
+              'Homepage__ctaCalloutHeading'
+            )}
           >
             Get more done with freelancer power.
             <br /> Make your impact. Build Your Vision.
@@ -20,8 +23,10 @@ const HomepageCallToAction = () => (
               'Homepage__ctaCalloutContent'
             )}
           >
-            <Button>Gain Access to Freelancers</Button>
-            <Button>Become a ReadyBase Freelancer</Button>
+            <Button href="access-freelancers">Gain Access to Freelancers</Button>
+            <Button href="become-a-freelancer">
+              Become a ReadyBase Freelancer
+            </Button>
           </div>
         </>
       )}

@@ -1,9 +1,10 @@
 import React from 'react';
 import Button from 'components/Button';
+import PageSection from 'components/PageSection';
 import RaisedCallout from 'components/RaisedCallout';
 import IconTextBlock from 'components/IconTextBlock';
 
-const HOW_IT_WORKS = [
+const BLOCKS = [
   // @todo Get content from Eamon
   {
     heading: '1. Apply as a ReadyBase Freelancer',
@@ -32,27 +33,34 @@ const HOW_IT_WORKS = [
 ];
 
 const ForFreelancersHowItWorks = () => (
-  <section className="ForFreelancers__howItWorks">
-    <RaisedCallout className="ForFreelancers__howItWorksCallout">
+  <PageSection
+    position="first"
+    color="pale"
+    className="ForFreelancers__howItWorks"
+  >
+    <RaisedCallout showImg={true} className="ForFreelancers__howItWorksCallout">
       {() => (
         <>
           <h2>How It Works</h2>
           <div className="ForFreelancers__iconBlocksWrapper">
-            {HOW_IT_WORKS.map((blockProps, i) => (
+            {BLOCKS.map((blockProps, i) => (
               <IconTextBlock
                 {...blockProps}
                 key={i}
                 className="ForFreelancers__iconBlock"
               />
             ))}
-            <div className="ForFreelancers__iconBlocksButton">
-              <Button>Become a ReadyBase Freelancer</Button>
-            </div>
           </div>
+          <Button
+            href="become-a-freelancer"
+            className="ForFreelancers__howItWorksButton"
+          >
+            Become a ReadyBase Freelancer
+          </Button>
         </>
       )}
     </RaisedCallout>
-  </section>
+  </PageSection>
 );
 
 export default ForFreelancersHowItWorks;

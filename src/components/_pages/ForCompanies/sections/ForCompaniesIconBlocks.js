@@ -1,5 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
+import Button from 'components/Button';
 import PageSection from 'components/PageSection';
 import IconTextBlock from 'components/IconTextBlock';
 
@@ -42,6 +43,12 @@ const ForCompaniesIconBlocks = (props) => (
         />
       ))}
     </div>
+    <Button
+      href="access-freelancers"
+      className="ForCompanies__iconBlocksButton"
+    >
+      Gain Access to Freelancers
+    </Button>
   </PageSection>
 );
 

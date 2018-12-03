@@ -5,7 +5,7 @@ import RaisedCallout from 'components/RaisedCallout';
 
 const ForFreelancersCallToAction = () => (
   <section className="ForFreelancers__callout">
-    <RaisedCallout>
+    <RaisedCallout showImg={true}>
       {(baseClass) => (
         <>
           <h2
@@ -22,7 +22,9 @@ const ForFreelancersCallToAction = () => (
               'ForFreelancers__calloutContent'
             )}
           >
-            <Button>Become a ReadyBase Freelancer</Button>
+            <Button href="become-a-freelancer">
+              Become a ReadyBase Freelancer
+            </Button>
           </div>
         </>
       )}

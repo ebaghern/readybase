@@ -18,7 +18,12 @@ const ForCompaniesInvestment = (props) => (
     <div className="ForCompanies__investmentInner">
       <h2 className="ForCompanies__investmentHeading">{smart(HEADING)}</h2>
       <p>{smart(CONTENT)}</p>
-      <Button className="ForCompanies__investmentButton">Gain Access to Freelancers</Button>
+      <Button
+        href="access-freelancers"
+        className="ForCompanies__investmentButton"
+      >
+        Gain Access to Freelancers
+      </Button>
     </div>
   </PageSection>
 );

@@ -35,7 +35,10 @@ const ForCompaniesWhy = (props) => (
                 className="ForCompanies__whyTagline"
                 dangerouslySetInnerHTML={{ __html: smart(TAG_LINE) }}
               />
-              <Button className="ForCompanies__whyButton">
+              <Button
+                href="access-freelancers"
+                className="ForCompanies__whyButton"
+              >
                 Gain Access to Freelancers
               </Button>
             </div>

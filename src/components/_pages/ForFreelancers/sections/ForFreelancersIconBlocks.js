@@ -1,4 +1,5 @@
 import React from 'react';
+import PageSection from 'components/PageSection';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
 
@@ -31,7 +32,7 @@ const ICON_GROUP = [
 ];
 
 const ForFreelancersIconBlocks = () => (
-  <section className="ForFreelancers__iconBlocks">
+  <PageSection className="ForFreelancers__iconBlocks">
     <div className="ForFreelancers__iconBlocksWrapper">
       {ICON_GROUP.map((blockProps, i) => (
         <IconTextBlock
@@ -40,11 +41,14 @@ const ForFreelancersIconBlocks = () => (
           className="ForFreelancers__iconBlock"
         />
       ))}
-      <div className="ForFreelancers__iconBlocksButton">
-        <Button>Become a ReadyBase Freelancer</Button>
-      </div>
     </div>
-  </section>
+    <Button
+      href="become-a-freelancer"
+      className="ForFreelancers__iconBlocksButton"
+    >
+      Become a ReadyBase Freelancer
+    </Button>
+  </PageSection>
 );
 
 export default ForFreelancersIconBlocks;

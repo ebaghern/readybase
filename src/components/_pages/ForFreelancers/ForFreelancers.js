@@ -18,6 +18,8 @@ const ForFreelancers = () => (
     className="ForFreelancers"
     title="Readybase"
     headerTheme={HEADER_THEME}
+    headerButtonText="Become a ReadyBase Freelancer"
+    headerButtonLink="become-a-freelancer"
   >
     <Header theme={HEADER_THEME} heading={HEADING} content={CONTENT} />
     <IconBlocks />

@@ -16,14 +16,18 @@ class Header extends Component {
     menuIsActive: PropTypes.bool,
     menuItems: PropTypes.arrayOf(menuItemShape),
     theme: PropTypes.oneOf(themeOptions),
-    pageTitle: PropTypes.string
+    pageTitle: PropTypes.string,
+    buttonText: PropTypes.string,
+    buttonLink: PropTypes.string
   };
 
   static defaultProps = {
     menuIsActive: false,
     menuItems,
     theme: 'light',
-    pageTitle: 'Readybase'
+    pageTitle: 'Readybase',
+    buttonText: 'Gain Access to Freelancers',
+    buttonLink: 'access-freelancers'
   };
 
   state = {
@@ -63,6 +67,8 @@ class Header extends Component {
       handleMenuToggle,
       menuItems,
       pageTitle,
+      buttonText,
+      buttonLink,
       theme
     } = this.props;
     const { isScrolled } = this.state;
@@ -91,7 +97,7 @@ class Header extends Component {
             isActive={menuIsActive}
           />
         </nav>
-        <Button>Gain Access to Freelancers</Button>
+        <Button href={buttonLink}>{buttonText}</Button>
       </header>
     );
   }

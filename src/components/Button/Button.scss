@@ -6,6 +6,7 @@
   @include button-default;
   $self: &;
   line-height: $button-line-height;
+  text-decoration: none;
 
   > i,
   > span {
