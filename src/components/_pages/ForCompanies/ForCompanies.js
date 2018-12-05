@@ -9,7 +9,7 @@ import Why from './sections/ForCompaniesWhy';
 
 const HEADER_THEME = 'light';
 const HEADING = `For Companies`;
-const CONTENT = `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`;
+const CONTENT = `We find freelancers for you, vet them, and help you manage your freelance team.`;
 
 const ForCompanies = () => (
   <Layout className="ForCompanies" title="Readybase" headerTheme={HEADER_THEME}>

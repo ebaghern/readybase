@@ -7,7 +7,7 @@ import IconTextBlock from 'components/IconTextBlock';
 const BLOCKS = [
   // @todo Get content from Eamon
   {
-    heading: 'Long Term or Short Term Contract',
+    heading: 'Long Term or Short Term Contracts',
     content: `Whether its a 6 month contractors or a 3 week design project.`,
     icon: {
       src: 'static/images/img_long_term_contract.svg',
@@ -23,7 +23,7 @@ const BLOCKS = [
     }
   },
   {
-    heading: 'Pay per Hour for Freelancer',
+    heading: 'Pay Per Hour for Freelancers',
     content: `You only pay what the freelancer costs per hour. ReadyBase manages payroll and invoicing.`,
     icon: {
       src: 'static/images/img_pay_perhour.svg',

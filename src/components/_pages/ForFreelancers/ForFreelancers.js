@@ -10,7 +10,7 @@ import CallToAction from './sections/ForFreelancersCallToAction';
 
 const HEADER_THEME = 'light';
 const HEADING = `For Freelancers`;
-const CONTENT = `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`;
+const CONTENT = `We find contracts/projects for you, help fill your pipeline, and provide a line of support.`;
 
 
 const ForFreelancers = () => (

@@ -5,17 +5,17 @@ import OList from 'components/OList';
 import ListGrid from 'components/ListGrid';
 
 const PERSONALITIES = [
-  `High performers that carry themselves with the heart of a teacher`,
-  `Passion for high quality work that clients love`,
-  `Great comunication skills: able to call out issues diplomatically`,
-  `Or a strong desire to have all three of the above`
+  `High performers that carry themselves with the heart of a teacher.`,
+  `Passion for high quality work that clients love.`,
+  `Great comunication skills: able to call out issues diplomatically.`,
+  `...and/or a strong desire to learn and grow in all three of the above.`
 ];
 
 const LIST_GRID_ITEMS = [
-  'Developer',
-  'Tech Consultants',
-  'Designer',
+  'Developers',
+  'Designers',
   'Data Scientists',
+  'Tech Consultants',
   'Project Managers',
   'Digital Marketers'
 ];
@@ -24,7 +24,7 @@ const ForFreelancersTypes = () => (
   <div className="ForFreelancers__types">
     <section className="ForFreelancers__typesSection">
       <h2 className="ForFreelancers__typesHeading">
-        {smart(`Personalities for a ReadyBase Freelancer`)}
+        {smart(`Characteristics of a ReadyBase Freelancer`)}
       </h2>
       <OList className="ForFreelancers__typesList">
         {PERSONALITIES.map((item, i) => (
@@ -36,7 +36,7 @@ const ForFreelancersTypes = () => (
     </section>
     <section className="ForFreelancers__typesSection">
       <h2 className="ForFreelancers__typesHeading">
-        {smart(`Freelancer type we're seeking`)}
+        {smart(`Freelancers We're Seeking`)}
       </h2>
       <ListGrid items={LIST_GRID_ITEMS} />
     </section>
