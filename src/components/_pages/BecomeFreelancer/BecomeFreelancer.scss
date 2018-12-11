@@ -1,0 +1,20 @@
+.BecomeFreelancer {
+
+  &__form form {
+    @include block-center;
+    display: grid;
+    max-width: rem(890);
+    gap: $margin-small;
+    grid-template-columns: 1fr;
+
+    @include breakpoint(medium) {
+      grid-template-columns: 1fr minmax(auto, #{rem(186)});
+    }
+  }
+
+  &__getNotified {
+    margin-top: rem(32);
+    margin-bottom: rem(6);
+    font-size: rem(14);
+  }
+}

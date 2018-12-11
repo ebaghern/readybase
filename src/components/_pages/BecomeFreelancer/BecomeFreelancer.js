@@ -8,8 +8,8 @@ const BecomeFreelancer = () => (
     <>
       <h1>Become a ReadyBase Freelancer</h1>
       <p>Coming Soon!</p>
-      <p>Get notified when it's ready</p>
-      <EmailSignupForm />
+      <p className="BecomeFreelancer__getNotified">Get notified when it's ready</p>
+      <EmailSignupForm className="BecomeFreelancer__form" />
     </>
     <>
       <TestimonialCard
