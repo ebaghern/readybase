@@ -15,6 +15,7 @@
   }
 
   &__imgWrapper {
+    position: relative;
     flex-shrink: 0;
     width: rem(80);
     height: rem(80);
@@ -29,6 +30,7 @@
   }
 
   &__img {
+    position: absolute;
     min-width: 100%;
     max-width: none;
     min-height: 100%;
