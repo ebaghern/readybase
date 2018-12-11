@@ -6,32 +6,32 @@ export default [
   },
   {
     id: 1,
-    href: '/',
+    href: '/for-companies',
     label: 'For Companies',
   },
   {
     id: 2,
-    href: '/',
+    href: '/for-freelancers',
     label: 'For Freelancers',
   },
   {
     id: 3,
-    href: '/',
+    href: '/mission',
     label: 'Mission and Values',
   },
   {
     id: 4,
-    href: '/',
+    href: '/team',
     label: 'Team',
   },
   {
     id: 5,
-    href: '/',
+    href: '/referral',
     label: 'Referral Program',
   },
   {
     id: 6,
-    href: '/',
+    href: '/contact',
     label: 'Contact Us',
   },
 ];

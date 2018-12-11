@@ -6,6 +6,16 @@ import NProgress from 'nprogress';
 import 'styles/style.scss';
 
 if (Router.events) {
+  NProgress.configure({
+    template: `
+    <div class="nprogress__bar" role="bar">
+      <div class="nprogress__peg"></div>
+    </div>
+    <div class="nprogress__spinner" role="spinner">
+      <div class="nprogress__spinnerIcon"></div>
+    </div>
+    `
+  });
   Router.events.on('routeChangeStart', () => NProgress.start());
   Router.events.on('routeChangeComplete', () => NProgress.done());
   Router.events.on('routeChangeError', () => NProgress.done());
@@ -29,13 +39,13 @@ class ReadyBase extends App {
       <Container>
         <PageTransition
           timeout={400}
-          classNames="PageTransition-"
+          classNames="pageTransition-"
           loadingDelay={0}
           loadingTimeout={{
             enter: 400,
             exit: 0
           }}
-          // loadingClassNames="LoadingIndicator-"
+          loadingClassNames="pageTransition__loadingIndicator-"
         >
           <Component {...pageProps} />
         </PageTransition>

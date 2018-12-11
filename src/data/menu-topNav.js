@@ -21,17 +21,17 @@ export default [
       },
       {
         id: 4,
-        href: '/referral-program',
+        href: '/referral',
         label: 'Referral Program',
       },
       {
         id: 5,
-        href: '/our-team',
+        href: '/team',
         label: 'Our Team',
       },
       {
         id: 6,
-        href: '/contact-us',
+        href: '/contact',
         label: 'Contact Us',
       },
     ]

@@ -1,10 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from 'components/Link';
 import PropTypes from 'prop-types';
 
 const MenuLink = ({ href, target, label }) =>
   href ? (
-    <Link href={href}>
+    <Link href={href} prefetch>
       <a
         target={target}
         className="Menu__link"
