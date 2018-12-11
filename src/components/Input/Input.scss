@@ -4,5 +4,8 @@
   &__field {
     display: block;
     width: 100%;
+    @include breakpoint(small down) {
+      font-size: rem(14);
+    }
   }
 }
