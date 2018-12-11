@@ -1,4 +1,9 @@
 .TeamCard {
+  @include breakpoint(small down) {
+    @include block-center;
+    width: 100%;
+    max-width: rem(268);
+  }
   &__imgWrapper {
     position: relative;
     width: 100%;

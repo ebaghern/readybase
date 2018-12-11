@@ -1,7 +1,7 @@
 .PageHeader {
   $self: &;
   position: relative;
-  padding: rem(80) 0 rem(40);
+  padding: rem(120) 0 rem(80);
   text-align: center;
   @include breakpoint(medium) {
     padding: rem(120) 0;
@@ -72,6 +72,7 @@
   }
 
   &--dark {
+    padding: rem(120) 0 rem(120);
     background-image: url('flare-hero-home-preserve');
     background-repeat: no-repeat;
     background-position: 16%;

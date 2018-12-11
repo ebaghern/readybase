@@ -3,13 +3,13 @@
 
   &__cardInner {
     @include block-center;
-    max-width: calc(100% - #{rem($margin-large)});
     padding: rem(20);
     border: 1px solid $gray-300;
     border-radius: rem(4);
     background-color: #fff;
 
     @include breakpoint(medium) {
+      max-width: calc(100% - #{rem($margin-large)});
       padding: rem(30);
     }
   }
@@ -20,7 +20,10 @@
   }
 
   .slick-dots {
-    bottom: rem(-10);
+    bottom: rem(-40);
+    @include breakpoint(medium) {
+      bottom: rem(-10);
+    }
   }
 
   .IconCard {

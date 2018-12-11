@@ -44,8 +44,8 @@ class Footer extends Component {
             <p className="Footer__email" dangerouslySetInnerHTML={{ __html: `<a href="mailto:${email}">${email}</a>` }} />
           </address>
           <div className="Footer__buttonGroup">
-            <Button href="access-freelancers">Gain Access to Freelancers</Button>
-            <Button href="become-a-freelancer">Become a ReadyBase Freelancer</Button>
+            <Button href="access-freelancers">Access Freelancers</Button>
+            <Button href="become-a-freelancer">Become a Freelancer</Button>
           </div>
           <div className="Footer__copyright">
             <p
