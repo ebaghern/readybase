@@ -108,6 +108,7 @@
 
   .TestimonialCard {
     position: relative;
+    margin-top: rem(40);
 
     &:after {
       display: block;
@@ -127,6 +128,7 @@
       font-size: rem(140);
     }
     @include breakpoint($bg-brkpt) {
+      margin-top: rem(60);
       margin-left: rem(34);
 
       &:after {
@@ -149,6 +151,9 @@
     background-color: transparent;
     box-shadow: none;
     appearance: none;
+    @include breakpoint(medium) {
+      margin-top: rem(16);
+    }
   }
 
   &__backIcon {
