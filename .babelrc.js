@@ -29,6 +29,7 @@ module.exports = {
         alias: {
           src: './src',
           components: './src/components',
+          context: './src/context',
           data: './src/data',
           pages: './src/pages',
           styles: './src/styles',

@@ -1,7 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import 'styles/style.scss';
-// import Router from 'next/router';
 // import NProgress from 'nprogress';
 
 /* if (Router.events) {

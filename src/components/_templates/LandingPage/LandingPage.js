@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Router from 'next/router';
 import Head from 'components/Head';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
@@ -8,7 +9,8 @@ import ReadybaseLogo from 'static/images/readybase-logo.svg';
 class LandingPage extends Component {
   static propTypes = {
     className: PropTypes.string,
-    title: PropTypes.string
+    title: PropTypes.string,
+    backLink: PropTypes.string
   };
 
   static defaultProps = {
@@ -16,7 +18,12 @@ class LandingPage extends Component {
   };
 
   render() {
-    const { children, className, title } = this.props;
+    const { children, className, title, backLink } = this.props;
+
+    const BackLink = backLink ? Link : 'button';
+    const backLinkProps = backLink
+      ? { href: backLink }
+      : { onClick: () => Router.back() };
 
     return (
       <div className={cx('LandingPage', className)}>
@@ -36,6 +43,7 @@ class LandingPage extends Component {
         <div className="LandingPage__inner">
           {React.Children.map(children, (child, i) => (
             <div key={i} className="LandingPage__innerWrap">
+              {i === 0 && <BackLink {...backLinkProps}>Go Back</BackLink>}
               {child}
             </div>
           ))}
