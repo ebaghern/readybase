@@ -6,24 +6,24 @@ import IconTextBlock from 'components/IconTextBlock';
 const ICON_GROUP = [
   // @todo Get content from Eamon
   {
-    heading: 'We become your sales team',
-    content: `Whether its a 6 month contractors or a 3 week design project.`,
+    heading: 'We Become Your Sales Team',
+    content: `Finding you projects, work, and keeping you busy.`,
     icon: {
       src: 'static/images/img_become_sales.svg',
       alt: ''
     }
   },
   {
-    heading: 'Stay focused on your skills',
-    content: `Get feedback/consulting from your freelance team and HR Support.`,
+    heading: 'Stay Focused on Your Skills',
+    content: `...and not on learning how to do invoicing, sales, and everything else.`,
     icon: {
       src: 'static/images/img_stay_focused.svg',
       alt: ''
     }
   },
   {
-    heading: 'Save time on invoicing and admin',
-    content: `You only pay what the freelancer costs per hour. ReadyBase manages payroll and invoicing.`,
+    heading: 'Save Time on Invoicing and Admin',
+    content: `Maximize your number of billable hours in a week.`,
     icon: {
       src: 'static/images/img_save_time.svg',
       alt: ''

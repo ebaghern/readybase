@@ -7,24 +7,21 @@ import IconTextBlock from 'components/IconTextBlock';
 const BLOCKS = [
   // @todo Get content from Eamon
   {
-    heading: '1. Apply as a ReadyBase Freelancer',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
+    heading: '1. Apply as a ReadyBase Freelancer.',
     icon: {
       src: 'static/images/img_apply_freelancer.svg',
       alt: ''
     }
   },
   {
-    heading: '2. Evaluate if we’re a good fit for each other',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
+    heading: '2. Evaluate if we’re a good fit for each other.',
     icon: {
       src: 'static/images/img_evaluate_each_other.svg',
       alt: ''
     }
   },
   {
-    heading: '3. We find you Freelance gigs',
-    content: `Harum quidem rerum facilis est et expedita distinctio.`,
+    heading: '3. We find you Freelance gigs.',
     icon: {
       src: 'static/images/img_find_freelance_gigs.svg',
       alt: ''
