@@ -1,4 +1,5 @@
 .LandingPage {
+  $self: &;
   $bg-brkpt: large;
   @include breakpoint(medium) {
     display: flex;
@@ -146,10 +147,12 @@
   }
 
   &__backButton {
+    position: relative;
     padding: 0;
     border: 0;
     background-color: transparent;
     box-shadow: none;
+    cursor: pointer;
     appearance: none;
     @include breakpoint(medium) {
       margin-top: rem(16);
@@ -159,6 +162,36 @@
   &__backIcon {
     width: rem(25);
     height: rem(15);
+    transition: 0.25s transform ease-in-out;
+
+    *:hover > &,
+    *:focus > & {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__backText {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-left: rem(10);
+    transform: translate(0, -50%);
+    transition: 0.25s all ease-in-out;
+    color: $aqua;
+    font-size: rem(14);
+    font-weight: $font-weight-bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+
+    *:hover > &,
+    *:focus > & {
+      transform: translate(100%, -50%);
+      opacity: 1;
+    }
   }
 
   .TestimonialCredit {

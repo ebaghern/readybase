@@ -58,7 +58,7 @@ class LandingPage extends Component {
                 this.renderButton(() => (
                   <>
                     <Back className="LandingPage__backIcon" />
-                    <span className="screen-reader-text">Go Back</span>
+                    <span className="LandingPage__backText">Go Back</span>
                   </>
                 ))}
               {child}
