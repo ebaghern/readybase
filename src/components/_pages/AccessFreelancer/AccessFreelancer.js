@@ -26,15 +26,15 @@ class AccessFreelancer extends Component {
                 <Input
                   component="select"
                   className="Form__select"
-                  //type="text"
                   name="type"
                   label="What Kind of Freelancer talent do you need?"
+                  defaultValue={0}
                 >
-                  <option disabled selected>
+                  <option value={0} disabled>
                     What Kind of Freelancer talent do you need?
                   </option>
-                  <option>Option 2</option>
-                  <option>Option 3</option>
+                  <option value={1}>Option 2</option>
+                  <option value={2}>Option 3</option>
                 </Input>
                 <Input
                   className="Form__input"

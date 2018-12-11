@@ -65,12 +65,12 @@ const HomepageImageBlocks = () => (
     {BLOCKS.map((blockProps, i, arr) => {
       return (
         <PageSection
+          key={i}
           className="Homepage__imageTextBlockWrapper"
           position={i === 0 ? 'first' : i === arr.length - 2 && 'last'}
           color={i !== arr.length - 1 && 'pale'}
         >
           <ImageTextBlock
-            key={i}
             className="Homepage__imageTextBlock"
             {...blockProps}
           />

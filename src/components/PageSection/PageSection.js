@@ -27,8 +27,8 @@ PageSection.propTypes = {
     PropTypes.arrayOf(PropTypes.string),
     PropTypes.string
   ]),
-  color: PropTypes.oneOf(['gray', 'pale', 'white']),
-  position: PropTypes.oneOf(['first', 'last', 'only'])
+  color: PropTypes.oneOf(['gray', 'pale', 'white', false]),
+  position: PropTypes.oneOf(['first', 'last', 'only', false])
 };
 
 PageSection.defaultProps = {

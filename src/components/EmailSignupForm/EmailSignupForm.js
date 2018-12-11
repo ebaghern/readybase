@@ -4,10 +4,18 @@ import cx from 'classnames';
 import { Formik, Form, Field } from 'formik';
 import Button from 'components/Button';
 
-const EmailSignupForm = ({ className, buttonText, onSubmit, initialValues }) => (
+const EmailSignupForm = ({
+  className,
+  buttonText,
+  onSubmit,
+  initialValues
+}) => (
   <div className={cx(className, 'EmailSignupForm')}>
     <Formik
-      initialValues={initialValues}
+      initialValues={{
+        email: '',
+        ...initialValues
+      }}
       onSubmit={onSubmit}
       render={(props) => (
         <Form className="EmailSignupForm__form">
