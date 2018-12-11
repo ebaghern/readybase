@@ -3,6 +3,7 @@ import Link from 'next/link';
 import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
+import pushEmailToRoute from 'lib/utils/pushEmailToRoute';
 
 const ReferralHeader = (props) => (
   <PageHeader className="Referral__pageHeader" {...props}>
@@ -11,6 +12,9 @@ const ReferralHeader = (props) => (
         <EmailSignupForm
           className={cx(`${headerClass}__form`, 'Referral__signupForm')}
           buttonText="Gain Access to Freelancers"
+          onSubmit={(values) => {
+            pushEmailToRoute('access-freelancers', values.email);
+          }}
         />
       </>
     )}
