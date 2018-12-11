@@ -1,8 +1,40 @@
 .LandingPage {
   @include breakpoint(medium) {
     display: flex;
+    position: relative;
     flex-direction: column;
     min-height: 100vh;
+  }
+
+  @include breakpoint(large) {
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    &:after,
+    &:before {
+      display: block;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      content: '';
+    }
+    &:before {
+      bottom: 0;
+      left: rem(-94);
+      background-image: url('img_bg_foot_subpage');
+      background-position: bottom right;
+      background-size: auto rem(580);
+    }
+    &:after {
+      top: 0;
+      right: 0;
+      background-image: url('img_bg_hero_subpage3');
+      background-position: top left;
+      background-size: auto rem(1000);
+    }
   }
 
   &__inner {
