@@ -5,6 +5,7 @@ import Head from 'components/Head';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import ReadybaseLogo from 'static/images/readybase-logo.svg';
+import Back from 'static/images/ic_arrow_back.svg';
 
 class LandingPage extends Component {
   static propTypes = {
@@ -43,7 +44,12 @@ class LandingPage extends Component {
         <div className="LandingPage__inner">
           {React.Children.map(children, (child, i) => (
             <div key={i} className="LandingPage__innerWrap">
-              {i === 0 && <BackLink {...backLinkProps}>Go Back</BackLink>}
+              {i === 0 && (
+                <BackLink {...backLinkProps} className="LandingPage__backButton">
+                  <Back className="LandingPage__backIcon" />
+                  <span className="screen-reader-text">Go Back</span>
+                </BackLink>
+              )}
               {child}
             </div>
           ))}

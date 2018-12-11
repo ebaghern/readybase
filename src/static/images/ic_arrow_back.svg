@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="15px" viewBox="0 0 26 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_arrow_back</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="05b---for-Freelancer" transform="translate(-176.000000, -132.000000)" fill-rule="nonzero">
-            <g id="Icon/ic_arrow_back" transform="translate(173.000000, 123.000000)">
-                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
-                <g id="Group" transform="translate(5.000000, 10.000000)" stroke="#00B7D8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
-                    <path d="M3.0375702e-13,6.5 L22.2078646,6.5" id="Path-3"></path>
-                    <polyline id="Path-4" points="5 12.5 0 6.5 5 0.5"></polyline>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.2 15" style="enable-background:new 0 0 25.2 15;" xml:space="preserve">
+  <path style="fill:#00B7D8;" d="M23.7,6h-19l2.9-3.5c0.5-0.6,0.4-1.6-0.2-2.1C6.8-0.2,5.9-0.1,5.3,0.5l-5,6c0,0,0,0,0,0C0.2,6.7,0.2,6.8,0.1,7
+	c0,0,0,0,0,0.1C0,7.2,0,7.3,0,7.5C0,7.7,0,7.8,0.1,8c0,0,0,0,0,0.1c0.1,0.1,0.1,0.3,0.2,0.4c0,0,0,0,0,0l5,6C5.6,14.8,6.1,15,6.5,15
+	c0.3,0,0.7-0.1,1-0.3c0.6-0.5,0.7-1.5,0.2-2.1L4.7,9h19c0.8,0,1.5-0.7,1.5-1.5S24.5,6,23.7,6z"/>
 </svg>

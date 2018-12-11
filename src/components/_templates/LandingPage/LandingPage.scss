@@ -143,6 +143,19 @@
     }
   }
 
+  &__backButton {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    box-shadow: none;
+    appearance: none;
+  }
+
+  &__backIcon {
+    width: rem(25);
+    height: rem(15);
+  }
+
   .TestimonialCredit {
     &__citationName {
       font-weight: $font-weight-bold;
