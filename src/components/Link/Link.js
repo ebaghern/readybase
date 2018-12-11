@@ -7,6 +7,7 @@ const Link = ({ href, children, ...rest }) => {
   const match = find(routes, (route) => route.page === href);
   const linkProps =
     match && match.prettyUrl ? { as: match.prettyUrl, href } : { href };
+
   return (
     <NextLink {...linkProps} {...rest}>
       {children}

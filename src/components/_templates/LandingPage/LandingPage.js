@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+import Link from 'components/Link';
 import Router from 'next/router';
 import Head from 'components/Head';
 import PropTypes from 'prop-types';
@@ -18,13 +18,23 @@ class LandingPage extends Component {
     title: 'Readybase'
   };
 
-  render() {
-    const { children, className, title, backLink } = this.props;
-
-    const BackLink = backLink ? Link : 'button';
+  renderButton = (renderButtonText) => {
+    const { backLink } = this.props;
+    const className = 'LandingPage__backButton';
     const backLinkProps = backLink
       ? { href: backLink }
-      : { onClick: () => Router.back() };
+      : { onClick: () => Router.back(), className };
+    return backLink ? (
+      <Link {...backLinkProps}>
+        <a className={className}>{renderButtonText()}</a>
+      </Link>
+    ) : (
+      <button {...backLinkProps}>{renderButtonText()}</button>
+    );
+  };
+
+  render() {
+    const { children, className, title } = this.props;
 
     return (
       <div className={cx('LandingPage', className)}>
@@ -44,12 +54,13 @@ class LandingPage extends Component {
         <div className="LandingPage__inner">
           {React.Children.map(children, (child, i) => (
             <div key={i} className="LandingPage__innerWrap">
-              {i === 0 && (
-                <BackLink {...backLinkProps} className="LandingPage__backButton">
-                  <Back className="LandingPage__backIcon" />
-                  <span className="screen-reader-text">Go Back</span>
-                </BackLink>
-              )}
+              {i === 0 &&
+                this.renderButton(() => (
+                  <>
+                    <Back className="LandingPage__backIcon" />
+                    <span className="screen-reader-text">Go Back</span>
+                  </>
+                ))}
               {child}
             </div>
           ))}

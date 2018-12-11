@@ -5,7 +5,11 @@ import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 
 const AccessFreelancer = () => (
-  <LandingPage className="AccessFreelancer" title="Readybase">
+  <LandingPage
+    className="AccessFreelancer"
+    title="Readybase"
+    backLink="mission"
+  >
     <>
       <h1>Gain Access to a Freelancer</h1>
       <Form buttonText="Get Started">
