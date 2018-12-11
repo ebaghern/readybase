@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1251 2500.1" style="enable-background:new 0 0 1251 2500.1;" xml:space="preserve">
+  <defs>
+    <linearGradient id="bg-landingpage-dark-gradient-1" gradientUnits="userSpaceOnUse" x1="62.6629" y1="2288.176" x2="-200.4863" y2="208.0061" gradientTransform="matrix(-6.123234e-17 1 1 6.123234e-17 -1376.5482 1376.5479)">
+      <stop offset="2.342417e-02" style="stop-color:#4D35E2"/>
+      <stop offset="1" style="stop-color:#B364E2"/>
+    </linearGradient>
+    <linearGradient id="bg-landingpage-dark-gradient-2" gradientUnits="userSpaceOnUse" x1="-1110.4539" y1="1605.8629" x2="-383.3371" y2="1479.4078" gradientTransform="matrix(-6.123234e-17 1 1 6.123234e-17 -1376.5482 1376.5479)">
+      <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+      <stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0.15"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(752.000000, 0.000000)">
+    <path style="fill-rule:evenodd;clip-rule:evenodd;fill:#E7F7FC;" d="M-752,2500l1.7-2496.3c120.2,0,341.3,1.8,434.8,10c554.5,48.9,919,472.7,668.9,2486.4L-752,2500z"/>
+    <path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#bg-landingpage-dark-gradient-1);" d="M-752,2500l1.7-2496.3c120.2,0,261.3-8.2,354.8,0C159,52.5,509.9,386,404.2,2500.1L-752,2500z"/>
+    <path style="fill:url(#bg-landingpage-dark-gradient-2);" d="M-479.2,2500c0,0-285.3-2205.6,433.9-2195.6S490.2,1756.7,443.3,2500H-479.2z"/>
+  </g>
+</svg>

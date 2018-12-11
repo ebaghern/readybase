@@ -1,6 +1,8 @@
 .LandingPage {
   $self: &;
   $bg-brkpt: large;
+  overflow: hidden;
+
   @include breakpoint(medium) {
     display: flex;
     position: relative;
@@ -9,11 +11,6 @@
   }
 
   @include breakpoint($bg-brkpt) {
-    > * {
-      position: relative;
-      z-index: 1;
-    }
-
     &:after,
     &:before {
       display: block;
@@ -36,6 +33,43 @@
       background-image: url('img_bg_hero_subpage3');
       background-position: top left;
       background-size: auto rem(1000);
+    }
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__innerWrap {
+    @include breakpoint(medium down) {
+      &:last-child {
+        position: relative;
+        > * {
+          position: relative;
+          z-index: 1;
+        }
+        &:after {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: rem(-20);
+          width: 100vw;
+          height: 100vh;
+          background-image: url('img_bg_hero_subpage_small');
+          background-repeat: no-repeat;
+          background-position: top left;
+          background-size: rem(800) auto;
+          content: '';
+        }
+      }
+    }
+    @include breakpoint(small down) {
+      &:last-child {
+        &:after {
+          left: rem(-15);
+        }
+      }
     }
   }
 
@@ -101,14 +135,20 @@
     align-self: flex-end;
     width: 100%;
     max-width: $container-width;
+    margin-top: rem(100);
     padding: $margin-small;
+    color: $white;
     @include breakpoint(medium) {
       padding: rem(20);
+    }
+    @include breakpoint($bg-brkpt) {
+      color: $black;
     }
   }
 
   .TestimonialCard {
     position: relative;
+    max-width: rem(500);
     margin-top: rem(40);
 
     &:after {
@@ -117,32 +157,28 @@
       right: 0;
       bottom: 0;
       transform: rotate(180deg);
-      color: $purple;
+      color: #fff;
       font-family: 'Georgia', 'Times New Roman', times, serif;
       font-size: rem(100);
       line-height: 0.85;
       content: '\201D';
       opacity: 0.5;
       vertical-align: bottom;
-    }
-    @include breakpoint(medium) {
-      font-size: rem(140);
+      @include breakpoint(medium) {
+        font-size: rem(140);
+      }
+      @include breakpoint($bg-brkpt) {
+        font-size: rem(160);
+      }
     }
     @include breakpoint($bg-brkpt) {
       margin-top: rem(60);
       margin-left: rem(34);
-
-      &:after {
-        color: #fff;
-        font-size: rem(160);
-      }
     }
 
     &__quote {
-      @include breakpoint($bg-brkpt) {
-        color: $white;
-        opacity: 0.85;
-      }
+      color: $white;
+      opacity: 0.85;
     }
   }
 
@@ -196,12 +232,10 @@
 
   .TestimonialCredit {
     &__citationName {
+      color: $white;
       font-weight: $font-weight-bold;
       @include breakpoint(medium) {
         font-size: rem(20);
-      }
-      @include breakpoint($bg-brkpt) {
-        color: $white;
       }
     }
   }

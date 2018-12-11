@@ -3,7 +3,6 @@
   &__form form {
     @include block-center;
     display: grid;
-    max-width: rem(890);
     gap: $margin-small;
     grid-template-columns: 1fr;
 
