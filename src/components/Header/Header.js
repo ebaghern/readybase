@@ -101,7 +101,8 @@ class Header extends Component {
         </nav>
         <Hamburger
           className={cx('Header__navToggle', {
-            'Header__navToggle--active': menuIsActive
+            'Header__navToggle--active': menuIsActive,
+            'Header__navToggle--white': theme === 'dark' && !isScrolled
           })}
           handleToggle={handleMenuToggle}
           isActive={menuIsActive}

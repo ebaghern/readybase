@@ -171,7 +171,8 @@
 
   &__navToggle {
     z-index: 2;
-    &--active {
+    &--active,
+    &--white {
       .Hamburger__line {
         background-color: $white;
       }
