@@ -4,16 +4,11 @@ import cx from 'classnames';
 import { Formik, Form, Field } from 'formik';
 import Button from 'components/Button';
 
-const EmailSignupForm = ({ className, buttonText }) => (
+const EmailSignupForm = ({ className, buttonText, onSubmit, initialValues }) => (
   <div className={cx(className, 'EmailSignupForm')}>
     <Formik
-      initialValues={{ email: '' }}
-      onSubmit={(values, actions) => {
-        setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 1000);
-      }}
+      initialValues={initialValues}
+      onSubmit={onSubmit}
       render={(props) => (
         <Form className="EmailSignupForm__form">
           <Field
@@ -34,11 +29,15 @@ const EmailSignupForm = ({ className, buttonText }) => (
 
 EmailSignupForm.propTypes = {
   className: PropTypes.string,
-  buttonText: PropTypes.string
+  buttonText: PropTypes.string,
+  onSubmit: PropTypes.func,
+  initialValues: PropTypes.object
 };
 
 EmailSignupForm.defaultProps = {
-  buttonText: 'Submit'
+  buttonText: 'Submit',
+  onSubmit: () => {},
+  initialValues: {}
 };
 
 export default EmailSignupForm;

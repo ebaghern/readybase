@@ -9,12 +9,14 @@ class Form extends PureComponent {
     buttonText: PropTypes.string,
     children: PropTypes.func.isRequired,
     className: PropTypes.string,
-    onSubmit: PropTypes.func
+    onSubmit: PropTypes.func,
+    initialValues: PropTypes.object
   };
 
   static defaultProps = {
     buttonText: 'Submit',
-    onSubmit: () => ''
+    onSubmit: () => {},
+    initialValues: {}
   };
 
   render() {

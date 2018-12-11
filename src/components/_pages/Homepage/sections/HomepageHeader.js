@@ -3,6 +3,7 @@ import Link from 'components/Link';
 import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
+import pushEmailToRoute from 'lib/utils/pushEmailToRoute';
 
 const HomepageHeader = (props) => (
   <PageHeader className="Homepage__pageHeader" {...props}>
@@ -11,6 +12,9 @@ const HomepageHeader = (props) => (
         <EmailSignupForm
           className={cx(`${headerClass}__form`, 'Homepage__signupForm')}
           buttonText="Gain Access to Freelancers"
+          onSubmit={(values) => {
+            pushEmailToRoute('access-freelancers', values.email);
+          }}
         />
         <p style={{ marginTop: 40 }}>
           Are you a freelancer?{' '}
