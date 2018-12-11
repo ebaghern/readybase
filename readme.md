@@ -15,14 +15,14 @@ WIP.
 - [ ] ~~All pages provided in mockups structurally complete on desktop~~ (11/11)
   - [x] ~~Main pages~~ (7/7)
   - [x] ~~Landing pages~~ (4/4)
-- [ ] **_Basic styling complete for desktop (presentationally ready to review)_** (80%)
-- [ ] All static styling and graphics polished for desktop (not including animations/transitions)
-- [ ] Media query refinement
+- [x] ~~Basic styling complete for desktop (presentationally ready to review)~~ (100%)
+- [x] ~~All static styling and graphics polished for desktop (not including animations/transitions)~~ 100%
+- [x] ~~Media query refinement~~
 - [ ] Integrations/functionality
   - [ ] Contact forms
   - [ ] Calend.ly
 - [ ] Browser/device testing
 - [ ] Content population
-  - [ ] Troubleshoot SVG images
+  - [x] ~~Troubleshoot SVG images~~
 - [ ] Q/A
 - [ ] Launch

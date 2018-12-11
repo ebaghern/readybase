@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from 'components/Link';
 import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
@@ -14,7 +14,7 @@ const HomepageHeader = (props) => (
         />
         <p style={{ marginTop: 40 }}>
           Are you a freelancer?{' '}
-          <Link href="#">
+          <Link href="become-a-freelancer">
             <a>
               <strong>Apply.</strong>
             </a>
