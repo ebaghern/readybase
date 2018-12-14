@@ -12,7 +12,7 @@ export default [
   {
     id: 2,
     href: '/',
-    label: 'More',
+    label: 'More +',
     children: [
       {
         id: 3,
