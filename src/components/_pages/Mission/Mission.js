@@ -9,7 +9,7 @@ import RaisedCallout from 'components/RaisedCallout';
 const HEADER_THEME = 'light';
 const HEADING = `Mission and Core Values`;
 const SUB_HEADING = `ReadyBase is changing how organizations build teams.`;
-const CONTENT = `We built ReadyBase so that we could start and run business completely or mostly powered Freelancers. `;
+const CONTENT = `We want to change how organizations build teams. We want hungry people to start new products or even companies that are completely or mostly powered by freelancers. The ReadyBase model makes it easier to try new things without worrying about HR, office space, and equipment.`;
 
 const ICON_GROUP = [
   {
@@ -30,14 +30,14 @@ const ICON_GROUP = [
   },
   {
     heading: 'Always be learning',
-    content: `There’s always more to learn and further to grow learning is a lifelong journey.`,
+    content: `There’s always more to learn and further to grow. Learning is a lifelong journey.`,
     icon: {
       src: 'static/images/img_learning.svg',
       alt: ''
     }
   },
   {
-    heading: '2 parts confidence, 1 part humanity',
+    heading: '2 parts confidence, 1 part humility',
     content: `Grow confident in your ability, and keep the ego in check.`,
     icon: {
       src: 'static/images/img_2confidence.svg',
