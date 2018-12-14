@@ -6,16 +6,14 @@ import PageSection from 'components/PageSection';
 
 const BLOCKS = [
   {
-    heading: `You're in good company`,
+    heading: `A freelancer base vetted by us. Ready for you.`,
     content: (smart) => (
       <>
         <p>
           {smart(
-            `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui's officia.`
+            `Pre-vetted through our battle-tested process on personality, communication, experience, and skillset.`
           )}
         </p>
-        <TestimonialCredit name="John Doe" title="EVP of Sales" />
-        <Button>Gain Access to Freelancers</Button>
       </>
     ),
     image: {
@@ -24,9 +22,9 @@ const BLOCKS = [
     }
   },
   {
-    heading: `A freelancer base vetted by us. Ready for you.`,
+    heading: `Pick and choose your team. At a moment's notice.`,
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.',
+      `Freelancers to tackle problems without overextending your full-time team. Increase and decrease your freelancer team size, easily.`,
     image: {
       src: 'static/images/img_based_vetted.svg',
       alt: ''
@@ -35,7 +33,7 @@ const BLOCKS = [
   {
     heading: `Talent manager to help manage your freelance team. Free.`,
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.',
+      'Bi-weekly freelancer check-ins, continued support, and critical updates on freelancers and their feedback.',
     image: {
       src: 'static/images/img_talent_manager--fix.svg',
       alt: ''
@@ -47,10 +45,10 @@ const BLOCKS = [
       <>
         <p>
           {smart(
-            `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.`
+            `A 100% flexible workforce to engage when you need it.`
           )}
         </p>
-        <Button>Gain Access a Freelancer</Button>
+        <Button>Gain Access to Freelancers</Button>
       </>
     ),
     image: {
