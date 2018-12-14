@@ -11,7 +11,7 @@ const BLOCKS = [
     }
   },
   {
-    heading: '2. Send Leads or Freelancer',
+    heading: '2. Send Work or Freelancers',
     icon: {
       src: 'static/images/img_send_leads.svg',
       alt: ''
