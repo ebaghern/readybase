@@ -7,8 +7,7 @@ import Button from 'components/Button';
 
 const HEADING = `Why ReadyBase?`;
 const CONTENT = `We’re a group of professional contractors that have years of experience freelancing with organizations. We bring our experience to the table and elp you find the right cultural and talent fits based on your need. We’re priced very reasonably for the value, you may find us more effective per hour than most full-time hires.`;
-const TAG_LINE = `Get more <strong>Done</strong> with <strong>Freelancer Power</strong>.<br />
-Make your <strong>Impact</strong>. Build your <strong>Vision</strong>.`;
+const TAG_LINE = ``;
 
 const ForCompaniesWhy = (props) => (
   <PageSection className="ForCompanies__why">
