@@ -107,7 +107,7 @@ class Header extends Component {
           handleToggle={handleMenuToggle}
           isActive={menuIsActive}
         />
-        <Button className="Header__button hide-large-down" href={buttonLink}>
+        <Button className="Header__button" href={buttonLink}>
           {buttonText}
         </Button>
       </header>

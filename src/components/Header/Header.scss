@@ -75,6 +75,7 @@
       right: 0;
       height: 100vh;
       padding: $margin-small;
+      padding-right: rem(70);
       transform: translateX(100%);
       transition: 0.25s transform ease-in;
       background: linear-gradient(to bottom, $color-primary-light 0%, $color-primary 100%);
@@ -107,6 +108,11 @@
       }
     }
     @include breakpoint(large) {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
       .Menu {
         display: flex;
 
@@ -145,13 +151,13 @@
           }
 
           &.Menu__item--hovered > .Menu__submenu > .Menu__item {
-            animation: 0.5s stack ease-in;
+            // animation: 0.5s stack ease-in;
           }
 
           &:hover > .Menu__submenu > .Menu__item,
           &:focus-within > .Menu__submenu > .Menu__item {
             margin-top: 0;
-            animation: 0.5s unstack ease-out;
+            //animation: 0.5s unstack ease-out;
           }
         }
 
@@ -164,6 +170,7 @@
           padding: 0;
           background-color: #fff;
           overflow: hidden;
+          z-index: 1;
         }
       }
     }
@@ -178,6 +185,12 @@
       }
     }
     @include breakpoint(large) {
+      display: none;
+    }
+  }
+
+  &__button {
+    @include breakpoint(medium down) {
       display: none;
     }
   }
