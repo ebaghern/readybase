@@ -1,0 +1,61 @@
+@function get-font-formats(
+  $font-dir: 'circular-std',
+  $filename: 'CircularStd-Medium'
+) {
+  $hash: 'bcc26993292869431e54c666aafa8fcd';
+  $fonts-path: '/static/fonts';
+  $formats: (
+    eot: 'eot',
+    woff2: 'woff2',
+    woff: 'woff',
+    opentype: 'otf',
+    truetype: 'ttf',
+    svg: 'svg'
+  );
+  $src: '';
+  @each $format, $ext in $formats {
+    $sub-dir: $ext;
+    $ext: if(
+      $format == 'eot',
+      $ext + '?',
+      if(
+        $format == 'svg',
+        $ext + '#' + $hash,
+        $ext
+      )
+    );
+    $src: $src + 'url("#{$fonts-path}/#{$font-dir}/#{$sub-dir}/#{$filename}.#{$ext}") format("#{$format}")';
+    $src: $src + if(nth(map-keys($formats), length($formats)) != $format, ',', '');
+  }
+  @return unquote($src);
+}
+
+@mixin build-font-family($family, $dir, $styles) {
+  @each $style, $style-map in $styles {
+    @each $weight, $font-name in $style-map {
+      @font-face {
+        font-family: $family;
+        font-style: $style;
+        font-weight: $weight;
+        src: get-font-formats($dir, $font-name);
+      }
+    }
+  }
+}
+
+$circular-std: (
+  normal: (
+    400: 'CircularStd-Book',
+    500: 'CircularStd-Medium',
+    600: 'CircularStd-Bold',
+    800: 'CircularStd-Black'
+  ),
+  italic: (
+    400: 'CircularStd-BookItalic',
+    500: 'CircularStd-MediumItalic',
+    600: 'CircularStd-BoldItalic',
+    800: 'CircularStd-BlackItalic'
+  )
+);
+
+@include build-font-family('CircularStd', 'circular-std', $circular-std);

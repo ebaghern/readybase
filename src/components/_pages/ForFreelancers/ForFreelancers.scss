@@ -65,6 +65,10 @@
     max-width: $container-width;
   }
 
+  &__howItWorksButton {
+    margin-top: 1rem;
+  }
+
   &__howItWorksCallout {
     @include block-center;
     max-width: $container-width;

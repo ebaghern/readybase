@@ -37,24 +37,27 @@ h2,
 h3,
 .text--h3 {
   @include text-lg;
-  @include font-heading;
+  @include font-heading(false);
   margin: ($margin-small * 0.5) 0;
+  font-weight: $font-weight-bold;
   line-height: $heading-line-height;
 }
 
 h4,
 .text--h4 {
   @include text-std;
-  @include font-heading;
+  @include font-heading(false);
   margin: ($margin-small * 0.325) 0;
+  font-weight: $font-weight-bold;
   line-height: $heading-line-height;
 }
 
 h5,
 .text--h5 {
   @include text-sm;
-  @include font-heading;
+  @include font-heading(false);
   margin: ($margin-small * 0.325) 0;
+  font-weight: $font-weight-bold;
   line-height: $heading-line-height;
 }
 
