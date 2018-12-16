@@ -146,7 +146,7 @@
             overflow: hidden;
 
             .Menu__link {
-              color: $color-primary;
+              color: $black;
             }
           }
 
@@ -169,6 +169,7 @@
           margin: 0;
           padding: 0;
           background-color: #fff;
+          box-shadow: 0 0 rem(10) rgba($purple, 0.125);
           overflow: hidden;
           z-index: 1;
         }
