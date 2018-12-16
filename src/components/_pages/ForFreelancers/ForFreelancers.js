@@ -9,8 +9,8 @@ import Engagements from './sections/ForFreelancersEngagements';
 import CallToAction from './sections/ForFreelancersCallToAction';
 
 const HEADER_THEME = 'light';
-const HEADING = `For Freelancers`;
-const CONTENT = `We find contracts/projects for you, help fill your pipeline, and provide a line of support.`;
+const HEADING = `Get freelance projects. We do the all the leg work. You do what you love.`;
+const CONTENT = `We help you grow as a freelancer, become your support system, and bring you into our community of freelancers. Once you work with us on a project, we try to keep you at full capacity.`;
 
 
 const ForFreelancers = () => (

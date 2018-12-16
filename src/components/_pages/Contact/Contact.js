@@ -7,7 +7,7 @@ import Form from './sections/ContactForm';
 
 const HEADER_THEME = 'light';
 const HEADING = `Contact Us`;
-const CONTENT = `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`;
+const CONTENT = `Shoot us a line and let us know how can we help. All you have to do is use the contact form below and hit 'send'.`;
 
 const Contact = () => (
   <Layout className="Contact" title="Readybase" headerTheme={HEADER_THEME}>

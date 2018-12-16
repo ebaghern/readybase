@@ -13,18 +13,18 @@ const iconGroupA = [
     }
   },
   {
-    heading: 'Move Work Off Your plate',
-    content: `Delegates tasks to a pre-vetted network of freelancers.`,
-    icon: {
-      src: 'static/images/img_move_work.svg',
-      alt: ''
-    }
-  },
-  {
     heading: 'Gain an Extendable team',
     content: `A whole new team of resources. Without distracting your company.`,
     icon: {
       src: 'static/images/img_gain_team.svg',
+      alt: ''
+    }
+  },
+  {
+    heading: 'Move Work Off Your plate',
+    content: `Delegates tasks to a pre-vetted network of freelancers.`,
+    icon: {
+      src: 'static/images/img_move_work.svg',
       alt: ''
     }
   }
@@ -32,7 +32,7 @@ const iconGroupA = [
 
 const iconGroupB = [
   {
-    heading: '1. Gain access',
+    heading: '1. Gain access.',
     content: `Use our “Gain access to freelancers” button to get started.`,
     icon: {
       src: 'static/images/img_gain_access.svg',
@@ -40,7 +40,7 @@ const iconGroupB = [
     }
   },
   {
-    heading: '2. Tell us your need',
+    heading: '2. Tell us your need.',
     content: `Tell us what you're looking for. We’ll schedule a call to get further info.`,
     icon: {
       src: 'static/images/img_your_need.svg',
@@ -48,7 +48,7 @@ const iconGroupB = [
     }
   },
   {
-    heading: '3. We find the freelancer',
+    heading: '3. Get a quality freelancer.',
     content: `Based on culture fit, skillset, and timeline need.`,
     icon: {
       src: 'static/images/img_find_freelancer.svg',

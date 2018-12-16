@@ -8,8 +8,8 @@ import HowItWorks from './sections/ForCompaniesHowItWorks';
 import Why from './sections/ForCompaniesWhy';
 
 const HEADER_THEME = 'light';
-const HEADING = `For Companies`;
-const CONTENT = `We find freelancers for you, vet them, and help you manage your freelance team.`;
+const HEADING = `Hire freelancers to complete projects, without all the hastle.`;
+const CONTENT = `We match your needs to our pre-vetted bench of tech freelancers. We handle payroll, the contract agreements, and all of the fine details that goes with hiring a freelancer.`;
 
 const ForCompanies = () => (
   <Layout className="ForCompanies" title="Readybase" headerTheme={HEADER_THEME}>

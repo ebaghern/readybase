@@ -6,7 +6,7 @@ import PageSection from 'components/PageSection';
 
 const BLOCKS = [
   {
-    heading: 'Earn money by sending us leads',
+    heading: 'Earn money by sending us work',
     content: `Whether its a six-month contractor position or a project, earn a commission for sending a warm lead to us. It's a great way of earning extra income.`
   },
   {
@@ -52,7 +52,7 @@ const ReferralIconBlocks = (props) => (
       ))}
     </div>
     <Button className="Referral__textBlocksButton" href="become-a-freelancer">
-      Become a ReadyBase Freelancer
+      Join Referral Program
     </Button>
   </PageSection>
 );
