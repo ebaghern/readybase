@@ -13,20 +13,22 @@
 
     &:before {
       display: inline-flex;
+      position: relative;
+      top: rem(4);
       flex-grow: 0;
       flex-shrink: 0;
       align-content: center;
       justify-content: center;
       width: rem(20);
       height: rem(20);
-      margin-right: rem(10);
+      margin-right: rem(20);
       padding: rem(4);
       border-radius: rem(10);
       background-color: $color-primary-light;
       color: white;
       font-size: 80%;
-      font-weight: bold;
-      line-height: 1;
+      font-weight: $font-weight-medium;
+      line-height: 0.85;
       content: counter(step-counter);
     }
   }

@@ -74,7 +74,7 @@
     max-width: $container-width;
   }
 
-  &__types {
+  &__typesInner {
     @include make-section;
     display: grid;
     gap: $margin-small;
@@ -84,12 +84,37 @@
     }
   }
 
+  &__typesHeading {
+    @include breakpoint(medium) {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  &__typesList {
+    @include breakpoint(large) {
+      padding-right: rem(66);
+      font-size: rem(18);
+    }
+  }
+
+  &__typesListItem {
+    color: $gray-500;
+  }
+
   &__typesButton {
     text-align: center;
     grid-column: 1 / -1;
   }
 
   &__engagements {
+    &:after {
+      @include breakpoint(large) {
+        bottom: rem(-350) !important; // sass-lint:disable-line no-important
+      }
+    }
+  }
+
+  &__engagementsInner {
     @include make-section;
     text-align: center;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import smart from 'lib/utils/smartContent';
+import PageSection from 'components/PageSection';
 
 const BLOCKS = [
   {
@@ -17,21 +18,29 @@ const BLOCKS = [
 ];
 
 const ForFreelancersEngagements = (props) => (
-  <section className="ForFreelancers__engagements">
-    <h2 className="ForFreelancers__engagementsHeading">Types of Engagements</h2>
-    <div className="ForFreelancers__engagementsWrapper">
-      {BLOCKS.map(({ heading, content }, i) => (
-        <div key={i} className="ForFreelancers__engagementsBlock">
-          <h3 className="ForFreelancers__engagementsBlockHeading">
-            {smart(heading)}
-          </h3>
-          <p className="ForFreelancers__engagementsBlockContent">
-            {smart(content)}
-          </p>
-        </div>
-      ))}
+  <PageSection
+    color="pale"
+    position="last"
+    className="ForFreelancers__engagements"
+  >
+    <div className="ForFreelancers__engagementsInner">
+      <h2 className="ForFreelancers__engagementsHeading">
+        Types of Engagements
+      </h2>
+      <div className="ForFreelancers__engagementsWrapper">
+        {BLOCKS.map(({ heading, content }, i) => (
+          <div key={i} className="ForFreelancers__engagementsBlock">
+            <h3 className="ForFreelancers__engagementsBlockHeading">
+              {smart(heading)}
+            </h3>
+            <p className="ForFreelancers__engagementsBlockContent">
+              {smart(content)}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
-  </section>
+  </PageSection>
 );
 
 export default ForFreelancersEngagements;

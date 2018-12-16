@@ -3,6 +3,7 @@ import smart from 'lib/utils/smartContent';
 import Button from 'components/Button';
 import OList from 'components/OList';
 import ListGrid from 'components/ListGrid';
+import PageSection from 'components/PageSection';
 
 const PERSONALITIES = [
   `High performers that carry themselves with the heart of a teacher.`,
@@ -21,29 +22,37 @@ const LIST_GRID_ITEMS = [
 ];
 
 const ForFreelancersTypes = () => (
-  <div className="ForFreelancers__types">
-    <section className="ForFreelancers__typesSection">
-      <h2 className="ForFreelancers__typesHeading">
-        {smart(`Characteristics of a ReadyBase Freelancer`)}
-      </h2>
-      <OList className="ForFreelancers__typesList">
-        {PERSONALITIES.map((item, i) => (
-          <li className="ForFreelancers__typesListItem" key={i}>
-            {smart(item)}
-          </li>
-        ))}
-      </OList>
-    </section>
-    <section className="ForFreelancers__typesSection">
-      <h2 className="ForFreelancers__typesHeading">
-        {smart(`Freelancers We're Seeking`)}
-      </h2>
-      <ListGrid items={LIST_GRID_ITEMS} />
-    </section>
-    <div className="ForFreelancers__typesButton">
-      <Button href="become-a-freelancer">Become a ReadyBase Freelancer</Button>
+  <PageSection
+    element="div"
+    className="ForFreelancers__types"
+    color="pale"
+  >
+    <div className="ForFreelancers__typesInner">
+      <section className="ForFreelancers__typesSection">
+        <h2 className="ForFreelancers__typesHeading">
+          {smart(`Characteristics of a ReadyBase Freelancer`)}
+        </h2>
+        <OList className="ForFreelancers__typesList">
+          {PERSONALITIES.map((item, i) => (
+            <li className="ForFreelancers__typesListItem" key={i}>
+              {smart(item)}
+            </li>
+          ))}
+        </OList>
+      </section>
+      <section className="ForFreelancers__typesSection">
+        <h2 className="ForFreelancers__typesHeading">
+          {smart(`Freelancers We're Seeking`)}
+        </h2>
+        <ListGrid items={LIST_GRID_ITEMS} />
+      </section>
+      <div className="ForFreelancers__typesButton">
+        <Button href="become-a-freelancer">
+          Become a ReadyBase Freelancer
+        </Button>
+      </div>
     </div>
-  </div>
+  </PageSection>
 );
 
 export default ForFreelancersTypes;
