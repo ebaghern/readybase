@@ -14,9 +14,11 @@ class AccessFreelancer extends Component {
   render() {
     const { email } = this.props;
     return (
-      <LandingPage className="AccessFreelancer" title="Readybase">
+      <LandingPage
+        className="AccessFreelancer"
+        title="Gain Access to a Freelancer"
+      >
         <>
-          <h1>Gain Access to a Freelancer</h1>
           <Form
             buttonText="Get Started"
             initialValues={{ email: validateEmail(email) ? email : '' }}
