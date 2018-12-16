@@ -11,12 +11,12 @@
   }
 
   &--light {
-    background-image: url('img_bg_hero_alt_preserve');
+    background-image: url('img_bg_hero_alt_preserve_noline');
     background-repeat: no-repeat;
     background-position: 50% calc(100% - #{rem(80)});
     background-size: cover;
     @include breakpoint(xlarge) {
-      background-image: url('img_bg_hero_alt');
+      background-image: url('img_bg_hero_alt_noline');
       background-size: 100%;
     }
   }
