@@ -19,6 +19,7 @@
     max-width: rem(2000);
     margin: 0 auto;
     transform: translateX(-50%);
+    transition: 0.25s all ease-in;
 
     &:before {
       display: block;
@@ -35,6 +36,8 @@
     }
 
     &--isScrolled {
+      padding-top: rem(10);
+      padding-bottom: rem(10);
       box-shadow: 0 rem(10) rem(10) rgba($color-primary, 0.08);
       &:before {
         transform: scaleY(1);
@@ -46,18 +49,25 @@
     @include srt;
   }
 
-  &__logoWrapper {
-    position: relative;
-    width: 100%;
-    max-width: rem(200);
+  &__logoWrapper,
+  &__logoLink,
+  &__logo {
+    display: block;
+    width: rem(200);
+    height: rem(30);
 
     @include breakpoint(medium) {
-      max-width: rem(245);
+      width: rem(245);
+      height: rem(38);
+      transition: 0.25s all ease-in;
     }
   }
 
+  &__logoWrapper {
+    position: relative;
+  }
+
   &__logo {
-    width: 100%;
 
     #{$self}--dark & * {
       fill: $white;
@@ -193,6 +203,12 @@
   &__button {
     @include breakpoint(medium down) {
       display: none;
+    }
+    @include breakpoint(medium) {
+      #{$self}--isScrolled & {
+        padding-top: rem(10);
+        padding-bottom: rem(10);
+      }
     }
   }
 
