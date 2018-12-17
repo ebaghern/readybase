@@ -1,8 +1,23 @@
 import React from 'react';
+import fetch from 'isomorphic-unfetch';
 import EmailSignupForm from 'components/EmailSignupForm';
 import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
+
+const handleFormSubmit = async (data, { setSubmitting }) => {
+  const res = await fetch(`/api/v1/forms/drip`, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  });
+  if (!res.ok) {
+    // alert('You fucked up!'); // @todo error handling, obviously...
+  }
+};
 
 const BecomeFreelancer = ({ email }) => (
   <LandingPage className="BecomeFreelancer" title="Readybase">
@@ -13,6 +28,7 @@ const BecomeFreelancer = ({ email }) => (
         Get notified when it's ready
       </p>
       <EmailSignupForm
+        onSubmit={handleFormSubmit}
         initialValues={{ email: validateEmail(email) ? email : '' }}
         className="BecomeFreelancer__form"
       />

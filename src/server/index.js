@@ -1,5 +1,6 @@
 const express = require('express');
 const next = require('next');
+const bodyParser = require('body-parser');
 const chalk = require('chalk');
 const ip = require('ip');
 const argv = require('minimist')(process.argv.slice(2));
@@ -11,6 +12,7 @@ const customHost = argv.host || process.env.HOST;
 const host = customHost || null; // Let http.Server use its default IPv6/4 host
 const prettyHost = customHost || 'localhost';
 const port = parseInt(argv.port || process.env.PORT || '3000', 10);
+const controllers = require('./controllers');
 
 // fancy logger!
 const divider = chalk.gray('\n-----------------------------------');
@@ -37,6 +39,15 @@ app
   .prepare()
   .then(() => {
     const server = express();
+    server.use(bodyParser.json());
+
+    // Controllers
+    controllers.forEach((controller) =>
+      server.use(
+        `/api/v1/${controller}`,
+        require(`./controllers/${controller}`)
+      )
+    );
 
     // Routing
     Router.forEachPrettyPattern((page, pattern, defaultParams) =>

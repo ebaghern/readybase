@@ -6,6 +6,7 @@ yarn-error.log
 public
 src/static/storybook
 .vscode
+.env
 
 # using yarn
 package-lock.json

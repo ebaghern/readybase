@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import fetch from 'isomorphic-unfetch';
 import Form from 'components/Form';
 import Input from 'components/Input';
 import TestimonialCard from 'components/TestimonialCard';
@@ -11,6 +12,20 @@ class AccessFreelancer extends Component {
     return { email };
   }
 
+  handleFormSubmit = async (data, { setSubmitting }) => {
+    const res = await fetch(`/api/v1/forms/drip`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
+    if (!res.ok) {
+      // alert('You fucked up!'); // @todo error handling, obviously...
+    }
+  };
+
   render() {
     const { email } = this.props;
     return (
@@ -22,13 +37,14 @@ class AccessFreelancer extends Component {
           <Form
             buttonText="Get Started"
             initialValues={{ email: validateEmail(email) ? email : '' }}
+            onSubmit={this.handleFormSubmit}
           >
             {(formProps) => (
               <>
                 <Input
                   component="select"
                   className="Form__select"
-                  name="type"
+                  name="freelancerType"
                   label="What Kind of Freelancer talent do you need?"
                   defaultValue={0}
                 >
