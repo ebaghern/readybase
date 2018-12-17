@@ -9,10 +9,9 @@ const Input = ({
   children,
   label,
   showLabel,
-  erorrs,
+  errors,
   touched,
   placeholder,
-  showRequiredStar,
   type,
   ...rest
 }) => (
@@ -37,8 +36,7 @@ const Input = ({
     >
       {children}
     </Field>
-    {erorrs && touched ? <div className="Input__errors">{erorrs}</div> : null}
-    {showRequiredStar && <span className="Input__required">*</span>}
+    {errors && touched && <div className="Input__errors">{errors}</div>}
   </label>
 );
 
@@ -50,7 +48,7 @@ Input.propTypes = {
   className: PropTypes.string,
   label: PropTypes.string.isRequired,
   showLabel: PropTypes.bool,
-  erorrs: PropTypes.node
+  errors: PropTypes.node
 };
 
 export default Input;

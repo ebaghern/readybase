@@ -1,10 +1,24 @@
 import React, { Component } from 'react';
+import * as Yup from 'yup';
 import Form from 'components/Form';
 import Input from 'components/Input';
 import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
 import sendDataToDrip from 'lib/data/sendDataToDrip';
+
+const FORM_SCHEMA = Yup.object().shape({
+  name: Yup.string()
+    .min(2, 'Too Short')
+    .max(50, 'Too Long!')
+    .required('Name is required'),
+  companyName: Yup.string()
+    .min(2, 'Too Short!')
+    .max(60, 'Too Long!'),
+  email: Yup.string()
+    .email('Invalid email address')
+    .required('Email is required')
+});
 
 class AccessFreelancer extends Component {
   static async getInitialProps({ query }) {
@@ -29,16 +43,17 @@ class AccessFreelancer extends Component {
               name: ''
             }}
             onSubmit={sendDataToDrip}
+            schema={FORM_SCHEMA}
           >
-            {({ errors, touched }) => (
+            {({ errors, touched }) => {
+              console.log({ errors, touched });
+              return (
               <>
                 <Input
                   component="select"
                   className="Form__select"
                   name="freelancerType"
                   label="What Kind of Freelancer talent do you need?"
-                  errors={errors}
-                  touched={touched}
                 >
                   <option value={0} disabled>
                     What Kind of Freelancer talent do you need?
@@ -52,8 +67,8 @@ class AccessFreelancer extends Component {
                   name="companyName"
                   label="Company Name"
                   autoComplete="off"
-                  errors={errors}
-                  touched={touched}
+                  errors={errors.companyName}
+                  touched={touched.companyName}
                 />
                 <Input
                   className="Form__input"
@@ -61,8 +76,8 @@ class AccessFreelancer extends Component {
                   name="name"
                   label="Your Name"
                   autoComplete="off"
-                  errors={errors}
-                  touched={touched}
+                  errors={errors.name}
+                  touched={touched.name}
                 />
                 <Input
                   className="Form__input"
@@ -70,11 +85,11 @@ class AccessFreelancer extends Component {
                   name="email"
                   label="Your Email"
                   autoComplete="off"
-                  errors={errors}
-                  touched={touched}
+                  errors={errors.email}
+                  touched={touched.email}
                 />
               </>
-            )}
+            )}}
           </Form>
         </>
         <>

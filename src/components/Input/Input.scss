@@ -1,5 +1,6 @@
 .Input {
   display: block;
+  position: relative;
 
   &__field {
     display: block;
@@ -7,5 +8,16 @@
     @include breakpoint(small down) {
       font-size: rem(14);
     }
+  }
+
+  &__errors {
+    position: absolute;
+    bottom: calc(100% + 2px);
+    left: 2px;
+    color: $color-danger;
+    font-size: rem(10);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.7;
   }
 }

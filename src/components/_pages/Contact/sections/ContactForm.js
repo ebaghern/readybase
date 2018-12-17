@@ -44,8 +44,8 @@ class ContactForm extends PureComponent {
                 name="name"
                 label="Your Name"
                 autoComplete="off"
-                errors={errors}
-                touched={touched}
+                errors={errors.name}
+                touched={touched.name}
               />
               <Input
                 className="Contact__input"
@@ -53,8 +53,8 @@ class ContactForm extends PureComponent {
                 name="email"
                 label="Your Email Address"
                 autoComplete="off"
-                errors={errors}
-                touched={touched}
+                errors={errors.email}
+                touched={touched.email}
               />
               <Input
                 className="Contact__input"
@@ -62,17 +62,17 @@ class ContactForm extends PureComponent {
                 name="companyName"
                 label="Your Organization"
                 autoComplete="off"
-                errors={errors}
-                touched={touched}
+                errors={errors.companyName}
+                touched={touched.companyName}
               />
               <Input
                 component="textarea"
                 className="Contact__textArea"
                 name="comments"
-                label="YWhat kind of freelancer talent do you need?"
+                label="What kind of freelancer talent do you need?"
                 autoComplete="off"
-                errors={errors}
-                touched={touched}
+                errors={errors.comments}
+                touched={touched.comments}
               />
               <Button htmlType="submit" className="Contact__button">
                 Send
