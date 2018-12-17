@@ -6,6 +6,7 @@ import { Field } from 'formik';
 const Input = ({
   className,
   component,
+  children,
   label,
   showLabel,
   erorrs,
@@ -33,7 +34,9 @@ const Input = ({
       placeholder={!showLabel ? label : placeholder}
       type={type}
       {...rest}
-    />
+    >
+      {children}
+    </Field>
     {erorrs && touched ? <div className="Input__errors">{erorrs}</div> : null}
     {showRequiredStar && <span className="Input__required">*</span>}
   </label>

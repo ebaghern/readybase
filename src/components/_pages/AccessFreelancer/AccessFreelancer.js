@@ -22,17 +22,23 @@ class AccessFreelancer extends Component {
         <>
           <Form
             buttonText="Get Started"
-            initialValues={{ email: validateEmail(email) ? email : '' }}
+            initialValues={{
+              email: validateEmail(email) ? email : '',
+              freelancerType: 0,
+              companyName: '',
+              name: ''
+            }}
             onSubmit={sendDataToDrip}
           >
-            {(formProps) => (
+            {({ errors, touched }) => (
               <>
                 <Input
                   component="select"
                   className="Form__select"
                   name="freelancerType"
                   label="What Kind of Freelancer talent do you need?"
-                  defaultValue={0}
+                  errors={errors}
+                  touched={touched}
                 >
                   <option value={0} disabled>
                     What Kind of Freelancer talent do you need?
@@ -46,6 +52,8 @@ class AccessFreelancer extends Component {
                   name="companyName"
                   label="Company Name"
                   autoComplete="off"
+                  errors={errors}
+                  touched={touched}
                 />
                 <Input
                   className="Form__input"
@@ -53,6 +61,8 @@ class AccessFreelancer extends Component {
                   name="name"
                   label="Your Name"
                   autoComplete="off"
+                  errors={errors}
+                  touched={touched}
                 />
                 <Input
                   className="Form__input"
@@ -60,6 +70,8 @@ class AccessFreelancer extends Component {
                   name="email"
                   label="Your Email"
                   autoComplete="off"
+                  errors={errors}
+                  touched={touched}
                 />
               </>
             )}

@@ -1,11 +1,10 @@
 import React, { PureComponent } from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-// import { camelCase } from 'lodash';
-// import fetch from 'isomorphic-unfetch';
 import Link from 'next/link';
 import Button from 'components/Button';
 import Input from 'components/Input';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 const FORM_SCHEMA = Yup.object().shape({
   name: Yup.string()
@@ -30,14 +29,14 @@ class ContactForm extends PureComponent {
       <section className="Contact__formSection">
         <Formik
           validationSchema={FORM_SCHEMA}
-          initialValues={{ email: '' }}
-          onSubmit={(values, actions) => {
-            setTimeout(() => {
-              alert(JSON.stringify(values, null, 2));
-              actions.setSubmitting(false);
-            }, 1000);
+          initialValues={{
+            email: '',
+            name: '',
+            companyName: '',
+            comments: ''
           }}
-          render={(props) => (
+          onSubmit={sendDataToDrip}
+          render={({ touched, errors }) => (
             <Form className="Contact__form">
               <Input
                 className="Contact__input"
@@ -45,6 +44,8 @@ class ContactForm extends PureComponent {
                 name="name"
                 label="Your Name"
                 autoComplete="off"
+                errors={errors}
+                touched={touched}
               />
               <Input
                 className="Contact__input"
@@ -52,13 +53,17 @@ class ContactForm extends PureComponent {
                 name="email"
                 label="Your Email Address"
                 autoComplete="off"
+                errors={errors}
+                touched={touched}
               />
               <Input
                 className="Contact__input"
                 type="text"
-                name="org"
+                name="companyName"
                 label="Your Organization"
                 autoComplete="off"
+                errors={errors}
+                touched={touched}
               />
               <Input
                 component="textarea"
@@ -66,6 +71,8 @@ class ContactForm extends PureComponent {
                 name="comments"
                 label="YWhat kind of freelancer talent do you need?"
                 autoComplete="off"
+                errors={errors}
+                touched={touched}
               />
               <Button htmlType="submit" className="Contact__button">
                 Send
