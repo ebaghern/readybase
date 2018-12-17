@@ -1,30 +1,16 @@
 import React, { Component } from 'react';
-import fetch from 'isomorphic-unfetch';
 import Form from 'components/Form';
 import Input from 'components/Input';
 import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 class AccessFreelancer extends Component {
   static async getInitialProps({ query }) {
     const { email } = await query;
     return { email };
   }
-
-  handleFormSubmit = async (data, { setSubmitting }) => {
-    const res = await fetch(`/api/v1/forms/drip`, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
-    if (!res.ok) {
-      // alert('You fucked up!'); // @todo error handling, obviously...
-    }
-  };
 
   render() {
     const { email } = this.props;
@@ -37,7 +23,7 @@ class AccessFreelancer extends Component {
           <Form
             buttonText="Get Started"
             initialValues={{ email: validateEmail(email) ? email : '' }}
-            onSubmit={this.handleFormSubmit}
+            onSubmit={sendDataToDrip}
           >
             {(formProps) => (
               <>
