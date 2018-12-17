@@ -8,13 +8,11 @@ const BLOCKS = [
   {
     heading: `A freelancer base vetted by us. Ready for you.`,
     content: (smart) => (
-      <>
-        <p>
-          {smart(
-            `Pre-vetted through our battle-tested process on personality, communication, experience, and skillset.`
-          )}
-        </p>
-      </>
+      <p>
+        {smart(
+          `Pre-vetted through our battle-tested process on personality, communication, experience, and skillset.`
+        )}
+      </p>
     ),
     image: {
       src: 'static/images/img_good_company.svg',
@@ -23,8 +21,7 @@ const BLOCKS = [
   },
   {
     heading: `Pick and choose your team. At a moment's notice.`,
-    content:
-      `Freelancers to tackle problems without overextending your full-time team. Increase and decrease your freelancer team size, easily.`,
+    content: `Freelancers to tackle problems without overextending your full-time team. Increase and decrease your freelancer team size, easily.`,
     image: {
       src: 'static/images/img_based_vetted.svg',
       alt: ''
@@ -43,11 +40,7 @@ const BLOCKS = [
     heading: `Long-term and short-term gigs. From 6 months to 3 days`,
     content: (smart) => (
       <>
-        <p>
-          {smart(
-            `A 100% flexible workforce to engage when you need it.`
-          )}
-        </p>
+        <p>{smart(`A 100% flexible workforce to engage when you need it.`)}</p>
         <Button>Gain Access to Freelancers</Button>
       </>
     ),

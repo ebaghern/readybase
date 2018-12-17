@@ -4,6 +4,7 @@ import Input from 'components/Input';
 import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 class AccessFreelancer extends Component {
   static async getInitialProps({ query }) {
@@ -14,19 +15,22 @@ class AccessFreelancer extends Component {
   render() {
     const { email } = this.props;
     return (
-      <LandingPage className="AccessFreelancer" title="Readybase">
+      <LandingPage
+        className="AccessFreelancer"
+        title="Gain Access to a Freelancer"
+      >
         <>
-          <h1>Gain Access to a Freelancer</h1>
           <Form
             buttonText="Get Started"
             initialValues={{ email: validateEmail(email) ? email : '' }}
+            onSubmit={sendDataToDrip}
           >
             {(formProps) => (
               <>
                 <Input
                   component="select"
                   className="Form__select"
-                  name="type"
+                  name="freelancerType"
                   label="What Kind of Freelancer talent do you need?"
                   defaultValue={0}
                 >

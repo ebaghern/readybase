@@ -1,24 +1,24 @@
-$timeout: 600;
+$timeout: 350;
 
 .pageTransition {
   &--enter {
-    transform: scale(0.9);
+    //transform: scale(0.995);
     opacity: 0;
   }
 
   &--enter-active {
-    transform: scale(1);
+    //transform: scale(1);
     transition: opacity #{$timeout}ms, transform #{$timeout}ms;
     opacity: 1;
   }
 
   &--exit {
-    transform: scale(1);
+    //transform: scale(1);
     opacity: 1;
   }
 
   &--exit-active {
-    transform: scale(1.1);
+    //transform: scale(1.005);
     transition: opacity #{$timeout}ms, transform #{$timeout}ms;
     opacity: 0;
   }

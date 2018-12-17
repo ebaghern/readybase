@@ -5,9 +5,11 @@ import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
 
 const BecomeFreelancer = ({ email }) => (
-  <LandingPage className="BecomeFreelancer" title="Readybase">
+  <LandingPage
+    className="BecomeFreelancer"
+    title="Become a ReadyBase Freelancer"
+  >
     <>
-      <h1>Become a ReadyBase Freelancer</h1>
       <p>Coming Soon!</p>
       <p className="BecomeFreelancer__getNotified">
         Get notified when it's ready

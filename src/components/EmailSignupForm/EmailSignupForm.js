@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { Formik, Form, Field } from 'formik';
 import Button from 'components/Button';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 const EmailSignupForm = ({
   className,
@@ -17,7 +18,7 @@ const EmailSignupForm = ({
         ...initialValues
       }}
       onSubmit={onSubmit}
-      render={(props) => (
+      render={() => (
         <Form className="EmailSignupForm__form">
           <Field
             className="EmailSignupForm__input"
@@ -44,7 +45,7 @@ EmailSignupForm.propTypes = {
 
 EmailSignupForm.defaultProps = {
   buttonText: 'Submit',
-  onSubmit: () => {},
+  onSubmit: sendDataToDrip,
   initialValues: {}
 };
 

@@ -32,6 +32,7 @@ module.exports = {
           context: './src/context',
           data: './src/data',
           pages: './src/pages',
+          server: './src/server',
           styles: './src/styles',
           static: './src/static',
           images: './src/static/images',

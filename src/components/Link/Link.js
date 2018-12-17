@@ -1,7 +1,7 @@
 import React from 'react';
 import NextLink from 'next/link';
 import { find } from 'lodash';
-import { routes } from 'src/config/routes';
+import { routes } from 'server/routes';
 
 const Link = ({ href, children, ...rest }) => {
   const match = find(routes, (route) => route.page === href);

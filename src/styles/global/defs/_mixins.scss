@@ -105,7 +105,8 @@
   font-size: rem(12);
 }
 
-@mixin font-heading {
+@mixin font-heading($fam: true) {
+  font-family: if($fam == true, $font-family-headings, inherit);
   line-height: $heading-line-height;
 }
 
@@ -177,9 +178,7 @@
 /// Sets the base styles of a hollow or clear button filling according to `$fill`.
 /// See mixin `button-fill-style` for the filling styles.
 /// @param {Keyword} $fill [$button-fill] - Type of filling between `hollow` and `solid`.
-@mixin button-fill(
-  $fill: $button-fill
-) {
+@mixin button-fill($fill: $button-fill) {
   @if $fill == hollow {
     @include button-hollow;
   }
@@ -215,11 +214,17 @@
   $background-hover-lightness: $button-background-hover-lightness
 ) {
   @if $color == auto {
-    $color: color-pick-contrast($background, ($button-color, $button-color-alt));
+    $color: color-pick-contrast(
+      $background,
+      ($button-color, $button-color-alt)
+    );
   }
 
   @if $background-hover == auto {
-    $background-hover: scale-color($background, $lightness: $background-hover-lightness);
+    $background-hover: scale-color(
+      $background,
+      $lightness: $background-hover-lightness
+    );
   }
 
   // Default and disabled states
@@ -287,9 +292,7 @@
 
 /// Adds disabled styles to a button by fading the element and reseting the cursor.
 /// @param {Number} $opacity [$button-opacity-disabled] - Opacity of the disabled button.
-@mixin button-disabled(
-  $opacity: $button-opacity-disabled
-) {
+@mixin button-disabled($opacity: $button-opacity-disabled) {
   cursor: not-allowed;
   opacity: $button-opacity-disabled;
 }
@@ -317,7 +320,6 @@
 }
 
 @mixin make-button {
-
   @include button($style: none);
 
   // Sizes

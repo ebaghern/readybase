@@ -4,6 +4,7 @@ import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
 import pushEmailToRoute from 'lib/utils/pushEmailToRoute';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 const ReferralHeader = (props) => (
   <PageHeader className="Referral__pageHeader" {...props}>
@@ -14,6 +15,7 @@ const ReferralHeader = (props) => (
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
             pushEmailToRoute('access-freelancers', values.email);
+            sendDataToDrip(values);
           }}
         />
       </>

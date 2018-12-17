@@ -3,6 +3,7 @@ import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
 import pushEmailToRoute from 'lib/utils/pushEmailToRoute';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 const ForCompaniesHeader = (props) => (
   <PageHeader className="ForCompanies__pageHeader" {...props}>
@@ -13,6 +14,7 @@ const ForCompaniesHeader = (props) => (
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
             pushEmailToRoute('access-freelancers', values.email);
+            sendDataToDrip(values);
           }}
         />
       </>

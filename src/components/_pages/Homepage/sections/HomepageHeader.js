@@ -4,6 +4,7 @@ import cx from 'classnames';
 import EmailSignupForm from 'components/EmailSignupForm';
 import PageHeader from 'components/PageHeader';
 import pushEmailToRoute from 'lib/utils/pushEmailToRoute';
+import sendDataToDrip from 'lib/data/sendDataToDrip';
 
 const HomepageHeader = (props) => (
   <PageHeader className="Homepage__pageHeader" {...props}>
@@ -14,6 +15,7 @@ const HomepageHeader = (props) => (
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
             pushEmailToRoute('access-freelancers', values.email);
+            sendDataToDrip(values);
           }}
         />
         <p style={{ marginTop: 40 }}>

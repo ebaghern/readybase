@@ -1,0 +1,8 @@
+a:not(.Button) {
+  transition: 0.3s all ease-in-out;
+  color: $color-primary;
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}

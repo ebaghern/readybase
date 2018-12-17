@@ -125,8 +125,18 @@
     width: 100%;
   }
 
-  &__pageTitle {
+  &__logoTitle {
     @include srt;
+  }
+
+  &__pageTitle {
+    margin-top: rem(32); // remove if the back button comes back
+    margin-bottom: rem(30);
+    @include breakpoint(medium) {
+      // margin-top: rem(30);
+      margin-top: rem(62);  // remove if the back button comes back
+      margin-bottom: rem(40);
+    }
   }
 
   &__footer {

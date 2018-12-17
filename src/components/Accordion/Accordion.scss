@@ -1,16 +1,19 @@
 .Accordion {
   $self: &;
 
-  &__item {
-    padding: 1rem 0;
-  }
-
   &__body {
     display: block;
-    padding-top: 1.5rem;
+    padding: rem(16);
+    padding-top: 0 !important; // sass-lint:disable-line no-important
     transition: 0.25s all ease-in;
     opacity: 1;
     animation: fade-in 0.35s ease-in-out;
+    @include breakpoint(medium) {
+      padding: rem(20);
+    }
+    @include breakpoint(large) {
+      padding: rem(24);
+    }
 
     &--hidden {
       display: none;
@@ -19,17 +22,10 @@
   }
 
   &__item {
-    padding: 1rem;
     border: 1px solid $gray-300;
     border-radius: rem(6);
     background: $white;
     box-shadow: $shadow-large;
-    @include breakpoint(medium) {
-      padding: rem(20);
-    }
-    @include breakpoint(large) {
-      padding: rem(24);
-    }
 
     + #{$self}__item {
       margin-top: $margin-small;
@@ -38,7 +34,15 @@
 
   &__title {
     position: relative;
+    padding: rem(16);
     cursor: pointer;
+
+    @include breakpoint(medium) {
+      padding: rem(20);
+    }
+    @include breakpoint(large) {
+      padding: rem(24);
+    }
 
     > *:first-child {
       margin-top: 0;
@@ -51,7 +55,7 @@
     &:after {
       position: absolute;
       top: 50%;
-      right: 0;
+      right: rem(16);
       width: rem(16);
       height: rem(16);
       transform: translateY(-50%) rotate(180deg);
@@ -61,6 +65,12 @@
       background-position: center;
       background-size: contain;
       content: '';
+      @include breakpoint(medium) {
+        right: rem(20);
+      }
+      @include breakpoint(large) {
+        right: rem(24);
+      }
     }
 
     #{$self}__item--closed &:after {
