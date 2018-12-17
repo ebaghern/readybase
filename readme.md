@@ -6,8 +6,9 @@ WIP.
 - Node 11 w/ Express
 - SSR React via Next JS
 
-## Testing 
-- `yarn && yarn dev`
+## Development 
+- Change `.env-sample` to `.env` and update the variables in the file
+- Run `yarn && yarn dev`
 
 ## Milestones
 - [x] ~~Component Architecture~~ (100%)
@@ -19,8 +20,9 @@ WIP.
 - [x] ~~All static styling and graphics polished for desktop (not including animations/transitions)~~ 100%
 - [x] ~~Media query refinement~~
 - [ ] Integrations/functionality
-  - [ ] Contact forms
+  - [x] ~~Drip~~
   - [ ] Calend.ly
+  - [ ] Contact forms UI
 - [ ] Browser/device testing
 - [ ] Content population
   - [x] ~~Troubleshoot SVG images~~
