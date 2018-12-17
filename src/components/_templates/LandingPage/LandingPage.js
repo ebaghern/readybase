@@ -54,7 +54,7 @@ class LandingPage extends Component {
     return (
       <div className={cx('LandingPage', className)}>
         <Head>
-          <title>{title}</title>
+          <title>{title} | ReadyBase</title>
         </Head>
         <header className="LandingPage__header">
           <div className="LandingPage__logoWrapper">
