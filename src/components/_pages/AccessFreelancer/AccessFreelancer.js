@@ -45,9 +45,7 @@ class AccessFreelancer extends Component {
             onSubmit={sendDataToDrip}
             schema={FORM_SCHEMA}
           >
-            {({ errors, touched }) => {
-              console.log({ errors, touched });
-              return (
+            {({ errors, touched }) => (
               <>
                 <Input
                   component="select"
@@ -89,7 +87,7 @@ class AccessFreelancer extends Component {
                   touched={touched.email}
                 />
               </>
-            )}}
+            )}
           </Form>
         </>
         <>

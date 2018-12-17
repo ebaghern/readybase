@@ -12,7 +12,7 @@
 
   &__errors {
     position: absolute;
-    bottom: calc(100% + 2px);
+    top: calc(100% + 2px);
     left: 2px;
     color: $color-danger;
     font-size: rem(10);

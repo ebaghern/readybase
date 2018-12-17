@@ -1,8 +1,15 @@
 import React from 'react';
+import * as Yup from 'yup';
 import EmailSignupForm from 'components/EmailSignupForm';
 import TestimonialCard from 'components/TestimonialCard';
 import LandingPage from 'components/_templates/LandingPage';
 import validateEmail from 'lib/utils/validateEmail';
+
+const FORM_SCHEMA = Yup.object().shape({
+  email: Yup.string()
+    .email('Invalid email address')
+    .required('Email is required')
+});
 
 const BecomeFreelancer = ({ email }) => (
   <LandingPage
@@ -17,6 +24,7 @@ const BecomeFreelancer = ({ email }) => (
       <EmailSignupForm
         initialValues={{ email: validateEmail(email) ? email : '' }}
         className="BecomeFreelancer__form"
+        schema={FORM_SCHEMA}
       />
     </>
     <>

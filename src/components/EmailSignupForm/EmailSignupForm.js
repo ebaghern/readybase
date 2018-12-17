@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import { Formik, Form, Field } from 'formik';
+import { Formik, Form } from 'formik';
+import Input from 'components/Input';
 import Button from 'components/Button';
 import sendDataToDrip from 'lib/data/sendDataToDrip';
 
@@ -9,7 +10,8 @@ const EmailSignupForm = ({
   className,
   buttonText,
   onSubmit,
-  initialValues
+  initialValues,
+  schema
 }) => (
   <div className={cx(className, 'EmailSignupForm')}>
     <Formik
@@ -18,14 +20,17 @@ const EmailSignupForm = ({
         ...initialValues
       }}
       onSubmit={onSubmit}
-      render={() => (
+      validationSchema={schema}
+      render={({ touched, errors }) => (
         <Form className="EmailSignupForm__form">
-          <Field
+          <Input
             className="EmailSignupForm__input"
             type="email"
             name="email"
-            placeholder="Your Email Address"
+            label="Your Email Address"
             autoComplete="off"
+            touched={touched.email}
+            errors={errors.email}
           />
           <Button htmlType="submit" className="EmailSignupForm__button">
             {buttonText}
