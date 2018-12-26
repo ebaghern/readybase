@@ -34,7 +34,13 @@
     }
   }
 
+  &__testimonialsHeader {
+    position: relative;
+    z-index: 1;
+  }
+
   &__testimonialSlider {
+
     @include breakpoint(1250) {
       margin-right: rem(-80);
     }
@@ -80,6 +86,21 @@
       .CardSlider__cardInner {
         box-shadow: $shadow-large;
       }
+    }
+  }
+
+  &__testimonialsDonut {
+    position: absolute;
+    bottom: rem(-100);
+    left: rem(-120);
+    opacity: 0.05;
+    pointer-events: none;
+    width: rem(228);
+    height: rem(228);
+
+    &,
+    > * {
+      stroke: $color-primary;
     }
   }
 
@@ -145,6 +166,31 @@
     position: relative;
     max-width: $container-width;
     z-index: 1;
+  }
+
+  &__imageTextBlocksDonut {
+    position: absolute;
+    opacity: 0.5;
+    pointer-events: none;
+    width: rem(228);
+    height: rem(228);
+
+    &--0 {
+      top: rem(-148);
+      left: calc(50% - #{rem(400)});
+      transform: translateX(-50%);
+    }
+
+    &--2 {
+      top: rem(40);
+      left: calc(50% - #{rem(560)});
+      transform: translateX(-50%) rotate(270deg);
+    }
+
+    &,
+    > * {
+      stroke: #CCF1F7;
+    }
   }
 
   &__cta {

@@ -1,13 +1,46 @@
 import React from 'react';
-import Donut from 'static/images/donut-dark.svg';
+import T from 'prop-types';
+import cx from 'classnames';
+import Donut from 'static/images/donut.svg';
+import getRandomInt from 'lib/utils/getRandomInt';
 import { range } from 'lodash';
 
-const FloatingDonuts = () => (
-  <div className="FloatingDonuts" aria-hidden>
-    {range(5).map((donut, i) => (
-      <Donut key={i} className="FloatingDonuts__item" />
-    ))}
-  </div>
-);
+const FloatingDonuts = ({ num }) => {
+  return (
+    <div className="FloatingDonuts" aria-hidden>
+      {range(num).map((x, i) => {
+        const size = getRandomInt(50, 160);
+        const self = i + 1;
+        return (
+          <React.Fragment key={i}>
+            <Donut
+              className={cx(
+                'FloatingDonuts__item',
+                `FloatingDonuts__item--${self}`
+              )}
+            />
+            <style jsx global>{`
+              .FloatingDonuts__item--${self} {
+                left: ${self * (100 / num) - 100 / num / 2}%;
+                width: ${size}px;
+                height: ${size}px;
+                animation-delay: ${self === 1 ? 0 : getRandomInt(1, 18)}s;
+                animation-duration: ${getRandomInt(10, 20)}s;
+              }
+            `}</style>
+          </React.Fragment>
+        );
+      })}
+    </div>
+  );
+};
+
+FloatingDonuts.propTypes = {
+  num: T.number,
+};
+
+FloatingDonuts.defaultProps = {
+  num: 5,
+};
 
 export default FloatingDonuts;

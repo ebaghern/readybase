@@ -16,8 +16,18 @@ const CONTENT = `Find developers, data scientists, and designers to take on spec
 Matched to your culture and needs.`;
 
 const Homepage = () => (
-  <Layout className="Homepage" title="ReadyBase - Hire Tech Freelancers, Vetted by Tech Freelancers" headerTheme={HEADER_THEME}>
-    <Header theme={HEADER_THEME} heading={HEADING} content={CONTENT} />
+  <Layout
+    className="Homepage"
+    title="ReadyBase - Hire Tech Freelancers, Vetted by Tech Freelancers"
+    headerTheme={HEADER_THEME}
+  >
+    <Header
+      theme={HEADER_THEME}
+      heading={HEADING}
+      content={CONTENT}
+      showDonuts={true}
+      donutCount={5}
+    />
     <Team teamMembers={teamMembers} />
     <Testimonials testimonials={testimonials} />
     <Benefits />

@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import T from 'prop-types';
 import cx from 'classnames';
+import FloatingDonuts from 'components/FloatingDonuts';
 import smart from 'lib/utils/smartContent';
 import themeOptions from 'lib/propTypes/oneOf-headerTheme';
 
 class PageHeader extends Component {
   static propTypes = {
-    className: PropTypes.string,
-    theme: PropTypes.oneOf(themeOptions),
-    heading: PropTypes.string,
-    subHeading: PropTypes.string,
-    children: PropTypes.func,
-    content: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
+    className: T.string,
+    theme: T.oneOf(themeOptions),
+    heading: T.string,
+    subHeading: T.string,
+    children: T.func,
+    content: T.oneOfType([T.string, T.element]),
+    showDonuts: T.bool,
+    donutCount: T.number,
   };
 
   static defaultProps = {
-    theme: 'light'
+    theme: 'light',
   };
 
   _wrapperEl = React.createRef();
@@ -33,13 +36,16 @@ class PageHeader extends Component {
       heading,
       subHeading,
       content,
-      children
+      children,
+      showDonuts,
+      donutCount,
     } = this.props;
     return (
       <section
         className={cx(className, 'PageHeader', `PageHeader--${theme}`)}
         ref={this._wrapperEl}
       >
+        {showDonuts && <FloatingDonuts num={donutCount} />}
         <div className="PageHeader__contentWrapper">
           {heading && <h1 className="PageHeader__heading">{smart(heading)}</h1>}
           {subHeading && (

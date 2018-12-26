@@ -1,13 +1,15 @@
 import React from 'react';
 import Button from 'components/Button';
 import ImageTextBlock from 'components/ImageTextBlock';
+import cx from 'classnames';
 import TestimonialCredit from 'components/TestimonialCredit';
 import PageSection from 'components/PageSection';
+import Donut from 'static/images/oval.svg';
 
 const BLOCKS = [
   {
     heading: `A freelancer base vetted by us. Ready for you.`,
-    content: (smart) => (
+    content: smart => (
       <p>
         {smart(
           `Pre-vetted through our battle-tested process on personality, communication, experience, and skillset.`
@@ -16,16 +18,16 @@ const BLOCKS = [
     ),
     image: {
       src: 'static/images/img_good_company.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: `Pick and choose your team. At a moment's notice.`,
     content: `Freelancers to tackle problems without overextending your full-time team. Increase and decrease your freelancer team size, easily.`,
     image: {
       src: 'static/images/img_based_vetted.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: `Talent manager to help manage your freelance team. Free.`,
@@ -33,12 +35,12 @@ const BLOCKS = [
       'Bi-weekly freelancer check-ins, continued support, and critical updates on freelancers and their feedback.',
     image: {
       src: 'static/images/img_talent_manager--fix.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: `Long-term and short-term gigs. From 6 months to 3 days`,
-    content: (smart) => (
+    content: smart => (
       <>
         <p>{smart(`A 100% flexible workforce to engage when you need it.`)}</p>
         <Button>Gain Access to Freelancers</Button>
@@ -46,9 +48,9 @@ const BLOCKS = [
     ),
     image: {
       src: 'static/images/img_long_term--fix.svg',
-      alt: ''
-    }
-  }
+      alt: '',
+    },
+  },
 ];
 
 const HomepageImageBlocks = () => (
@@ -61,6 +63,14 @@ const HomepageImageBlocks = () => (
           position={i === 0 ? 'first' : i === arr.length - 2 && 'last'}
           color={i !== arr.length - 1 && 'pale'}
         >
+          {(i + 1) % 2 !== 0 && (
+            <Donut
+              className={cx(
+                `Homepage__imageTextBlocksDonut`,
+                `Homepage__imageTextBlocksDonut--${i}`
+              )}
+            />
+          )}
           <ImageTextBlock
             className="Homepage__imageTextBlock"
             {...blockProps}

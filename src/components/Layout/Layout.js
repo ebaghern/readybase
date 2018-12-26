@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
-import FloatingDonuts from 'components/FloatingDonuts';
 import headerThemeOptions from 'lib/propTypes/oneOf-headerTheme';
 
 class Layout extends Component {
@@ -19,7 +18,7 @@ class Layout extends Component {
 
   static defaultProps = {
     title: 'Readybase',
-    showDonuts: false // hide for now
+    showDonuts: false
   };
 
   state = {
@@ -43,7 +42,6 @@ class Layout extends Component {
 
     return (
       <div className={cx('Layout', className)}>
-        {showDonuts && <FloatingDonuts />}
         <Head>
           <title>{title}</title>
         </Head>
@@ -55,6 +53,7 @@ class Layout extends Component {
             handleMenuToggle={this.toggleMenu}
             buttonText={headerButtonText}
             buttonLink={headerButtonLink}
+            showDonuts={showDonuts}
           />
           {children}
         </div>

@@ -6,21 +6,15 @@ module.exports = {
       {
         svgo: {
           plugins: [
-            {
-              removeAttrs: { attrs: '(data-name)' }
-            },
-            {
-              cleanupIDs: true
-            },
-            {
-              inlineStyles: true
-            },
-            {
-              mergePaths: true
-            }
-          ]
-        }
-      }
+            { removeAttrs: { attrs: '(data-name)' } },
+            { removeMetadata: true },
+            //{ removeTitle: true },
+            { cleanupIDs: true },
+            { inlineStyles: true },
+            { mergePaths: false },
+          ],
+        },
+      },
     ],
     [
       'module-resolver',
@@ -36,9 +30,9 @@ module.exports = {
           styles: './src/styles',
           static: './src/static',
           images: './src/static/images',
-          lib: './src/lib'
-        }
-      }
-    ]
-  ]
+          lib: './src/lib',
+        },
+      },
+    ],
+  ],
 };

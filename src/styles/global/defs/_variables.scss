@@ -79,3 +79,9 @@ $form-field-border-radius: 4;
 $form-field-border-width: 1;
 
 $shadow-large: 0 rem(20) rem(50) rem(-10) rgba($color-primary, 0.08);
+
+:root {
+  @each $label, $color in $theme-colors {
+    #{--color-#{$label}}: $color;
+  }
+}
