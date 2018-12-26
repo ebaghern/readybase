@@ -8,7 +8,7 @@ module.exports = {
           plugins: [
             { removeAttrs: { attrs: '(data-name)' } },
             { removeMetadata: true },
-            //{ removeTitle: true },
+            { removeTitle: true },
             { cleanupIDs: true },
             { inlineStyles: true },
             { mergePaths: false },
