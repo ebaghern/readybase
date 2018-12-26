@@ -93,10 +93,10 @@
     position: absolute;
     bottom: rem(-100);
     left: rem(-120);
-    opacity: 0.05;
-    pointer-events: none;
     width: rem(228);
     height: rem(228);
+    opacity: 0.05;
+    pointer-events: none;
 
     &,
     > * {
@@ -170,21 +170,33 @@
 
   &__imageTextBlocksDonut {
     position: absolute;
+    width: rem(120);
+    height: rem(120);
     opacity: 0.5;
     pointer-events: none;
-    width: rem(228);
-    height: rem(228);
+    @include breakpoint(medium) {
+      width: rem(228);
+      height: rem(228);
+    }
 
     &--0 {
-      top: rem(-148);
-      left: calc(50% - #{rem(400)});
+      top: rem(-80);
+      left: calc(50% - #{rem(190)});
       transform: translateX(-50%);
+      @include breakpoint(medium) {
+        top: rem(-148);
+        left: calc(50% - #{rem(400)});
+      }
     }
 
     &--2 {
-      top: rem(40);
-      left: calc(50% - #{rem(560)});
+      top: rem(-20);
+      left: calc(50% - #{rem(190)});
       transform: translateX(-50%) rotate(270deg);
+      @include breakpoint(medium) {
+        top: rem(40);
+        left: calc(50% - #{rem(560)});
+      }
     }
 
     &,
