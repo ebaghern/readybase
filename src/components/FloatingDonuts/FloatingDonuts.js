@@ -24,7 +24,7 @@ const FloatingDonuts = ({ num }) => {
                 left: ${self * (100 / num) - 100 / num / 2}%;
                 width: ${size}px;
                 height: ${size}px;
-                animation-delay: ${self === 1 ? 0 : getRandomInt(1, 18)}s;
+                animation-delay: ${getRandomInt(1, self * 4)}s;
                 animation-duration: ${getRandomInt(10, 20)}s;
               }
             `}</style>
