@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "node --inspect --experimental-modules src/server",
     "start": "NODE_ENV=production node --experimental-modules src/server",
-    "build": "next build",
+    "build": "next build src",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o ./src/static/storybook"
   },
