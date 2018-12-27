@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "node --inspect --experimental-modules src/server",
+    "postinstall": "npm run build",
     "start": "NODE_ENV=production node --experimental-modules src/server",
     "build": "next build src",
     "export": "next export src -o ./out",
