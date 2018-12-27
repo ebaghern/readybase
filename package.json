@@ -24,6 +24,7 @@
     "@zeit/next-sass": "^1.0.1",
     "body-parser": "^1.18.3",
     "classnames": "^2.2.6",
+    "dotenv": "^6.2.0",
     "drip-nodejs": "^2.1.1",
     "express": "^4.16.4",
     "fontfaceobserver": "^2.0.13",
