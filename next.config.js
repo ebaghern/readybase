@@ -6,23 +6,20 @@ const sassBreakpoints = require('./src/lib/utils/breakpointsToString')(
 );
 require('dotenv').config();
 
-const spreadEnvVariables = (variables) => {
-  let vars = {};
-  variables.map((variable) => {
-    if (variable === 'NODE_PATH') {
-      vars[variable] = path.resolve(__dirname);
-    } else {
-      vars[variable] = process.env[variable];
-    }
-  });
-  return vars;
-};
-
+const spreadEnvVariables = (variables = []) =>
+  variables.reduce((obj, variable) => {
+    return {
+      ...obj,
+      [variable]:
+        variable === 'NODE_PATH'
+          ? path.resolve(__dirname)
+          : process.env[variable],
+    };
+  }, {});
 const publicRuntimeConfig = spreadEnvVariables([]);
-
 const serverRuntimeConfig = spreadEnvVariables([
   'DRIP_API_TOKEN',
-  'DRIP_ACCOUNT_ID'
+  'DRIP_ACCOUNT_ID',
 ]);
 
 module.exports = withSass({
@@ -30,9 +27,12 @@ module.exports = withSass({
   publicRuntimeConfig,
   sassLoaderOptions: {
     data: `$breakpoints: (${sassBreakpoints}); @import "styles/defs";`,
-    includePaths: [path.resolve(process.cwd(), 'src')]
+    includePaths: [path.resolve(process.cwd(), 'src')],
   },
   distDir: '../public',
+  exportPathMap: () => ({
+    '/': { page: '/' },
+  }),
   webpack(cfg) {
     const originalEntry = cfg.entry;
     cfg.entry = async () => {
@@ -48,5 +48,5 @@ module.exports = withSass({
     };
 
     return cfg;
-  }
+  },
 });
