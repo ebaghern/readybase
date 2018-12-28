@@ -1,6 +1,6 @@
 .Header {
   $self: &;
-  $transition-time: 0.5s;
+  $transition-time: 0.3s;
   display: flex;
   position: absolute;
   top: 0;
@@ -69,13 +69,16 @@
   }
 
   &__logo {
-
     #{$self}--dark & * {
       fill: $white;
     }
 
     * {
       transition: $transition-time fill ease-in;
+    }
+
+    #{$self}--isScrolled & {
+      width: rem(180);
     }
   }
 
@@ -130,6 +133,8 @@
         &__link {
           transition: 0.25s all ease-in;
           text-decoration: none;
+          font-size: 15px;
+          color: black;
 
           #{$self}--dark & {
             color: $white;
@@ -211,10 +216,6 @@
         background: $purple;
       }
     }
-  }
-
-  &__link {
-    font-size: 15px;
   }
 
   &--dark {
