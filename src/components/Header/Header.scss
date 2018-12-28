@@ -197,6 +197,9 @@
   }
 
   &__button {
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+
     @include breakpoint(medium down) {
       display: none;
     }
@@ -205,6 +208,7 @@
       #{$self}--isScrolled & {
         padding-top: rem(10);
         padding-bottom: rem(10);
+        background: $purple;
       }
     }
   }
