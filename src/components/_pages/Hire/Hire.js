@@ -31,7 +31,7 @@ class Hire extends Component {
     return (
       <LandingPage
         className="Hire"
-        title="Gain Access to a Freelancer"
+        title="Gain Access to Freelancers"
       >
         <>
           <Form
