@@ -42,6 +42,7 @@
     @include text-xxl;
     @include block-center;
     max-width: rem(680);
+    padding-top: rem(60);
   }
 
   &__subHeading {
