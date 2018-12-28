@@ -119,7 +119,7 @@
     grid-template: auto / 1fr;
     gap: $margin-large;
     @include breakpoint(medium) {
-      margin: rem(60) 0;
+      margin: 0;
       grid-template: auto / repeat(3, 1fr);
     }
     @include breakpoint(large) {
