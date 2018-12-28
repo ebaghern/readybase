@@ -13,7 +13,7 @@ const BLOCKS = [
     }
   },
   {
-    heading: 'Gain an Extendable team',
+    heading: 'Gain an Extendable Team',
     content: `A whole new team of resources. Without distracting your company.`,
     icon: {
       src: 'static/images/img_gain_team.svg',
@@ -21,8 +21,8 @@ const BLOCKS = [
     }
   },
   {
-    heading: 'Move Work Off Your plate',
-    content: `Delegates tasks to a pre-vetted network of freelancers.`,
+    heading: 'Move Work Off Your Plate',
+    content: `Delegate tasks to a pre-vetted network of freelancers.`,
     icon: {
       src: 'static/images/img_move_work.svg',
       alt: ''
@@ -38,7 +38,7 @@ const HomepageBenefits = () => {
   return (
     <PageSection className="Homepage__benefits Homepage__iconBlocks">
       <div className="Homepage__iconBlocksWrapper">{renderBlocks(BLOCKS)}</div>
-      <Button>Gain Access to Freelancers</Button>
+      <Button href="hire">Gain Access to Freelancers</Button>
     </PageSection>
   );
 };

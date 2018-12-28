@@ -13,7 +13,7 @@ const ForCompaniesHeader = (props) => (
           className={cx(`${headerClass}__form`, 'ForCompanies__signupForm')}
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
-            pushEmailToRoute('access-freelancers', values.email);
+            pushEmailToRoute('hire', values.email);
             sendDataToDrip(values);
           }}
         />

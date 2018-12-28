@@ -47,7 +47,7 @@ const ForFreelancersTypes = () => (
         <ListGrid items={LIST_GRID_ITEMS} />
       </section>
       <div className="ForFreelancers__typesButton">
-        <Button href="become-a-freelancer">
+        <Button href="apply">
           Become a ReadyBase Freelancer
         </Button>
       </div>

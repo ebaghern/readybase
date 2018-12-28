@@ -134,6 +134,11 @@
     }
   }
 
+  &__iconBlocksRightDonut {
+    position: absolute;
+    right: 0;
+  }
+
   &__imageTextBlocks {
     &:after {
       bottom: rem(480);
@@ -174,6 +179,7 @@
     height: rem(120);
     opacity: 0.5;
     pointer-events: none;
+    z-index: 0;
     @include breakpoint(medium) {
       width: rem(228);
       height: rem(228);

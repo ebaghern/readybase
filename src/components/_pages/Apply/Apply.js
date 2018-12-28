@@ -11,25 +11,25 @@ const FORM_SCHEMA = Yup.object().shape({
     .required('Email is required')
 });
 
-const BecomeFreelancer = ({ email }) => (
+const Apply = ({ email }) => (
   <LandingPage
-    className="BecomeFreelancer"
+    className="Apply"
     title="Become a ReadyBase Freelancer"
   >
     <>
       <p>Coming Soon!</p>
-      <p className="BecomeFreelancer__getNotified">
+      <p className="Apply__getNotified">
         Get notified when it's ready
       </p>
       <EmailSignupForm
         initialValues={{ email: validateEmail(email) ? email : '' }}
-        className="BecomeFreelancer__form"
+        className="Apply__form"
         schema={FORM_SCHEMA}
       />
     </>
     <>
       <TestimonialCard
-        className="LandingPage__testimonial BecomeFreelancer__testimonial"
+        className="LandingPage__testimonial Apply__testimonial"
         imgLocation="top"
         img={{
           src: 'https://picsum.photos/200/200',
@@ -43,9 +43,9 @@ const BecomeFreelancer = ({ email }) => (
   </LandingPage>
 );
 
-BecomeFreelancer.getInitialProps = async ({ query }) => {
+Apply.getInitialProps = async ({ query }) => {
   const { email } = await query;
   return { email };
 };
 
-export default BecomeFreelancer;
+export default Apply;

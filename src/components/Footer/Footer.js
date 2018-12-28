@@ -39,18 +39,20 @@ class Footer extends Component {
             <p>
               {address.street1}
               <br />
+              {address.street2}
+              <br />
               {`${address.city}, ${address.state} ${address.zip}`}
             </p>
             <p className="Footer__email" dangerouslySetInnerHTML={{ __html: `<a href="mailto:${email}">${email}</a>` }} />
           </address>
           <div className="Footer__buttonGroup">
-            <Button href="access-freelancers">Access Freelancers</Button>
-            <Button href="become-a-freelancer">Become a Freelancer</Button>
+            <Button href="hire">Gain Access to Freelancers</Button>
+            <Button href="apply">Become a ReadyBase Freelancer</Button>
           </div>
           <div className="Footer__copyright">
             <p
               dangerouslySetInnerHTML={{
-                __html: `&copy; ${new Date().getFullYear()} ReadyBase, LLC`
+                __html: `&copy; 2017-${new Date().getFullYear()} ReadyBase, LLC`
               }}
             />
           </div>

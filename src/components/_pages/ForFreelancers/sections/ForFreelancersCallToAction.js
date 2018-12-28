@@ -23,7 +23,7 @@ const ForFreelancersCallToAction = () => (
               'ForFreelancers__calloutContent'
             )}
           >
-            <Button href="become-a-freelancer">
+            <Button href="apply">
               Become a ReadyBase Freelancer
             </Button>
           </div>

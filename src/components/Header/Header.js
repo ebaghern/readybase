@@ -27,7 +27,7 @@ class Header extends Component {
     theme: 'light',
     pageTitle: 'Readybase',
     buttonText: 'Gain Access to Freelancers',
-    buttonLink: 'access-freelancers'
+    buttonLink: 'hire'
   };
 
   state = {

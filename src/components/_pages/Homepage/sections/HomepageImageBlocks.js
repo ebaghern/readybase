@@ -43,7 +43,7 @@ const BLOCKS = [
     content: smart => (
       <>
         <p>{smart(`A 100% flexible workforce to engage when you need it.`)}</p>
-        <Button>Gain Access to Freelancers</Button>
+        <Button href="hire">Gain Access to Freelancers</Button>
       </>
     ),
     image: {

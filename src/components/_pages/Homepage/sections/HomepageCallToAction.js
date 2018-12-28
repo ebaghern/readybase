@@ -24,8 +24,8 @@ const HomepageCallToAction = () => (
               'Homepage__ctaCalloutContent'
             )}
           >
-            <Button href="access-freelancers">Gain Access to Freelancers</Button>
-            <Button href="become-a-freelancer">
+            <Button href="hire">Gain Access to Freelancers</Button>
+            <Button href="apply">
               Become a ReadyBase Freelancer
             </Button>
           </div>

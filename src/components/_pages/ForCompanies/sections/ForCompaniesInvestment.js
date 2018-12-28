@@ -18,7 +18,7 @@ const ForCompaniesInvestment = (props) => (
       <p>{smart(CONTENT_TOP)}</p>
       <p>{smart(CONTENT_BOTTOM)}</p>
       <Button
-        href="access-freelancers"
+        href="hire"
         className="ForCompanies__investmentButton"
       >
         Gain Access to Freelancers
