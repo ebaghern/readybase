@@ -202,8 +202,12 @@
   }
 
   &__button {
-    background: rgba(255, 255, 255, 0.15);
     border: 0;
+
+
+    #{$self}--dark & {
+      background: rgba(255, 255, 255, 0.15);
+    }
 
     @include breakpoint(medium down) {
       display: none;
