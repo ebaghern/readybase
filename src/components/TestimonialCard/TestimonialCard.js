@@ -27,6 +27,7 @@ const TestimonialCard = ({
       wrapperTag="figcaption"
       {...creditProps}
     />
+    <img src="static/images/quote.svg" className="TestimonialCard__QuoteIcon"/>
   </figure>
 );
 
