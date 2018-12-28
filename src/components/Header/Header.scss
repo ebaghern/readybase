@@ -161,14 +161,9 @@
             }
           }
 
-          &.Menu__item--hovered > .Menu__submenu > .Menu__item {
-            // animation: 0.5s stack ease-in;
-          }
-
           &:hover > .Menu__submenu > .Menu__item,
           &:focus-within > .Menu__submenu > .Menu__item {
             margin-top: 0;
-            //animation: 0.5s unstack ease-out;
           }
         }
 
@@ -212,6 +207,10 @@
         padding-bottom: rem(10);
       }
     }
+  }
+
+  &__link {
+    font-size: 15px;
   }
 
   &--dark {
