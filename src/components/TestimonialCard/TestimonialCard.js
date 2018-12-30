@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import smart from 'lib/utils/smartContent';
 import TestimonialCredit from 'components/TestimonialCredit';
+import QuoteIcon from 'static/images/quote.svg';
 
 const TestimonialCard = ({
   imgLocation,
@@ -27,12 +28,7 @@ const TestimonialCard = ({
       wrapperTag="figcaption"
       {...creditProps}
     />
-    <img
-      src="static/images/quote.svg"
-      className="TestimonialCard__quoteIcon"
-      alt="Quotation mark icon"
-      aria-hidden
-    />
+    <QuoteIcon className="TestimonialCard__quoteIcon" aria-hidden />
   </figure>
 );
 

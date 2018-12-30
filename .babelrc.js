@@ -9,7 +9,7 @@ module.exports = {
             { removeAttrs: { attrs: '(data-name)' } },
             { removeMetadata: true },
             { removeTitle: true },
-            { cleanupIDs: true },
+            { cleanupIDs: false },
             { inlineStyles: true },
             { mergePaths: false },
           ],

@@ -4,7 +4,8 @@ import { isArray } from 'lodash';
 import T from 'prop-types';
 
 const PageSectionInner = ({ className, wrapChildren, children }) => {
-  let passedClassBlock = '';
+  let classBlock = '';
+  let wrapperClass = '';
   if (className) {
     const firstPassedClassName = isArray(className)
       ? className[0]
@@ -13,21 +14,15 @@ const PageSectionInner = ({ className, wrapChildren, children }) => {
       firstPassedClassName.indexOf('--') > 0
         ? firstPassedClassName.indexOf('--')
         : 0;
-    passedClassBlock = splitPosition
+    classBlock = splitPosition
       ? firstPassedClassName.substring(0, splitPosition)
       : firstPassedClassName;
+    wrapperClass =
+      classBlock + (classBlock.indexOf('__') >= 0 ? 'Inner' : '__inner');
   }
+
   return wrapChildren ? (
-    <div
-      className={cx('PageSection__inner', {
-        [`${passedClassBlock}__inner`]:
-          passedClassBlock && passedClassBlock.indexOf('__') < 0,
-        [`${passedClassBlock}Inner`]:
-          passedClassBlock && passedClassBlock.indexOf('__') >= 0,
-      })}
-    >
-      {children}
-    </div>
+    <div className={cx('PageSection__inner', wrapperClass)}>{children}</div>
   ) : (
     children
   );
