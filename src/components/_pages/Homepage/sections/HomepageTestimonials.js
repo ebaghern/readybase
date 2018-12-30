@@ -1,11 +1,12 @@
 import React from 'react';
 import CardSlider from 'components/CardSlider';
 import TestimonialCard from 'components/TestimonialCard';
+import PageSection from 'components/PageSection';
 // import SliderDots from 'components/Slider/components/SliderDots';
 import Donut from 'static/images/ic_circle_graphic_purple.svg';
 
 const HomepageTestimonials = ({ testimonials }) => (
-  <section className="Homepage__testimonials">
+  <PageSection className="Homepage__testimonials">
     <header className="Homepage__testimonialsHeader">
       <h2>You're in good company.</h2>
       <p>Companies like yours use ReadyBase to get projects completed and scale their team.</p>
@@ -22,7 +23,7 @@ const HomepageTestimonials = ({ testimonials }) => (
       </CardSlider>
     )}
     <Donut className="Homepage__testimonialsDonut" />
-  </section>
+  </PageSection>
 );
 
 export default HomepageTestimonials;

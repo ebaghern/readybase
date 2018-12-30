@@ -36,10 +36,7 @@ const HomepageBenefits = () => {
       <IconTextBlock {...blockProps} key={i} className="Homepage__iconBlock" />
     ));
   return (
-    <PageSection
-      className="Homepage__benefits Homepage__iconBlocks"
-      wrapChildren={true}
-    >
+    <PageSection className="Homepage__benefits Homepage__iconBlocks">
       <div className="Homepage__iconBlocksWrapper">{renderBlocks(BLOCKS)}</div>
       <Button href="hire">Gain Access to Freelancers</Button>
     </PageSection>

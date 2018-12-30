@@ -61,6 +61,7 @@ PageSection.propTypes = {
 
 PageSection.defaultProps = {
   element: 'section',
+  wrapChildren: true
 };
 
 export default PageSection;

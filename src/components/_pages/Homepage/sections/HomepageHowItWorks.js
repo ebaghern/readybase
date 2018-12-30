@@ -39,10 +39,7 @@ const HomepageHowItWorks = () => {
   return (
     <div>
       <Donut className="Homepage__howItWorksDonut" aria-hidden />
-      <PageSection
-        className="Homepage__howItWorks Homepage__iconBlocks"
-        wrapChildren={true}
-      >
+      <PageSection className="Homepage__howItWorks Homepage__iconBlocks">
         <h2 className="Homepage__iconBlocksHeading">How It Works</h2>
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(BLOCKS)}
