@@ -20,7 +20,7 @@ const FORM_SCHEMA = Yup.object().shape({
     .required('Email is required')
 });
 
-class AccessFreelancer extends Component {
+class Hire extends Component {
   static async getInitialProps({ query }) {
     const { email } = await query;
     return { email };
@@ -30,8 +30,8 @@ class AccessFreelancer extends Component {
     const { email } = this.props;
     return (
       <LandingPage
-        className="AccessFreelancer"
-        title="Gain Access to a Freelancer"
+        className="Hire"
+        title="Gain Access to Freelancers"
       >
         <>
           <Form
@@ -92,7 +92,7 @@ class AccessFreelancer extends Component {
         </>
         <>
           <TestimonialCard
-            className="LandingPage__testimonial AccessFreelancer__testimonial"
+            className="LandingPage__testimonial Hire__testimonial"
             imgLocation="top"
             img={{
               src: 'https://picsum.photos/200/200',
@@ -108,4 +108,4 @@ class AccessFreelancer extends Component {
   }
 }
 
-export default AccessFreelancer;
+export default Hire;

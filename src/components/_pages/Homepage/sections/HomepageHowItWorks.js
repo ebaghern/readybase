@@ -36,11 +36,14 @@ const HomepageHowItWorks = () => {
       <IconTextBlock {...blockProps} key={i} className="Homepage__iconBlock" />
     ));
   return (
-    <PageSection className="Homepage__howItWorks Homepage__iconBlocks">
-      <h2 className="Homepage__iconBlocksHeading">How It works</h2>
-      <div className="Homepage__iconBlocksWrapper">{renderBlocks(BLOCKS)}</div>
-      <Button>Gain Access to Freelancers</Button>
-    </PageSection>
+    <div>
+      <img className="Homepage__iconBlocksRightDonut" src="static/images/right-donut.svg" alt="Right Donut Image" />
+      <PageSection className="Homepage__howItWorks Homepage__iconBlocks">
+        <h2 className="Homepage__iconBlocksHeading">How It Works</h2>
+        <div className="Homepage__iconBlocksWrapper">{renderBlocks(BLOCKS)}</div>
+        <Button href="hire">Gain Access to Freelancers</Button>
+      </PageSection>
+    </div>
   );
 };
 

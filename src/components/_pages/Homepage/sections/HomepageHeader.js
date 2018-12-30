@@ -14,13 +14,13 @@ const HomepageHeader = (props) => (
           className={cx(`${headerClass}__form`, 'Homepage__signupForm')}
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
-            pushEmailToRoute('access-freelancers', values.email);
+            pushEmailToRoute('hire', values.email);
             sendDataToDrip(values);
           }}
         />
         <p style={{ marginTop: 40 }}>
           Are you a freelancer?{' '}
-          <Link href="become-a-freelancer">
+          <Link href="apply">
             <a>
               <strong>Apply.</strong>
             </a>

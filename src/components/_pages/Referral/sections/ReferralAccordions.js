@@ -46,7 +46,7 @@ const ReferralAccordions = (props) => (
         })}
       </Accordion>
       <div className="Referral__accordionsButton">
-        <Button href="access-freelancers">Gain Access to a Freelancer</Button>
+        <Button href="hire">Gain Access to Freelancers</Button>
       </div>
     </div>
   </PageSection>

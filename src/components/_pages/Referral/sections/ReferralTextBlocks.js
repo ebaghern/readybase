@@ -51,7 +51,7 @@ const ReferralIconBlocks = (props) => (
         </RaisedTextBlock>
       ))}
     </div>
-    <Button className="Referral__textBlocksButton" href="become-a-freelancer">
+    <Button className="Referral__textBlocksButton" href="apply">
       Join Referral Program
     </Button>
   </PageSection>

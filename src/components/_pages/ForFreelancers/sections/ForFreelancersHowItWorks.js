@@ -49,7 +49,7 @@ const ForFreelancersHowItWorks = () => (
             ))}
           </div>
           <Button
-            href="become-a-freelancer"
+            href="apply"
             className="ForFreelancers__howItWorksButton"
           >
             Become a ReadyBase Freelancer

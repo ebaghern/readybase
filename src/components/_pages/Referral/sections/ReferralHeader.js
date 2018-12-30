@@ -14,7 +14,7 @@ const ReferralHeader = (props) => (
           className={cx(`${headerClass}__form`, 'Referral__signupForm')}
           buttonText="Gain Access to Freelancers"
           onSubmit={(values) => {
-            pushEmailToRoute('access-freelancers', values.email);
+            pushEmailToRoute('hire', values.email);
             sendDataToDrip(values);
           }}
         />

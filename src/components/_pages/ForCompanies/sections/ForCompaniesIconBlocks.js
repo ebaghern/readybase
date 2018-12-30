@@ -44,7 +44,7 @@ const ForCompaniesIconBlocks = (props) => (
       ))}
     </div>
     <Button
-      href="access-freelancers"
+      href="hire"
       className="ForCompanies__iconBlocksButton"
     >
       Gain Access to Freelancers

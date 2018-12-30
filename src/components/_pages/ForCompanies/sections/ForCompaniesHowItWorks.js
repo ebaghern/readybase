@@ -52,7 +52,7 @@ const ForCompaniesHowItWorks = (props) => (
             ))}
           </div>
           <Button
-            href="access-freelancers"
+            href="hire"
             className="ForCompanies__howItWorksButton"
           >
             Gain Access to Freelancers
