@@ -1,38 +1,71 @@
 import React from 'react';
 import cx from 'classnames';
 import { isArray } from 'lodash';
-import PropTypes from 'prop-types';
+import T from 'prop-types';
 
-const PageSection = ({ element, className, children, color, position }) => {
+const PageSectionInner = ({ className, wrapChildren, children }) => {
+  let passedClassBlock = '';
+  if (className) {
+    const firstPassedClassName = isArray(className)
+      ? className[0]
+      : className.split(' ')[0];
+    const splitPosition =
+      firstPassedClassName.indexOf('--') > 0
+        ? firstPassedClassName.indexOf('--')
+        : 0;
+    passedClassBlock = splitPosition
+      ? firstPassedClassName.substring(0, splitPosition)
+      : firstPassedClassName;
+  }
+  return wrapChildren ? (
+    <div
+      className={cx('PageSection__inner', {
+        [`${passedClassBlock}__inner`]:
+          passedClassBlock && passedClassBlock.indexOf('__') < 0,
+        [`${passedClassBlock}Inner`]:
+          passedClassBlock && passedClassBlock.indexOf('__') >= 0,
+      })}
+    >
+      {children}
+    </div>
+  ) : (
+    children
+  );
+};
+
+const PageSection = ({
+  element,
+  className,
+  children,
+  color,
+  wrapChildren,
+  position,
+}) => {
   const Element = element;
   return (
     <Element
-      className={cx(
-        isArray(className) ? className.join(' ') : className,
-        'PageSection',
-        {
-          [`PageSection--${color}`]: color,
-          [`PageSection--${position}`]: position
-        }
-      )}
+      className={cx(className, 'PageSection', {
+        [`PageSection--${color}`]: color,
+        [`PageSection--${position}`]: position,
+      })}
     >
-      {children}
+      <PageSectionInner wrapChildren={wrapChildren} className={className}>
+        {children}
+      </PageSectionInner>
     </Element>
   );
 };
 
 PageSection.propTypes = {
-  element: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-  className: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.string),
-    PropTypes.string
-  ]),
-  color: PropTypes.oneOf(['gray', 'pale', 'white', false]),
-  position: PropTypes.oneOf(['first', 'last', 'only', false])
+  element: T.oneOfType([T.string, T.element]),
+  className: T.oneOfType([T.arrayOf(T.string), T.string]),
+  color: T.oneOf(['gray', 'pale', 'white', false]),
+  position: T.oneOf(['first', 'last', 'only', false]),
+  wrapChildren: T.bool,
 };
 
 PageSection.defaultProps = {
-  element: 'section'
+  element: 'section',
 };
 
 export default PageSection;

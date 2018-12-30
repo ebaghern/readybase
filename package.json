@@ -17,7 +17,8 @@
     "build": "next build src",
     "export": "next export src -o ./out",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o ./src/static/storybook"
+    "build-storybook": "build-storybook -c .storybook -o ./src/static/storybook",
+    "test": "NODE_ENV=test jest"
   },
   "browserslist": "> 0.25%, Explorer 11",
   "dependencies": {
@@ -65,6 +66,7 @@
     "@storybook/react": "^3.4.11",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "babel-plugin-inline-react-svg": "^1.0.1",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-runtime": "^6.26.0",
@@ -73,8 +75,12 @@
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.11.1",
     "ip": "^1.1.5",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
     "minimist": "^1.2.0",
     "prettier": "^1.14.3",
-    "sass-lint": "^1.12.1"
+    "react-testing-library": "^5.4.2",
+    "sass-lint": "^1.12.1",
+    "snapshot-diff": "^0.4.2"
   }
 }
