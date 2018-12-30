@@ -132,9 +132,9 @@
 
         &__link {
           transition: 0.25s all ease-in;
+          color: $black;
+          font-size: rem(15);
           text-decoration: none;
-          font-size: 15px;
-          color: black;
 
           #{$self}--dark & {
             color: $white;

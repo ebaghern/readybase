@@ -27,12 +27,17 @@ const TestimonialCard = ({
       wrapperTag="figcaption"
       {...creditProps}
     />
-    <img src="static/images/quote.svg" className="TestimonialCard__QuoteIcon"/>
+    <img
+      src="static/images/quote.svg"
+      className="TestimonialCard__quoteIcon"
+      alt="Quotation mark icon"
+      aria-hidden
+    />
   </figure>
 );
 
 TestimonialCard.defaultProps = {
-  imgLocation: 'bottom'
+  imgLocation: 'bottom',
 };
 
 TestimonialCard.propTypes = {
@@ -42,14 +47,14 @@ TestimonialCard.propTypes = {
   content: PropTypes.string.isRequired,
   img: PropTypes.shape({
     src: PropTypes.string,
-    alt: PropTypes.string
+    alt: PropTypes.string,
   }),
   imgLocation: PropTypes.oneOf(['top', 'bottom']),
   location: PropTypes.shape({
     city: PropTypes.string,
     state: PropTypes.string,
-    country: PropTypes.string
-  })
+    country: PropTypes.string,
+  }),
 };
 
 export default TestimonialCard;
