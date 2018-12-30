@@ -9,34 +9,37 @@ const BLOCKS = [
     content: `New initiatives that will grow your company.`,
     icon: {
       src: 'static/images/img_get_project_done.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: 'Gain an Extendable Team',
     content: `A whole new team of resources. Without distracting your company.`,
     icon: {
       src: 'static/images/img_gain_team.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: 'Move Work Off Your Plate',
     content: `Delegate tasks to a pre-vetted network of freelancers.`,
     icon: {
       src: 'static/images/img_move_work.svg',
-      alt: ''
-    }
-  }
+      alt: '',
+    },
+  },
 ];
 
 const HomepageBenefits = () => {
-  const renderBlocks = (group) =>
+  const renderBlocks = group =>
     group.map((blockProps, i) => (
       <IconTextBlock {...blockProps} key={i} className="Homepage__iconBlock" />
     ));
   return (
-    <PageSection className="Homepage__benefits Homepage__iconBlocks">
+    <PageSection
+      className="Homepage__benefits Homepage__iconBlocks"
+      wrapChildren={true}
+    >
       <div className="Homepage__iconBlocksWrapper">{renderBlocks(BLOCKS)}</div>
       <Button href="hire">Gain Access to Freelancers</Button>
     </PageSection>

@@ -104,13 +104,20 @@
     }
   }
 
-  &__iconBlocks {
-    @include make-section;
+  &__benefits {
     text-align: center;
     z-index: 1;
-    @include breakpoint(medium) {
-      // margin: rem(160) auto;
-    }
+  }
+  &__benefitsInner {
+    @include make-section;
+  }
+
+  &__howItWorks {
+    text-align: center;
+    z-index: 1;
+  }
+  &__howItWorksInner {
+    @include make-section;
   }
 
   &__iconBlocksWrapper {
@@ -134,7 +141,7 @@
     }
   }
 
-  &__iconBlocksRightDonut {
+  &__howItWorksDonut {
     position: absolute;
     right: 0;
   }

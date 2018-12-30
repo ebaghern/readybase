@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
 import PageSection from 'components/PageSection';
+import Donut from 'static/images/right-donut.svg';
 
 const BLOCKS = [
   {
@@ -37,15 +38,11 @@ const HomepageHowItWorks = () => {
     ));
   return (
     <div>
+      <Donut className="Homepage__howItWorksDonut" aria-hidden />
       <PageSection
         className="Homepage__howItWorks Homepage__iconBlocks"
         wrapChildren={true}
       >
-        <img
-          className="Homepage__iconBlocksRightDonut"
-          src="static/images/right-donut.svg"
-          alt="Right Donut Image"
-        />
         <h2 className="Homepage__iconBlocksHeading">How It Works</h2>
         <div className="Homepage__iconBlocksWrapper">
           {renderBlocks(BLOCKS)}
