@@ -4,8 +4,8 @@
   &__cardInner {
     @include block-center;
     padding: rem(20);
-    border: 1px solid $gray-300;
-    border-radius: rem(4);
+    border: 2px solid #EEEBFD;
+    border-radius: rem(8);
     background-color: #fff;
 
     @include breakpoint(medium) {

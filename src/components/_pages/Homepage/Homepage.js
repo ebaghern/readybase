@@ -28,7 +28,6 @@ const Homepage = () => (
       showDonuts={true}
       donutCount={5}
     />
-    <Team teamMembers={teamMembers} />
     <Testimonials testimonials={testimonials} />
     <Benefits />
     <HowItWorks />

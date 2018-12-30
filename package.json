@@ -8,10 +8,11 @@
   "license": "MIT",
   "engineStrict": true,
   "engines": {
-    "node": ">=11.1.0"
+    "node": "11.1.0"
   },
   "scripts": {
     "dev": "node --inspect --experimental-modules src/server",
+    "postinstall": "npm run build",
     "start": "NODE_ENV=production node --experimental-modules src/server",
     "build": "next build src",
     "export": "next export src -o ./out",
@@ -23,6 +24,7 @@
     "@zeit/next-sass": "^1.0.1",
     "body-parser": "^1.18.3",
     "classnames": "^2.2.6",
+    "dotenv": "^6.2.0",
     "drip-nodejs": "^2.1.1",
     "express": "^4.16.4",
     "fontfaceobserver": "^2.0.13",
@@ -30,6 +32,7 @@
     "fsevents": "^1.2.4",
     "function.prototype.name": "^1.1.0",
     "intersection-observer": "^0.5.1",
+    "ip": "^1.1.5",
     "isomorphic-unfetch": "^3.0.0",
     "lodash": "^4.17.11",
     "next": "^7.0.2",
@@ -47,6 +50,7 @@
     "react-dom": "^16.6.0",
     "react-resize-detector": "^3.2.0",
     "react-slick": "^0.23.2",
+    "request": "^2.88.0",
     "slick-carousel": "^1.8.1",
     "validatorjs": "^3.15.1",
     "webpack": "4.24.0",
