@@ -59,6 +59,7 @@
   }
 
   &__textBlocks {
+    @include make-section;
     margin-top: rem(-60);
     padding: rem(60) $margin-small rem(20);
     text-align: center;
@@ -96,6 +97,8 @@
   }
 
   &__accordions {
+    @include make-section;
+    padding-bottom: 0 !important; // sass-lint:disable-line no-important
     @include breakpoint(medium) {
       margin-bottom: rem(80);
     }
@@ -108,11 +111,6 @@
     @include breakpoint(xxlarge) {
       margin-bottom: rem(240);
     }
-  }
-
-  &__accordionsInner {
-    @include make-section;
-    padding-bottom: 0 !important; // sass-lint:disable-line no-important
   }
 
   &__accordionsHeading {

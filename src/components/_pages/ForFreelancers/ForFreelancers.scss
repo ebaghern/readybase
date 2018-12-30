@@ -74,8 +74,11 @@
     max-width: $container-width;
   }
 
-  &__typesInner {
+  &__types {
     @include make-section;
+  }
+
+  &__typesInner {
     display: grid;
     gap: $margin-small;
     @include breakpoint(medium) {
@@ -107,16 +110,13 @@
   }
 
   &__engagements {
+    @include make-section;
+    text-align: center;
     &:after {
       @include breakpoint(large) {
         bottom: rem(-350) !important; // sass-lint:disable-line no-important
       }
     }
-  }
-
-  &__engagementsInner {
-    @include make-section;
-    text-align: center;
   }
 
   &__engagementsHeading {

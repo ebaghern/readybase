@@ -363,16 +363,17 @@
 }
 
 // Add consistent margins/padding to sections.
-@mixin make-section {
+@mixin make-section($inner: 'Inner') {
   padding: rem(20) $margin-small;
   @include breakpoint(medium) {
     padding: rem(50) $margin-large;
   }
 
-  &Inner,
-  &__inner {
-    @include block-center;
-    max-width: $container-width;
+  @if $inner != false {
+    &#{$inner} {
+      @include block-center;
+      max-width: $container-width;
+    }
   }
 }
 

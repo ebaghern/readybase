@@ -9,42 +9,34 @@ const HEADING = `Why ReadyBase?`;
 const CONTENT = `We’re a group of professional contractors that have years of experience freelancing with organizations. We bring our experience to the table and elp you find the right cultural and talent fits based on your need. We’re priced very reasonably for the value, you may find us more effective per hour than most full-time hires.`;
 const TAG_LINE = ``;
 
-const ForCompaniesWhy = (props) => (
+const ForCompaniesWhy = props => (
   <PageSection className="ForCompanies__why">
-    <div className="ForCompanies__whyInner">
-      <RaisedCallout showImg={true} className="ForCompanies__whyCallout">
-        {(baseClass) => (
-          <>
-            <h2
-              className={cx(
-                'ForCompanies__whyHeading',
-                `${baseClass}__heading`
-              )}
-            >
-              {smart(HEADING)}
-            </h2>
-            <div
-              className={cx(
-                `${baseClass}__contentWrapper`,
-                'ForCompanies__whyContentWrapper'
-              )}
-            >
-              <p>{smart(CONTENT)}</p>
-              <p
-                className="ForCompanies__whyTagline"
-                dangerouslySetInnerHTML={{ __html: smart(TAG_LINE) }}
-              />
-              <Button
-                href="hire"
-                className="ForCompanies__whyButton"
-              >
-                Gain Access to Freelancers
-              </Button>
-            </div>
-          </>
-        )}
-      </RaisedCallout>
-    </div>
+    <RaisedCallout showImg={true} className="ForCompanies__whyCallout">
+      {baseClass => (
+        <>
+          <h2
+            className={cx('ForCompanies__whyHeading', `${baseClass}__heading`)}
+          >
+            {smart(HEADING)}
+          </h2>
+          <div
+            className={cx(
+              `${baseClass}__contentWrapper`,
+              'ForCompanies__whyContentWrapper'
+            )}
+          >
+            <p>{smart(CONTENT)}</p>
+            <p
+              className="ForCompanies__whyTagline"
+              dangerouslySetInnerHTML={{ __html: smart(TAG_LINE) }}
+            />
+            <Button href="hire" className="ForCompanies__whyButton">
+              Gain Access to Freelancers
+            </Button>
+          </div>
+        </>
+      )}
+    </RaisedCallout>
   </PageSection>
 );
 

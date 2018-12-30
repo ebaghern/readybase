@@ -34,6 +34,8 @@ const PageSection = ({
   children,
   color,
   wrapChildren,
+  renderAboveWrapper,
+  renderBelowWrapper,
   position,
 }) => {
   const Element = element;
@@ -44,9 +46,11 @@ const PageSection = ({
         [`PageSection--${position}`]: position,
       })}
     >
+      {wrapChildren && renderAboveWrapper()}
       <PageSectionInner wrapChildren={wrapChildren} className={className}>
         {children}
       </PageSectionInner>
+      {wrapChildren && renderBelowWrapper()}
     </Element>
   );
 };
@@ -57,11 +61,15 @@ PageSection.propTypes = {
   color: T.oneOf(['gray', 'pale', 'white', false]),
   position: T.oneOf(['first', 'last', 'only', false]),
   wrapChildren: T.bool,
+  renderAboveWrapper: T.func,
+  renderBelowWrapper: T.func,
 };
 
 PageSection.defaultProps = {
   element: 'section',
-  wrapChildren: true
+  wrapChildren: true,
+  renderAboveWrapper: () => '',
+  renderBelowWrapper: () => '',
 };
 
 export default PageSection;

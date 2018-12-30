@@ -113,11 +113,9 @@
   }
 
   &__benefits {
+    @include make-section;
     text-align: center;
     z-index: 1;
-  }
-  &__benefitsInner {
-    @include make-section;
   }
 
   &__howItWorks {

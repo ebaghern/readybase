@@ -5,6 +5,7 @@ import Header from './sections/MissionHeader';
 import Button from 'components/Button';
 import IconTextBlock from 'components/IconTextBlock';
 import RaisedCallout from 'components/RaisedCallout';
+import PageSection from 'components/PageSection';
 
 const HEADER_THEME = 'light';
 const HEADING = `Mission and Core Values`;
@@ -17,33 +18,33 @@ const ICON_GROUP = [
     content: `Don’t just do the work. Crush it.`,
     icon: {
       src: 'static/images/img_self_employed.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: 'Change the game',
     content: `If the game can't be won, change the game until it can be.`,
     icon: {
       src: 'static/images/img_change_game.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: 'Always be learning',
     content: `There’s always more to learn and further to grow. Learning is a lifelong journey.`,
     icon: {
       src: 'static/images/img_learning.svg',
-      alt: ''
-    }
+      alt: '',
+    },
   },
   {
     heading: '2 parts confidence, 1 part humility',
     content: `Grow confident in your ability, and keep the ego in check.`,
     icon: {
       src: 'static/images/img_2confidence.svg',
-      alt: ''
-    }
-  }
+      alt: '',
+    },
+  },
 ];
 
 const Mission = () => (
@@ -54,9 +55,9 @@ const Mission = () => (
       heading={HEADING}
       content={CONTENT}
     />
-    <section className="Mission__callout">
+    <PageSection className="Mission__callout">
       <RaisedCallout>
-        {(baseClass) => (
+        {baseClass => (
           <>
             <h2
               className={cx(`${baseClass}__heading`, 'Mission__calloutHeading')}
@@ -80,7 +81,7 @@ const Mission = () => (
           </>
         )}
       </RaisedCallout>
-    </section>
+    </PageSection>
   </Layout>
 );
 

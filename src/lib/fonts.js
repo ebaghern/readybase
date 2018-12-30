@@ -6,6 +6,7 @@ export const webFonts = {
 };
 
 export const Fonts = () => {
+  return;
   try {
     Object.keys(webFonts).forEach((fontName) => {
       const font = new FontFaceObserver(fontName);

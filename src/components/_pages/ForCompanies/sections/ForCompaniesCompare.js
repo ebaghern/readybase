@@ -9,126 +9,124 @@ const COMPARE_TABLE = {
       rows: [
         {
           key: 'Reliable',
-          value: 'Yes'
+          value: 'Yes',
         },
         {
           key: 'Costs',
-          value: 'Moderate'
+          value: 'Moderate',
         },
         {
           key: 'Failure Rate',
-          value: 'Low'
+          value: 'Low',
         },
         {
           key: 'Pre-vettered Freelancer',
-          value: 'Yes'
+          value: 'Yes',
         },
         {
           key: 'Support Included',
-          value: 'Yes'
+          value: 'Yes',
         },
         {
           key: 'High Engagement',
-          value: 'Yes'
-        }
-      ]
+          value: 'Yes',
+        },
+      ],
     },
     {
       key: 'Virtual Platform',
       rows: [
         {
           key: 'Reliable',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'Costs',
-          value: 'Low'
+          value: 'Low',
         },
         {
           key: 'Failure Rate',
-          value: 'Extremely High'
+          value: 'Extremely High',
         },
         {
           key: 'Pre-vettered Freelancer',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'Support Included',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'High Engagement',
-          value: 'No'
-        }
-      ]
+          value: 'No',
+        },
+      ],
     },
     {
       key: 'Staffing Agency',
       rows: [
         {
           key: 'Reliable',
-          value: 'Yes'
+          value: 'Yes',
         },
         {
           key: 'Costs',
-          value: 'High'
+          value: 'High',
         },
         {
           key: 'Failure Rate',
-          value: 'Moderate'
+          value: 'Moderate',
         },
         {
           key: 'Pre-vettered Freelancer',
-          value: 'Yes'
+          value: 'Yes',
         },
         {
           key: 'Support Included',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'High Engagement',
-          value: 'No'
-        }
-      ]
+          value: 'No',
+        },
+      ],
     },
     {
       key: 'Independent',
       rows: [
         {
           key: 'Reliable',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'Costs',
-          value: 'Moderate'
+          value: 'Moderate',
         },
         {
           key: 'Failure Rate',
-          value: 'High'
+          value: 'High',
         },
         {
           key: 'Pre-vettered Freelancer',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'Support Included',
-          value: 'No'
+          value: 'No',
         },
         {
           key: 'High Engagement',
-          value: 'No'
-        }
-      ]
-    }
-  ]
+          value: 'No',
+        },
+      ],
+    },
+  ],
 };
 
-const ForCompaniesCompare = (props) => (
+const ForCompaniesCompare = props => (
   <PageSection color="pale" className="ForCompanies__compare">
-    <div className="ForCompanies__compareInner">
-      <h2 className="ForCompanies__compareHeading">How We Compare</h2>
-      <XYTable cols={COMPARE_TABLE.cols} />
-    </div>
+    <h2 className="ForCompanies__compareHeading">How We Compare</h2>
+    <XYTable cols={COMPARE_TABLE.cols} />
   </PageSection>
 );
 

@@ -76,18 +76,18 @@
     max-width: $container-width;
   }
 
-  &__compareInner {
+  &__compare {
     @include make-section;
   }
 
   &__investment {
+    @include make-section;
+    padding-bottom: 0 !important; // sass-lint:disable-line no-important
     text-align: center;
   }
 
   &__investmentInner {
-    @include make-section;
     max-width: rem(1000);
-    padding-bottom: 0 !important; // sass-lint:disable-line no-important
   }
 
   &__investmentButton {
@@ -98,15 +98,12 @@
   }
 
   &__why {
+    @include make-section;
     margin: rem(80) 0;
     text-align: center;
     @include breakpoint(medium) {
       margin: rem(100) 0;
     }
-  }
-
-  &__whyInner {
-    @include make-section;
   }
 
   &__compareHeading {
