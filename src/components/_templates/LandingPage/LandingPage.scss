@@ -41,6 +41,14 @@
     z-index: 1;
   }
 
+  &__calendlyWidget {
+    width: 100%;
+    @include breakpoint(medium) {
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+  }
+
   &__innerWrap {
     @include breakpoint(medium down) {
       &:last-child {
@@ -71,6 +79,12 @@
         }
       }
     }
+    @include breakpoint(medium) {
+      &:first-child {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 
   &__inner {
@@ -87,6 +101,7 @@
     @include breakpoint($bg-brkpt) {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: minmax(100%, 1fr);
       gap: rem(130);
     }
   }
