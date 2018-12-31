@@ -30,6 +30,7 @@
     margin-bottom: rem(30);
     padding-top: 0 !important; // sass-lint:disable-line no-important
     text-align: center;
+    z-index: 1;
     @include breakpoint(medium) {
       margin-top: 0;
       margin-bottom: rem(100);
@@ -38,6 +39,7 @@
 
   &__iconBlocksWrapper {
     display: grid;
+    position: relative;
     margin: rem(30) 0;
     grid-template: auto / 1fr;
     gap: $margin-large;
@@ -54,6 +56,60 @@
     margin: rem(40) 0;
     @include breakpoint(medium) {
       margin: rem(90) 0;
+    }
+  }
+
+  &__iconBlocksDonuts {
+    z-index: 0;
+  }
+
+  &__iconBlocksDonut {
+    position: absolute;
+    width: rem(120);
+    height: rem(120);
+    opacity: 0.5;
+    z-index: 0;
+    pointer-events: none;
+
+    @include breakpoint(medium) {
+      width: rem(228);
+      height: rem(228);
+    }
+
+    &:first-child {
+      bottom: rem(-140);
+      left: calc(80%);
+      transform: translateX(-50%);
+      @include breakpoint(medium) {
+        left: calc(50% - #{rem(-280)});
+      }
+
+      &,
+      & > * {
+        stroke: #CCF1F7;
+      }
+    }
+
+    &:nth-child(2) {
+      bottom: rem(400);
+      left: rem(-120);
+      opacity: 0.1;
+      @include breakpoint(medium) {
+        bottom: rem(160);
+        left: rem(-220);
+      }
+      @include breakpoint(large) {
+        left: rem(-200);
+      }
+      @include breakpoint(xlarge) {
+        left: rem(-160);
+      }
+    }
+
+    @include breakpoint(medium) {
+      left: calc(50% - #{rem(-280)});
+      width: rem(228);
+      height: rem(228);
     }
   }
 
@@ -78,6 +134,31 @@
 
   &__compare {
     @include make-section;
+    position: relative;
+  }
+
+  &__compareDonuts {
+    position: static;
+    z-index: 0;
+  }
+
+  &__compareDonut {
+    position: absolute;
+    top: rem(10);
+    left: calc(80%);
+    width: rem(120);
+    height: rem(120);
+    transform: translateX(-50%) rotate(180deg);
+    opacity: 0.03;
+    z-index: 0;
+    pointer-events: none;
+
+    @include breakpoint(medium) {
+      top: rem(-30);
+      left: calc(50% - #{rem(460)});
+      width: rem(228);
+      height: rem(228);
+    }
   }
 
   &__investment {

@@ -15,20 +15,25 @@ class Head extends Component {
     openGraphImage: PropTypes.string,
     twitterTitle: PropTypes.string,
     twitterDescription: PropTypes.string,
-    twitterImage: PropTypes.string
+    twitterImage: PropTypes.string,
   };
 
   static defaultProps = {
-    metaRobotsNofollow: false
+    metaRobotsNofollow: false,
+  };
+
+  state = {
+    fontsLoaded: false,
   };
 
   async componentDidMount() {
-    Fonts();
+    await Fonts();
+    this.setState({ fonts: true });
   }
 
   renderFontLinks = () => {
     if (webFonts && webFonts.constructor === Object) {
-      return Object.keys(webFonts).map((fontName) => (
+      return Object.keys(webFonts).map(fontName => (
         <link key={fontName} rel="stylesheet" href={webFonts[fontName]} />
       ));
     }
@@ -48,12 +53,13 @@ class Head extends Component {
       children,
       ...rest
     } = this.props;
+    const { fontsLoaded } = this.state;
     return (
       <>
         <NextHead {...rest}>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
-          {this.renderFontLinks()}
+          {/* @todo: consider removing conditional */ fontsLoaded && this.renderFontLinks()}
           {noFollow && <meta name="robots" content="noindex, nofollow" />}
           {metaDesc && <meta name="description" content={metaDesc} />}
           {ogTitle && <meta property="og:title" content={ogTitle} />}

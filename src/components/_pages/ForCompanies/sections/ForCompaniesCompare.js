@@ -1,6 +1,7 @@
 import React from 'react';
 import PageSection from 'components/PageSection';
 import XYTable from 'components/XYTable';
+import Donut from 'static/images/oval.svg';
 
 const COMPARE_TABLE = {
   cols: [
@@ -124,7 +125,15 @@ const COMPARE_TABLE = {
 };
 
 const ForCompaniesCompare = props => (
-  <PageSection color="pale" className="ForCompanies__compare">
+  <PageSection
+    color="pale"
+    className="ForCompanies__compare"
+    renderBelowWrapper={() => (
+      <div className="ForCompanies__compareDonuts" aria-hidden>
+        <Donut className="ForCompanies__compareDonut" />
+      </div>
+    )}
+  >
     <h2 className="ForCompanies__compareHeading">How We Compare</h2>
     <XYTable cols={COMPARE_TABLE.cols} />
   </PageSection>
