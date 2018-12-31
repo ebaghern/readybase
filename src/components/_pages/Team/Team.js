@@ -2,6 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 import Layout from 'components/Layout';
 import TeamCard from 'components/TeamCard';
+import PageSection from 'components/PageSection';
 import Header from './sections/TeamHeader';
 import teamMembers from 'data/team';
 
@@ -12,12 +13,12 @@ const CONTENT = `At vero eos et accusamus et iusto odio dignissimos ducimus qui 
 const Team = () => (
   <Layout className="Team" title="Readybase" headerTheme={HEADER_THEME}>
     <Header theme={HEADER_THEME} heading={HEADING} content={CONTENT} />
-    <section className="Team__teamCards">
+    <PageSection className="Team__teamCards">
       {teamMembers &&
         teamMembers.map(({ id, location, ...teamProps }) => (
           <TeamCard className="Team__teamCard" key={id} {...teamProps} />
         ))}
-    </section>
+    </PageSection>
   </Layout>
 );
 
