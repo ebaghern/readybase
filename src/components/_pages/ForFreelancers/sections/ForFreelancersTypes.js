@@ -4,6 +4,7 @@ import Button from 'components/Button';
 import OList from 'components/OList';
 import ListGrid from 'components/ListGrid';
 import PageSection from 'components/PageSection';
+import Donut from 'static/images/oval.svg';
 
 const PERSONALITIES = [
   `High performers that carry themselves with the heart of a teacher.`,
@@ -22,7 +23,16 @@ const LIST_GRID_ITEMS = [
 ];
 
 const ForFreelancersTypes = () => (
-  <PageSection element="div" className="ForFreelancers__types" color="pale">
+  <PageSection
+    element="div"
+    className="ForFreelancers__types"
+    color="pale"
+    renderBelowWrapper={() => (
+      <div className="ForFreelancers__typesDonuts" aria-hidden>
+        <Donut className="ForFreelancers__typesDonut" />
+      </div>
+    )}
+  >
     <section className="ForFreelancers__typesSection">
       <h2 className="ForFreelancers__typesHeading">
         {smart(`Characteristics of a ReadyBase Freelancer`)}
