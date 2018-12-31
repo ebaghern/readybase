@@ -167,20 +167,15 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      transform: rotate(180deg);
-      color: #fff;
-      font-family: 'Georgia', 'Times New Roman', times, serif;
-      font-size: rem(100);
-      line-height: 0.85;
-      content: '\201D';
+      width: rem(62);
+      height: rem(50);
+      background-image: url('quote-white');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      content: '';
       opacity: 0.5;
-      vertical-align: bottom;
-      @include breakpoint(medium) {
-        font-size: rem(140);
-      }
-      @include breakpoint($bg-brkpt) {
-        font-size: rem(160);
-      }
+      pointer-events: none;
     }
     @include breakpoint($bg-brkpt) {
       margin-top: rem(60);
