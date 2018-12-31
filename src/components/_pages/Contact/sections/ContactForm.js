@@ -1,10 +1,12 @@
 import React, { PureComponent } from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import Link from 'next/link';
+// import Link from 'next/link';
+import PageSection from 'components/PageSection';
 import Button from 'components/Button';
 import Input from 'components/Input';
 import sendDataToDrip from 'lib/data/sendDataToDrip';
+import Donut from 'static/images/oval.svg';
 
 const FORM_SCHEMA = Yup.object().shape({
   name: Yup.string()
@@ -20,20 +22,28 @@ const FORM_SCHEMA = Yup.object().shape({
     .max(60, 'Too Long!'),
   email: Yup.string()
     .email('Invalid email address')
-    .required('Email is required')
+    .required('Email is required'),
 });
 
 class ContactForm extends PureComponent {
   render() {
     return (
-      <section className="Contact__formSection">
+      <PageSection
+        className="Contact__formSection"
+        renderBelowWrapper={() => (
+          <div className="Contact__formSectionDonuts" aria-hidden>
+            <Donut className="Contact__formSectionDonut" />
+            <Donut className="Contact__formSectionDonut" />
+          </div>
+        )}
+      >
         <Formik
           validationSchema={FORM_SCHEMA}
           initialValues={{
             email: '',
             name: '',
             companyName: '',
-            comments: ''
+            comments: '',
           }}
           onSubmit={sendDataToDrip}
           render={({ touched, errors }) => (
@@ -80,7 +90,7 @@ class ContactForm extends PureComponent {
             </Form>
           )}
         />
-      </section>
+      </PageSection>
     );
   }
 }

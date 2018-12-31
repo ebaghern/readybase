@@ -86,14 +86,14 @@
 
       &,
       & > * {
-        stroke: #CCF1F7;
+        stroke: desaturate(lighten($aqua, 50), 20);
       }
     }
 
     &:nth-child(2) {
       bottom: rem(400);
       left: rem(-120);
-      opacity: 0.1;
+      opacity: 0.05;
       @include breakpoint(medium) {
         bottom: rem(160);
         left: rem(-220);

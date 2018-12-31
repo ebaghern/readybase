@@ -11,15 +11,75 @@
 
   &__formSection {
     @include make-section;
+    position: relative;
     margin-top: 0;
+    z-index: 0;
     @include breakpoint(medium) {
       margin-top: 0;
+    }
+  }
+
+  &__formSectionDonuts {
+    position: static;
+    z-index: 0;
+  }
+
+  &__formSectionDonut {
+    position: absolute;
+    width: rem(120);
+    height: rem(120);
+    transform-origin: center;
+    opacity: 0.5;
+    z-index: 0;
+    pointer-events: none;
+
+    @include breakpoint(medium) {
+      width: rem(228);
+      height: rem(228);
+    }
+
+    &:first-child {
+      bottom: rem(200);
+      left: calc(90%);
+      transform: translateX(-50%);
+      opacity: 0.25;
+      @include breakpoint(medium) {
+        bottom: rem(120);
+        left: calc(50% - #{rem(-390)});
+      }
+      @include breakpoint(large) {
+        left: calc(50% - #{rem(-450)});
+      }
+
+      &,
+      & > * {
+        stroke: desaturate(lighten($aqua, 50), 20);
+      }
+    }
+
+    &:nth-child(2) {
+      bottom: rem(100);
+      left: rem(10);
+      transform: translateX(-50%) rotate(90deg);
+      opacity: 0.05;
+      @include breakpoint(medium) {
+        bottom: rem(160);
+        left: rem(20);
+      }
+      @include breakpoint(large) {
+        bottom: rem(40);
+        left: calc(50% - #{rem(500)});
+      }
+      @include breakpoint(xlarge) {
+        left: calc(50% - #{rem(520)});
+      }
     }
   }
 
   &__form {
     @include block-center;
     display: flex;
+    position: relative;
     flex-flow: row wrap;
     max-width: rem(800);
   }

@@ -220,7 +220,7 @@
 
     &,
     > * {
-      stroke: #CCF1F7;
+      stroke: desaturate(lighten($aqua, 50), 20);
     }
   }
 
