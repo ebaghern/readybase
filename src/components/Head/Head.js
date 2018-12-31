@@ -22,13 +22,8 @@ class Head extends Component {
     metaRobotsNofollow: false,
   };
 
-  state = {
-    fontsLoaded: false,
-  };
-
   async componentDidMount() {
     await Fonts();
-    this.setState({ fonts: true });
   }
 
   renderFontLinks = () => {
@@ -53,13 +48,12 @@ class Head extends Component {
       children,
       ...rest
     } = this.props;
-    const { fontsLoaded } = this.state;
     return (
       <>
         <NextHead {...rest}>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
-          {/* @todo: consider removing conditional */ fontsLoaded && this.renderFontLinks()}
+          {this.renderFontLinks()}
           {noFollow && <meta name="robots" content="noindex, nofollow" />}
           {metaDesc && <meta name="description" content={metaDesc} />}
           {ogTitle && <meta property="og:title" content={ogTitle} />}
