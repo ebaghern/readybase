@@ -8,7 +8,7 @@ import Accordions from './sections/ReferralAccordions';
 
 const HEADER_THEME = 'light';
 const HEADING = `Referral Program`;
-const CONTENT = `We built our refferal program for folks that want to do freelance sales/recruiting or are already busy with existing work and want a portion of the sale. It's structured so that it can pay at the same rate as a full-time Opportunity.`;
+const CONTENT = `We built our refferal program for folks that want to do freelance sales/recruiting or are already busy with existing work and want a portion of the sale.`;
 
 const Referral = () => (
   <Layout className="Referral" title="Readybase" headerTheme={HEADER_THEME}>

@@ -6,19 +6,19 @@ import PageSection from 'components/PageSection';
 
 const BLOCKS = [
   {
-    heading: 'Earn money by sending us work',
-    content: `Whether its a six-month contractor position or a project, earn a commission for sending a warm lead to us. It's a great way of earning extra income.`,
+    heading: 'Earn Money By Sending Excess Work',
+    content: `Whether it's a six-month contractor position or a project, earn a commission for sending a warm lead to us. It's a great way of earning extra income.`,
   },
   {
-    heading: 'Earn money by sending us a freelancer',
+    heading: 'Earn Money By Sending Freelancers',
     content: `Sometimes we don't have the perfect fit for a project or contract. We'll reach out to folks in our referral program about these freelancer needs. If you help us find the right person, we'll share a portion of the revenue.`,
   },
   {
-    heading: 'An email introduction is all it takes',
+    heading: 'An Email Introduction Is All It Takes',
     content: `All you need to do is send a prospective client an introduction to us or introduce us to the potential freelancer. We'll take care of all the work from there!`,
   },
   {
-    heading: 'Get a piece of every paid for a hour',
+    heading: 'Get a Piece of Every Hour',
     content: `We’ll send a portion of every invoice that gets paid directly to you via ACH or check.`,
   },
 ];
@@ -30,7 +30,7 @@ const ReferralIconBlocks = props => (
     className="Referral__textBlocks"
     renderBelowWrapper={() => (
       <Button className="Referral__textBlocksButton" href="apply">
-        Join Referral Program
+        Contact Us and Get Started
       </Button>
     )}
   >

@@ -10,7 +10,11 @@ import PageSection from 'components/PageSection';
 const HEADER_THEME = 'light';
 const HEADING = `Mission and Core Values`;
 const SUB_HEADING = `ReadyBase is changing how organizations build teams.`;
-const CONTENT = `We want to change how organizations build teams. We want hungry people to start new products or even companies that are completely or mostly powered by freelancers. The ReadyBase model makes it easier to try new things without worrying about HR, office space, and equipment.`;
+const CONTENT = `Imagine a workforce that is on-demand, scalable, and can be moved around or re-apportioned at a moment’s notice. That’s our vision of the new, modern workforce.
+
+We think businesses should run using a strategic core team; and then utilize freelancers to complete all the tactical work. It forces the core team to create good process, allows risk-taking on new ventures without fear of layoffs, and makes business decisions investment-based instead of resource allocation.
+
+For the freelancer: we want to provide all the liberties of freelancing without all the drawbacks. Look: all that energy spent finding the next paycheck and chasing invoices is time-consuming and emotionally draining. ReadyBase wants to be able to take that piece of work off a freelancer’s plate and focus-in on what they set out to freelance for: for a worry-free lifestyle and working on what they love.`;
 
 const ICON_GROUP = [
   {

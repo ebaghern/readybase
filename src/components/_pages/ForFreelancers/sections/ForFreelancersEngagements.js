@@ -4,16 +4,16 @@ import PageSection from 'components/PageSection';
 
 const BLOCKS = [
   {
-    heading: `Fulltime Contract`,
-    content: `You’ll work on a 40 hour per week contract over a period of time.`,
+    heading: `Full-time Contract`,
+    content: `40 hour per week contracts over a period of time.`,
   },
   {
     heading: `Part-time Contract`,
-    content: `This usually is around 16-20 hours per week of work, but sometimes can vary.`,
+    content: `Between 10-30 hours per week of work.`,
   },
   {
     heading: `Hourly, as Needed`,
-    content: `We offer hourly engagements as well, although theses are our rarest offerings.`,
+    content: `Short amounts of works on a needs basis.`,
   },
 ];
 

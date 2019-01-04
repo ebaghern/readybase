@@ -5,7 +5,7 @@ import Button from 'components/Button';
 
 const HEADING = `What’s my investment?`;
 const CONTENT_TOP = `You only pay the hourly rate of the freelancer.`;
-const CONTENT_BOTTOM = `We have simple, transparent pricing with discounts if you hire remote workers and international freelancers.`;
+const CONTENT_BOTTOM = `We have simple, transparent pricing with discounts if you hire remote workers or international freelancers.`;
 
 const ForCompaniesInvestment = props => (
   <PageSection

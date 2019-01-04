@@ -5,9 +5,6 @@
     @include breakpoint(medium) {
       margin-bottom: rem(-80);
     }
-    @include breakpoint(large) {
-      margin-bottom: rem(-120);
-    }
   }
 
   &__callout {

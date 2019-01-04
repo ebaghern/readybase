@@ -7,7 +7,7 @@ import Donut from 'static/images/right-donut.svg';
 const BLOCKS = [
   {
     heading: '1. Gain access.',
-    content: `Use our “Gain access to freelancers” button to get started.`,
+    content: `Use our “Gain Access to Freelancers” button to get started.`,
     icon: {
       src: 'static/images/img_gain_access.svg',
       alt: '',

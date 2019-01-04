@@ -8,19 +8,14 @@ import Accordion, {
 } from 'components/Accordion';
 
 const ACCORDIONS = [
-  // @todo: get content from Eamon.
   {
-    tabTitle: `How much income are we Talking?`,
+    tabTitle: `How much income can I earn?`,
     tabContent: `We share the same amount in referral fees that we do our full-time sales staff. The amount depends on the size of project, duration of contract, and rate/level of freelancer that we need.`,
   },
   {
-    tabTitle: `What i need todo to get started?`,
-    tabContent: `We share the same amount in referral fees that we do our full-time sales staff. The amount depends on the size of project, duration of contract, and rate/level of freelancer that we need.`,
-  },
-  {
-    tabTitle: `Who is eligible to this program?`,
-    tabContent: `We share the same amount in referral fees that we do our full-time sales staff. The amount depends on the size of project, duration of contract, and rate/level of freelancer that we need.`,
-  },
+    tabTitle: `What do I need to get started?`,
+    tabContent: `Use the "Join Referral Program" button to get started. We'll send a few documents your way; then you're all set!`,
+  }
 ];
 
 const ReferralAccordions = props => (
@@ -45,7 +40,7 @@ const ReferralAccordions = props => (
       })}
     </Accordion>
     <div className="Referral__accordionsButton">
-      <Button href="hire">Gain Access to Freelancers</Button>
+      <Button href="contact">Contact Us and Get Started</Button>
     </div>
   </PageSection>
 );

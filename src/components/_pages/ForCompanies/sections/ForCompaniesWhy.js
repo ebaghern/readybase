@@ -6,7 +6,7 @@ import RaisedCallout from 'components/RaisedCallout';
 import Button from 'components/Button';
 
 const HEADING = `Why ReadyBase?`;
-const CONTENT = `We’re a group of professional contractors that have years of experience freelancing with organizations. We bring our experience to the table and elp you find the right cultural and talent fits based on your need. We’re priced very reasonably for the value, you may find us more effective per hour than most full-time hires.`;
+const CONTENT = `We’re a group of professional contractors that have decades of experience freelancing with organizations. We bring our past history and knowledge to the table and help you find the right cultural and talent fits based on your need. We’re priced very reasonably for the value; you may find us more effective per hour than most full-time hires.`;
 const TAG_LINE = ``;
 
 const ForCompaniesWhy = props => (

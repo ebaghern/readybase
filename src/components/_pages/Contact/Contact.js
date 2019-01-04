@@ -5,7 +5,7 @@ import Form from './sections/ContactForm';
 
 const HEADER_THEME = 'light';
 const HEADING = `Contact Us`;
-const CONTENT = `Shoot us a line and let us know how can we help. All you have to do is use the contact form below and hit 'send'.`;
+const CONTENT = `Let us know how can we help. Use the contact form below and we'll get in touch.`;
 
 const Contact = () => (
   <Layout className="Contact" title="Readybase" headerTheme={HEADER_THEME}>

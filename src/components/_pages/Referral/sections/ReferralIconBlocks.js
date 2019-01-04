@@ -4,21 +4,21 @@ import IconTextBlock from 'components/IconTextBlock';
 
 const BLOCKS = [
   {
-    heading: '1. Join Our Program',
+    heading: '1. Join our program.',
     icon: {
       src: 'static/images/img_join_program.svg',
       alt: ''
     }
   },
   {
-    heading: '2. Send Work or Freelancers',
+    heading: '2. Send work or freelancers.',
     icon: {
       src: 'static/images/img_send_leads.svg',
       alt: ''
     }
   },
   {
-    heading: '3. Earn Money',
+    heading: '3. Earn money.',
     icon: {
       src: 'static/images/img_earn_money.svg',
       alt: ''

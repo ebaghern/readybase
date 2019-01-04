@@ -8,7 +8,7 @@ const BLOCKS = [
   // @todo Get content from Eamon
   {
     heading: 'Long Term or Short Term Contracts',
-    content: `Whether its a 6 month contractors or a 3 week design project.`,
+    content: `Whether it's a 6 month contract or a 3 week design project.`,
     icon: {
       src: 'static/images/img_long_term_contract.svg',
       alt: '',
