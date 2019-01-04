@@ -79,7 +79,7 @@ class ContactForm extends PureComponent {
                 component="textarea"
                 className="Contact__textArea"
                 name="comments"
-                label="What kind of freelancer talent do you need?"
+                label="How can we help?"
                 autoComplete="off"
                 errors={errors.comments}
                 touched={touched.comments}
